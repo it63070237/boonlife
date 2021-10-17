@@ -30,7 +30,9 @@
     <link rel="stylesheet" href="font-awesome.css">
     <link rel="stylesheet" href="product.scss.css">
     <link rel="stylesheet" href="style.scss.css">
-    <link rel="stylesheet" href="k-style.css">
+    <link rel="stylesheet" href="k-styles.css">
+    <link rel="stylesheet" href="index.scss.css">
+    <link rel="stylesheet" href="styles.css">
     <meta name="theme-color" content="#7952b3">
 
 
@@ -54,7 +56,7 @@
                 font-size: 3.5rem;
             }
         }
-        
+
         #ghowwework {
             padding: 1.25rem 0 0;
         }
@@ -108,10 +110,11 @@
             flex-direction: row;
         }
 
-        .gir{
+        .gir {
             margin: 2rem;
             flex-direction: column;
         }
+
         .gsplit-icon-tout {
             max-width: 18.2rem;
             margin: auto;
@@ -264,159 +267,430 @@
         .garrow {
             position: absolute;
         }
-        
     </style>
 
-
-    <!-- Custom styles for this template -->
-    <link href="Heroes_files/heroes.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="shop-goods-that-do-good-boon-market" class="template-index has-banner is-sticky"
+    data-new-gr-c-s-check-loaded="8.887.0" data-gr-ext-installed="">
+    <!--Kae Start-->
+    <header id="header" class="header is-sticky" style="transform: translate3d(0px, -31px, 0px);">
+        <div id="banner" class="banner" style="background-color: #343434">
+            <span class="banner__copy" style="color: #fff">Welcome to the Boon Market Preview.</span>
+        </div>
+        <div class="header__container header__flex container">
 
-    <main>
-        <h1 class="visually-hidden">Heroes examples</h1>
+            <div class="header__flex-item header__flex-item--flex-start">
+                <nav id="navigation" class="navigation navigation--header">
+                    <button id="navigationButton" type="button" class="navigation__button btn-icon hide-desktop">
+                        <span class="screenreader">Navigation</span>
+                        <i class="icon-global icon-global--hamburger navigation__button-hamburger-icon"></i>
+                    </button>
+                    <ul class="list-reset navigation__list hide-mobile">
+                        <li class="navigation__item js-navigation-item"><button type="button"
+                                class="navigation__button js-acc-btn acc__btn">Shop<i
+                                    class="navigation__button-icon icon-global icon-global--chevron"></i>
+                                <i
+                                    class="navigation__button-wave icon-global icon-global--wave-dark-orange-large desktop-only"></i>
+                            </button>
 
-        <div class="px-4 py-5 my-5 text-center">
-            <img class="d-block mx-auto mb-4" src="Heroes_files/bootstrap-logo.svg" alt="" width="72" height="57">
-            <h1 class="display-5 fw-bold">Centered hero</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Quickly design and customize responsive
-                    mobile-first sites with Bootstrap, the world’s most popular front-end
-                    open source toolkit, featuring Sass variables and mixins, responsive
-                    grid system, extensive prebuilt components, and powerful JavaScript
-                    plugins.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+                            <div class="navigation__list navigation__list--child js-acc-menu js-navigation-dropdown acc__menu"
+                                style="top: 91px;">
+                                <ul class="list-reset navigation__list-wrapper">
+                                    <li class="navigation__item navigation__item--child"><a
+                                            href="/collections/conscious-kitchen"
+                                            class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Conscious
+                                            Kitchen</a>
+
+                                        <button type="button"
+                                            class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Conscious
+                                            Kitchen</button>
+
+                                        <ul
+                                            class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
+                                            <li class="navigation__item navigation__item--grand-child">
+                                                <a href="/collections/serving-storage"
+                                                    class="navigation__button navigation__button--grand-child">Kitchen
+                                                    &amp; Lunch Storage</a>
+                                            </li>
+                                            <li class="navigation__item navigation__item--grand-child">
+                                                <a href="/collections/preparation"
+                                                    class="navigation__button navigation__button--grand-child">Food
+                                                    Preparation</a>
+                                            </li>
+                                            <li class="navigation__item navigation__item--grand-child hide-desktop">
+                                                <a href="/collections/conscious-kitchen"
+                                                    class="navigation__button navigation__button--grand-child">All
+                                                    Conscious Kitchen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="navigation__item navigation__item--child"><a
+                                            href="/collections/conscious-pantry"
+                                            class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Conscious
+                                            Pantry</a>
+
+                                        <button type="button"
+                                            class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Conscious
+                                            Pantry</button>
+
+                                        <ul
+                                            class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
+                                            <li class="navigation__item navigation__item--grand-child">
+                                                <a href="/collections/healthy-snacks"
+                                                    class="navigation__button navigation__button--grand-child">Healthy
+                                                    Snacks</a>
+                                            </li>
+                                            <li class="navigation__item navigation__item--grand-child">
+                                                <a href="/collections/coffee-tea"
+                                                    class="navigation__button navigation__button--grand-child">Coffee
+                                                    &amp; Tea</a>
+                                            </li>
+                                            <li class="navigation__item navigation__item--grand-child hide-desktop">
+                                                <a href="/collections/conscious-pantry"
+                                                    class="navigation__button navigation__button--grand-child">All
+                                                    Conscious Pantry</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="navigation__item navigation__item--child navigation__item--empty"><a
+                                            href="/collections/cleaning"
+                                            class="navigation__button navigation__button--url navigation__button--child">Eco
+                                            Cleaning</a></li>
+                                    <li class="navigation__item navigation__item--child navigation__item--empty"><a
+                                            href="/collections/personal-care"
+                                            class="navigation__button navigation__button--url navigation__button--child">Personal
+                                            Care</a></li>
+                                    <li class="navigation__item navigation__item--child navigation__item--empty"><a
+                                            href="/collections/zero-waste-bags-totes"
+                                            class="navigation__button navigation__button--url navigation__button--child">Bags
+                                            &amp; Totes</a></li>
+                                    <li class="navigation__item navigation__item--child"><a href="/collections/gifting"
+                                            class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Gifts</a>
+
+                                        <button type="button"
+                                            class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Gifts</button>
+
+                                        <ul
+                                            class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
+                                            <li class="navigation__item navigation__item--grand-child">
+                                                <a href="/collections/baby-child-gifts"
+                                                    class="navigation__button navigation__button--grand-child">Baby
+                                                    &amp; Child Gifts</a>
+                                            </li>
+                                            <li class="navigation__item navigation__item--grand-child hide-desktop">
+                                                <a href="/collections/gifting"
+                                                    class="navigation__button navigation__button--grand-child">All
+                                                    Gifting</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="navigation__item navigation__item--child navigation__item--empty"><a
+                                            href="/collections/all-items"
+                                            class="navigation__button navigation__button--url navigation__button--child">Shop
+                                            All Products</a></li>
+                                    <li
+                                        class="navigation__item navigation__item--child navigation__item--tout navigation__item--empty">
+                                        <div class="navigation-tout hide-mobile">
+
+                                            <a href="/collections/serving-storage">
+                                                <div class="ir ir--navigation-tout navigation-tout__image"><img
+                                                        class="lazyautosizes ls-is-cached lazyloaded"
+                                                        data-widths="[180,360,540,720,900,1080,1266,1400]"
+                                                        data-sizes="auto" tabindex="-1" alt=""
+                                                        data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=1400 1400w"
+                                                        sizes="280px"
+                                                        srcset="https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/6LYhLEGDejRnJhwExtZ8kW/3f27adf938e2c12eb1da95c6f5d2617e/navigation-spotlight-collection-20210910.jpg?w=1400 1400w">
+                                                </div>
+                                            </a>
+
+
+                                            <h4 class="navigation-tout__sub-header">SPOTLIGHT</h4>
+                                            <h3 class="navigation-tout__header">Simple Lunch Solutions</h3>
+                                            <a class="navigation-tout__cta"
+                                                href="/collections/serving-storage">Explore<i
+                                                    class="navigation-tout__icon icon-global icon-global--arrow-dark-orange"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navigation__item"><a href="/blogs/the-boon-life"
+                                class="navigation__button navigation__button--url">The Boon Life</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header__flex-item">
+                <div class="header__logo">
+
+
+                    <i class="header__logo-icon icon-global icon-global--logo-market-alt">
+                        <span class="screenreader">Boon Market</span>
+                    </i>
+
+
                 </div>
             </div>
+
+            <div class="header__flex-item header__flex-item--flex-end">
+
+                <div class="header__flex">
+                    <div id="headerSearch" class="header-search">
+                        <button id="searchButton" type="button" class="btn-icon header-search__button">
+                            <span class="screenreader">Search</span>
+                            <i
+                                class="icon-global icon-global--search header-search__icon header-search__icon--inactive"></i>
+                            <i
+                                class="icon-global icon-global--search-dark-orange header-search__icon header-search__icon--active"></i>
+                        </button>
+                    </div>
+                    <div class="header-account hide-mobile"><a href="/account/login"
+                            class="btn-icon header-account__button">
+                            <span class="screenreader">Account Login</span>
+                            <i class="icon-global icon-global--user"></i>
+                        </a></div>
+                    <div class="header-bag">
+                        <button type="button" class="btn-icon js-bag-toggle" id="bagBtn">
+                            <i class="icon-global icon-global--bag"></i>
+                            <span class="screenreader">Toggle Cart</span>
+                        </button>
+                        <span class="js-bag-count"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!--Kae End-->
+    <main id="kmain" class="kmain">
+
+        <section class="khome-hero js-home-hero">
+            <div class="js-home-hero-carousel flickity-enabled is-fade" data-animation-delay="5000" tabindex="0">
+                <div class="flickity-viewport" style="height: 896.75px; touch-action: pan-y;">
+                    <div class="flickity-slider" style="left: 0px; transform: translateX(50%);">
+                        <div class="ir ir--home-hero home-hero__slide is-selected"
+                            style="position: absolute; left: -50%; opacity: 0.884062;">
+                            <div class="ir ir--home-hero">
+                                <img class="lazyload phone-only home-hero__image"
+                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/6sTvTwiHT3HvaMsxdf23DI/1957477b91bcdb516cdff96ebe3fc363/f21-market-mobile-homepage.jpg"
+                                    alt="">
+                                <img class="hide-phone home-hero__image lazyloaded"
+                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/26e2UoOSrMGctrXy1WYyKc/a2ec3b60be8069261eb573292be76fbd/f21-market-desktop-homepage.jpg"
+                                    alt=""
+                                    src="https://images.ctfassets.net/j3ulnlrvffmg/26e2UoOSrMGctrXy1WYyKc/a2ec3b60be8069261eb573292be76fbd/f21-market-desktop-homepage.jpg">
+                            </div>
+                            <div class="home-hero__content">
+                                <ul class="home-hero__link-list hide-mobile"></ul>
+
+                                <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do <span
+                                        class="home-hero__scroll js-home-hero-scroll">Good</span><span
+                                        class="home-hero__heading--asterisk">*</span>
+                                </h1>
+
+                                <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
+                                    style="background-color: #FFFFFF;">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="ir ir--home-hero home-hero__slide"
+                            style="position: absolute; left: -50%; opacity: 0;" aria-hidden="true">
+                            <div class="ir ir--home-hero">
+                                <img class="lazyload phone-only home-hero__image"
+                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/6SYcI2bk4bpSoY7brclDU6/806e9ddd90c85c22fdb57b50d75f7bb1/f21-market-mobile-homepage-2.jpg"
+                                    alt="">
+                                <img class="hide-phone home-hero__image lazyloaded"
+                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/1GJ1z8WS5ntc4CFfRtIaqE/337dcba67b261f9e029f3b6068a9ddba/f21-market-desktop-homepage-2.jpg"
+                                    alt=""
+                                    src="https://images.ctfassets.net/j3ulnlrvffmg/1GJ1z8WS5ntc4CFfRtIaqE/337dcba67b261f9e029f3b6068a9ddba/f21-market-desktop-homepage-2.jpg">
+                            </div>
+                            <div class="home-hero__content">
+                                <ul class="home-hero__link-list hide-mobile"></ul>
+
+                                <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do Good<span
+                                        class="home-hero__heading--asterisk">*</span>
+                                </h1>
+
+                                <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
+                                    style="color: #FFFFFF;">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="ir ir--home-hero home-hero__slide is-selected"
+                            style="position: absolute; left: -50%; opacity: 1;">
+                            <div class="ir ir--home-hero">
+                                <img class="lazyload phone-only home-hero__image"
+                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/Ib7o9fce1Ofzki5oZPqCp/8aaf6e96393c0bb3ed3afaf0dfcfe39f/f21-market-mobile-homepage-3.jpg"
+                                    alt="">
+                                <img class="hide-phone home-hero__image lazyloaded"
+                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/6ZQPyFjYAnyY2MgVZAN0NN/ef57fbb2baedcdcbb374e35bc06744f2/f21-market-desktop-homepage-3.jpg"
+                                    alt=""
+                                    src="https://images.ctfassets.net/j3ulnlrvffmg/6ZQPyFjYAnyY2MgVZAN0NN/ef57fbb2baedcdcbb374e35bc06744f2/f21-market-desktop-homepage-3.jpg">
+                            </div>
+                            <div class="home-hero__content">
+                                <ul class="home-hero__link-list hide-mobile"></ul>
+
+                                <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do Good<span
+                                        class="home-hero__heading--asterisk">*</span>
+                                </h1>
+
+                                <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
+                                    style="color: #FFFFFF">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="donated-impact container">
+            <div class="donated-impact__wrapper">
+                <div class="donated-impact__header">
+                    <h3 class="donated-impact__header-title">The Boon Impact</h3>
+                    <i class="icon-global icon-global--wave-light-orange donated-impact__icon"></i>
+                    <span class="donated-impact__header-text">Every purchase gives money directly to a cause of your
+                        choice.</span>
+                </div>
+                <div class="donated-impact__body">
+                    <span class="donated-impact__body-text">
+                        <span class="donated-impact__body-value">$101,526,756</span>
+                        donated to date
+                    </span>
+                </div>
+                <div class="donated-impact__footer">
+                    <div class="donated-impact__footer-top">
+                        <span class="donated-impact__footer-text">Want to make a difference?</span>
+                    </div>
+                    <div class="donated-impact__footer-bottom">
+                        <a href="/pages/about" class="donated-impact__footer-link">Learn More
+                            <i class="icon-global icon-global--arrow-white donated-impact__icon-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <i class="icon-global icon-global--wave-dark-orange donated-impact__icon-below"></i>
         </div>
 
-        <div class="b-example-divider"></div>
 
-        <div class="px-4 pt-5 my-5 text-center border-bottom">
-            <h1 class="display-4 fw-bold">Centered screenshot</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Quickly design and customize responsive
-                    mobile-first sites with Bootstrap, the world’s most popular front-end
-                    open source toolkit, featuring Sass variables and mixins, responsive
-                    grid system, extensive prebuilt components, and powerful JavaScript
-                    plugins.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-                </div>
+        <!--Guitar-->
+        <div id="ghowwework">
+            <div class="ghowwework_header">
+                <h2 class="ghowwework_heading">ABOUT BOON</h2>
+                <h3 class="ghowwework_title">How We Work</h3>
             </div>
-            <div class="overflow-hidden" style="max-height: 30vh;">
-                <div class="container px-5">
-                    <img src="Heroes_files/bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4"
-                        alt="Example image" loading="lazy" width="700" height="500">
+            <div class="ghowwework_container">
+                <div class="gwrapper">
+                    <div class="gsplit-icon-tout">
+                        <div class="gicon-image">
+                            <div class="gir">
+                                <img class="glazyload" src="11.png">
+                            </div>
+                        </div>
+                        <div class="gsplit-icon-tout_header">
+                            <h4 class="gsplit-icon-tout_title">
+                                <span class="is-orange">*</span>
+                                Good For You
+                            </h4>
+                        </div>
+                        <p class="gsplit-icon-tout_body">
+                            We feature clever, beautiful products that are zero-waste, non-GMO, and toxin-free.
+                        </p>
+                    </div>
+                    <div class="gsplit-icon-tout">
+                        <div class="gicon-image">
+                            <div class="gir">
+                                <img class="glazyload" src="12.png">
+                            </div>
+                        </div>
+                        <div class="gsplit-icon-tout_header">
+                            <h4 class="gsplit-icon-tout_title">
+                                <span class="is-orange">*</span>
+                                Good For The Planet
+                            </h4>
+                        </div>
+                        <p class="gsplit-icon-tout_body">
+                            Our zero-waste products are featured articles make it easy for anyone to make easy swaps
+                            with
+                            big environmental benefit.
+                        </p>
+                    </div>
+                    <div class="gsplit-icon-tout">
+                        <div class="gicon-image">
+                            <div class="gir">
+                                <img class="glazyload" src="13.png">
+                            </div>
+                        </div>
+                        <div class="gsplit-icon-tout_header">
+                            <h4 class="gsplit-icon-tout_title">
+                                <span class="is-orange">*</span>
+                                Good For The Community
+                            </h4>
+                        </div>
+                        <p class="gsplit-icon-tout_body">
+                            Each purchase made on Boon Market sends money to the cause of your choice.
+                        </p>
+                    </div>
                 </div>
+
             </div>
+
         </div>
 
-        <div class="b-example-divider"></div>
 
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="Heroes_files/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid"
-                        alt="Bootstrap Themes" loading="lazy" width="700" height="500">
+
+        <br><br><br><br><br>
+
+
+
+        <div id="goverlay" onclick="off()">
+            <div class="goverlaydiv">
+                <div class="goverlaypicdiv">
+                    <img class="goverlaypic" src="1.jpg" alt="">
                 </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                    <p class="lead">Quickly design and customize responsive
-                        mobile-first sites with Bootstrap, the world’s most popular front-end
-                        open source toolkit, featuring Sass variables and mixins, responsive
-                        grid system, extensive prebuilt components, and powerful JavaScript
-                        plugins.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                <div class="goverlaytextdiv">
+                    <!--อาจจะต้องเปลี่ยนเป็น button แทน svg ลองแล้วไม่ work
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <path class="gback" stroke="#222" d="m22.5, 0l-15, 15l15, 15"></path>
+                    </svg>
+                    <svg class="gnextarrow" width="30" height="30">
+                        <path class="gnext" stroke="#222" d="m7.5, 0l15, 15l-15, 15"></path>
+                    </svg>
+                    <div class="gexitarrow">
+                        <svg class="gexit" width="30" height="30">
+                            <g fill="none">
+                                <path stoke="#222" d="m0,0 l30,30"></path>
+                            </g>
+                            <g fill="none">
+                                <path stoke="#222" d="m0,0 l-30,30"></path>
+                            </g>
+                        </svg>
+                    </div>
+                </div><br>-->
+                    <img class="gsmallpic" src="1.jpg" alt="">
+                    <p class="goverlaytext"><b>$25</b><br><b>GIRLS CRUSHING IT ENTERPRENEUSHIP KICKSHIP KICKSTART
+                            KIT</b>
+                    </p>
+                    <button class="goverlaybutt">ADD TO CART</button>
+                    <div class="goverlaytextdetaildiv">
+                        <p class="goverlaytextdetail">
+                            At the heart of Boon is a passion for doing - and helping
+                            other succeed. In celebration of the #InternationalDayoftheGirl
+                            we are excited to introduce The Girls Crushing it Enterpreneurship
+                            Kickstart Kits - the result of a powerful collaboration between two
+                            inspiring women - @RoxanneChristophe, Founder & CEO of
+                            @GirlsCrushingIt, and Boon Founder, Lily Kanter. These cards
+                            and stickers walk through the process of starting your own business - from
+                            identifying a market need and finding the ideal customer, to finding ceo-friendly
+                            alternatives to commonly used business supplies, and even managing their
+                            earnings. Join us in celebrating girls everywhere - 40% of your purchase goes to
+                            the cause of your choice. Learn more at link in bio.
+                            .........
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="b-example-divider"></div>
-
-        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-            <div class="row align-items-center g-lg-5 py-5">
-                <div class="col-lg-7 text-center text-lg-start">
-                    <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
-                    <p class="col-lg-10 fs-4">Below is an example form built
-                        entirely with Bootstrap’s form controls. Each required form group has a
-                        validation state that can be triggered by attempting to submit the form
-                        without completing it.</p>
-                </div>
-                <div class="col-md-10 mx-auto col-lg-5">
-                    <form class="p-4 p-md-5 border rounded-3 bg-light">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Email address</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Password</label>
-                        </div>
-                        <div class="checkbox mb-3">
-                            <label>
-                                <input type="checkbox" value="remember-me"> Remember me
-                            </label>
-                        </div>
-                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-                        <hr class="my-4">
-                        <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <div class="b-example-divider"></div>
-
-        <div class="container my-5">
-            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
-                    <p class="lead">Quickly design and customize responsive
-                        mobile-first sites with Bootstrap, the world’s most popular front-end
-                        open source toolkit, featuring Sass variables and mixins, responsive
-                        grid system, extensive prebuilt components, and powerful JavaScript
-                        plugins.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-                    </div>
-                </div>
-                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                    <img class="rounded-lg-3" src="Heroes_files/bootstrap-docs.png" alt="" width="720">
-                </div>
-            </div>
-        </div>
-
-        <div class="b-example-divider"></div>
-
-        <div class="bg-dark text-secondary px-4 py-5 text-center">
-            <div class="py-5">
-                <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-                <div class="col-lg-6 mx-auto">
-                    <p class="fs-5 mb-4">Quickly design and customize responsive
-                        mobile-first sites with Bootstrap, the world’s most popular front-end
-                        open source toolkit, featuring Sass variables and mixins, responsive
-                        grid system, extensive prebuilt components, and powerful JavaScript
-                        plugins.</p>
-                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                        <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom
-                            button</button>
-                        <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="b-example-divider mb-0"></div>
-
+        <!--Guitar end-->
         <!-- Keng Start -->
         <div class="ke-carousel">
             <header class="ke-carousel-header">
@@ -1023,201 +1297,21 @@
         </div>
 
         <!-- Keng End -->
-        
-        
-        <!--Kae Start-->
-    <header class="kheader" id="kheader">
-        <div class="kheader-1" style="background-color: #343434" id="kheader-1">
-            <span class="kbanner__copy" style="color: #fff" id="kbanner">Welcome to the Boon Market Preview.</span>
-        </div>
-        <div class="kheader__container header__flex container" id="kheader__container">
-            <div class="kheader__flex-item kheader__flex-item--flex-start">
-                <nav class="knav knav--header" id="knav">
-                    <button id="knavButton" class="knav__button btn-icon hide-desktop">
-                        <span class="screenreader">Navigation</span>
-                    </button>
-                    <ul class="klist-reset navigation__list hide-mobile">
-                        <li class="knav__item js-nav-item">
-                            <button type="button" class="knav__button js-acc-btn acc__btn">
-                                Shop
-                                <i class="knav__button-icon icon-global icon-global--chevron">
-
-                                </i>
-                                <i
-                                    class="knav__button-wave icon-global icon-global--wave-dark-orange-large desktop-only">
-
-                                </i>
-                            </button>
-                        </li>
-                        <li class="knav__item">
-                            <a href="/blogs/the-boon-life" class="knav__button knav__button--url">The Boon Life</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="kheader__flex-item">
-                <div class="kheader__logo">
-                    <i class="kheader__logo-icon icon-global icon-global--logo-market-alt">
-                        <span class="screenreader">Boon Market</span>
-                    </i>
-                </div>
-            </div>
-            <div class="kheader__flex-item kheader__flex-item--flex-end">
-                <div class="kheader__flex">
-                    <div id="kheaderSearch" class="kheader-search">
-                        <button id="ksearchButton" type="button" class="btn-icon header-search__button">
-                            <span class="screenreader">Search</span>
-                            <i
-                                class="icon-global icon-global--search header-search__icon header-search__icon--inactive">
-
-                            </i>
-                            <i
-                                class="icon-global icon-global--search-dark-orange header-search__icon header-search__icon--active">
-
-                            </i>
-                        </button>
-                    </div>
-                    <div class="kheader-account hide-mobile">
-                        <a href="/account/login" class="btn-icon header-account__button">
-                            <span class="screenreader">Account Login</span>
-                            <i class="icon-global icon-global--user">
-
-                            </i>
-                        </a>
-                    </div>
-                    <div class="kheader-bag">
-                        <button type="button" class="btn-icon js-bag-toggle" id="bagBtn">
-                            <i class="icon-global icon-global--bag">
-
-                            </i>
-                            <span class="screenreader">Toggle Cart</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </header>
-    <main id="kmain" class="kmain">
-        <section class="khome-hero js-home-hero">
-            <div class="js-home-hero-carousel flickity-enabled is-fade" data-animation-delay="5000" tabindex="0">
-                <div class="flickity-viewport" style="height: 896.75px; touch-action: pan-y;">
-                    <div class="flickity-slider" style="left: 0px; transform: translateX(50%);">
-                        <div class="ir ir--home-hero home-hero__slide is-selected"
-                            style="position: absolute; left: -50%; opacity: 0.884062;">
-                            <div class="ir ir--home-hero">
-                                <img class="lazyload phone-only home-hero__image"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/6sTvTwiHT3HvaMsxdf23DI/1957477b91bcdb516cdff96ebe3fc363/f21-market-mobile-homepage.jpg"
-                                    alt="">
-                                <img class="hide-phone home-hero__image lazyloaded"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/26e2UoOSrMGctrXy1WYyKc/a2ec3b60be8069261eb573292be76fbd/f21-market-desktop-homepage.jpg"
-                                    alt=""
-                                    src="https://images.ctfassets.net/j3ulnlrvffmg/26e2UoOSrMGctrXy1WYyKc/a2ec3b60be8069261eb573292be76fbd/f21-market-desktop-homepage.jpg">
-                            </div>
-                            <div class="home-hero__content">
-                                <ul class="home-hero__link-list hide-mobile"></ul>
-
-                                <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do <span
-                                        class="home-hero__scroll js-home-hero-scroll">Good</span><span
-                                        class="home-hero__heading--asterisk">*</span>
-                                </h1>
-
-                                <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
-                                    style="background-color: #FFFFFF;">Shop Now</a>
-                            </div>
-                        </div>
-                        <div class="ir ir--home-hero home-hero__slide"
-                            style="position: absolute; left: -50%; opacity: 0;" aria-hidden="true">
-                            <div class="ir ir--home-hero">
-                                <img class="lazyload phone-only home-hero__image"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/6SYcI2bk4bpSoY7brclDU6/806e9ddd90c85c22fdb57b50d75f7bb1/f21-market-mobile-homepage-2.jpg"
-                                    alt="">
-                                <img class="hide-phone home-hero__image lazyloaded"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/1GJ1z8WS5ntc4CFfRtIaqE/337dcba67b261f9e029f3b6068a9ddba/f21-market-desktop-homepage-2.jpg"
-                                    alt=""
-                                    src="https://images.ctfassets.net/j3ulnlrvffmg/1GJ1z8WS5ntc4CFfRtIaqE/337dcba67b261f9e029f3b6068a9ddba/f21-market-desktop-homepage-2.jpg">
-                            </div>
-                            <div class="home-hero__content">
-                                <ul class="home-hero__link-list hide-mobile"></ul>
-
-                                <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do Good<span
-                                        class="home-hero__heading--asterisk">*</span>
-                                </h1>
-
-                                <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
-                                    style="color: #FFFFFF;">Shop Now</a>
-                            </div>
-                        </div>
-                        <div class="ir ir--home-hero home-hero__slide is-selected"
-                            style="position: absolute; left: -50%; opacity: 1;">
-                            <div class="ir ir--home-hero">
-                                <img class="lazyload phone-only home-hero__image"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/Ib7o9fce1Ofzki5oZPqCp/8aaf6e96393c0bb3ed3afaf0dfcfe39f/f21-market-mobile-homepage-3.jpg"
-                                    alt="">
-                                <img class="hide-phone home-hero__image lazyloaded"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/6ZQPyFjYAnyY2MgVZAN0NN/ef57fbb2baedcdcbb374e35bc06744f2/f21-market-desktop-homepage-3.jpg"
-                                    alt=""
-                                    src="https://images.ctfassets.net/j3ulnlrvffmg/6ZQPyFjYAnyY2MgVZAN0NN/ef57fbb2baedcdcbb374e35bc06744f2/f21-market-desktop-homepage-3.jpg">
-                            </div>
-                            <div class="home-hero__content">
-                                <ul class="home-hero__link-list hide-mobile"></ul>
-
-                                <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do Good<span
-                                        class="home-hero__heading--asterisk">*</span>
-                                </h1>
-
-                                <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
-                                    style="color: #FFFFFF">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="donated-impact container">
-            <div class="donated-impact__wrapper">
-                <div class="donated-impact__header">
-                  <h3 class="donated-impact__header-title">The Boon Impact</h3>
-                  <i class="icon-global icon-global--wave-light-orange donated-impact__icon"></i>
-                  <span class="donated-impact__header-text">Every purchase gives money directly to a cause of your choice.</span>
-                </div>
-                <div class="donated-impact__body">
-                  <span class="donated-impact__body-text">
-                    <span class="donated-impact__body-value">$101,526,756</span>
-                    donated to date
-                  </span>
-                </div>
-                <div class="donated-impact__footer">
-                  <div class="donated-impact__footer-top">
-                    <span class="donated-impact__footer-text">Want to make a difference?</span>
-                  </div>
-                  <div class="donated-impact__footer-bottom">
-                    <a href="/pages/about" class="donated-impact__footer-link">Learn More
-                        <i class="icon-global icon-global--arrow-white donated-impact__icon-arrow"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <i class="icon-global icon-global--wave-dark-orange donated-impact__icon-below"></i>
-        </div>
-    </main>
-    <!--Kae End-->
-    </main>
-
-    <!--pear what's fresh-->
-    <div class="split-tout-header">
-        <h3 class="split-tout-header__heading">What's Fresh</h3>
-        <i class="icon-global icon-global--wave-dark-orange split-tout-header__separator"></i>
-    </div>
-    <div class="split-tout">
-        <!--pear block1-->
-        <div class="split-tout__inner container">
-            <a href="/collections/serving-storage" class="split-tout__image-wrapper">
-                <div class="ir ir--swatch">
-                    <img class="lazyautosizes ls-is-cached lazyloaded"
-                        data-widths="[180,360,540,720,900,1080,1266,1400]" data-size="auto" tabindex="-1"
-                        alt="Waste-Free Kitchen & Lunch"
-                        data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=180 180w,
+        <!--pear what's fresh-->
+        <div class="split-tout-header">
+            <h3 class="split-tout-header__heading">What's Fresh</h3>
+            <i class="icon-global icon-global--wave-dark-orange split-tout-header__separator">
+            </i>
+          </div>
+        <div class="split-tout">
+            <!--pear block1-->
+            <div class="split-tout__inner container">
+                <a href="/collections/serving-storage" class="split-tout__image-wrapper">
+                    <div class="ir ir--swatch">
+                        <img class="lazyautosizes ls-is-cached lazyloaded"
+                            data-widths="[180,360,540,720,900,1080,1266,1400]" data-size="auto" tabindex="-1"
+                            alt="Waste-Free Kitchen & Lunch"
+                            data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=180 180w,
                   https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=360 360w, 
                   https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=540 540w, 
                   https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=720 720w,
@@ -1225,7 +1319,8 @@
                     https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=1080 1080w,
                      https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=1266 1266w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=1400 1400w"
-                     sizes="245px" srcset="https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=180 180w, 
+                            sizes="245px"
+                            srcset="https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=180 180w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=360 360w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=540 540w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=720 720w,
@@ -1233,27 +1328,27 @@
                     https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=1080 1080w, 
                     https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=1266 1266w, 
                     https://images.ctfassets.net/j3ulnlrvffmg/4P6oEnNQP1WkVE08MQKQk0/d519ba217c51b37b0dfa9f10a3b7d40b/waste-free-homepage-tout-2.jpg?w=1400 1400w">
-                </div>
-            </a>
-            
-            <div class="split-tout__content-wrapper">
-                <span class="split-tout__badge">Collection</span>
-                <h4 class="split-tout__heading">Waste-Free Kitchen & Lunch</h4>
-                <p class="split-tout__copy">Simple swaps with big environmental impact.</p>
-                <a href="/collections/serving-storage" class="split-tout__cta">Shop Now
-                    <i class="icon-global icon-global--arrow-dark-orange split-tout__cta-icon"></i>
+                    </div>
                 </a>
+
+                <div class="split-tout__content-wrapper">
+                    <span class="split-tout__badge">Collection</span>
+                    <h4 class="split-tout__heading">Waste-Free Kitchen & Lunch</h4>
+                    <p class="split-tout__copy">Simple swaps with big environmental impact.</p>
+                    <a href="/collections/serving-storage" class="split-tout__cta">Shop Now
+                        <i class="icon-global icon-global--arrow-dark-orange split-tout__cta-icon"></i>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <!--pear block2-->
-    <div class="split-tout split-tout--alt">
-        <div class="split-tout__inner container">
-            <a href="/collections/personal-care" class="split-tout__image-wrapper">
-                <div class="ir ir--swatch">
-                    <img class="lazyautosizes lazyloaded" data-widths="[180,360,540,720,900,1080,1266,1400]"
-                        data-size="auto" tabindex="-1" alt="Toxin-Free Personal Care"
-                        data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=180 180w, 
+        <!--pear block2-->
+        <div class="split-tout split-tout--alt">
+            <div class="split-tout__inner container">
+                <a href="/collections/personal-care" class="split-tout__image-wrapper">
+                    <div class="ir ir--swatch">
+                        <img class="lazyautosizes lazyloaded" data-widths="[180,360,540,720,900,1080,1266,1400]"
+                            data-size="auto" tabindex="-1" alt="Toxin-Free Personal Care"
+                            data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=180 180w, 
                     https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=360 360w, 
                     https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=540 540w,
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=720 720w, 
@@ -1261,7 +1356,8 @@
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=1080 1080w,
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=1266 1266w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=1400 1400w"
-                     sizes="245px" srcset="https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=180 180w, 
+                            sizes="245px"
+                            srcset="https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=180 180w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=360 360w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=540 540w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=720 720w, 
@@ -1269,26 +1365,26 @@
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=1080 1080w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=1266 1266w, 
                      https://images.ctfassets.net/j3ulnlrvffmg/4cu4lpCBpxhDHWRyPljahF/92b8c4e98fe9fbd85ce1d8fca1cc0b7a/personal-care-featured-collection.jpg?w=1400 1400w">
-                </div>
-            </a>
-            <div class="split-tout__content-wrapper">
-                <span class="split-tout__badge">Collection</span>
-                <h4 class="split-tout__heading">Toxin-Free Personal Care</h4>
-                <p class="split-tout__copy">All-natural toxin-free care for every body.</p>
-                <a href="/collections/personal-care" class="split-tout__cta">Shop Now
-                    <i class="icon-global icon-global--arrow-dark-orange split-tout__cta-icon"></i>
+                    </div>
                 </a>
+                <div class="split-tout__content-wrapper">
+                    <span class="split-tout__badge">Collection</span>
+                    <h4 class="split-tout__heading">Toxin-Free Personal Care</h4>
+                    <p class="split-tout__copy">All-natural toxin-free care for every body.</p>
+                    <a href="/collections/personal-care" class="split-tout__cta">Shop Now
+                        <i class="icon-global icon-global--arrow-dark-orange split-tout__cta-icon"></i>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <!--pear block3-->
-    <div class="split-tout">
-        <div class="split-tout__inner container">
-            <a href="/collections/coffee-tea" class="split-tout__image-wrapper">
-            <div class="ir ir--swatch">
-                <img  class="lazyautosizes lazyloaded" data-widths="[180,360,540,720,900,1080,1266,1400]"
-                data-size="auto" tabindex="-1" alt="Coffee & Tea"
-                data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=180 180w, 
+        <!--pear block3-->
+        <div class="split-tout">
+            <div class="split-tout__inner container">
+                <a href="/collections/coffee-tea" class="split-tout__image-wrapper">
+                    <div class="ir ir--swatch">
+                        <img class="lazyautosizes lazyloaded" data-widths="[180,360,540,720,900,1080,1266,1400]"
+                            data-size="auto" tabindex="-1" alt="Coffee & Tea"
+                            data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=180 180w, 
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=360 360w, 
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=540 540w, 
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=720 720w, 
@@ -1296,7 +1392,8 @@
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=1080 1080w, 
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=1266 1266w, 
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=1400 1400w"
-                sizes="245px" srcset="https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=180 180w, 
+                            sizes="245px"
+                            srcset="https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=180 180w, 
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=360 360w, 
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=540 540w, 
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=720 720w, 
@@ -1304,364 +1401,314 @@
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=1080 1080w, 
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=1266 1266w,
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=1400 1400w">
-            </div>
-        </a>
-        <div class="split-tout__content-wrapper">
-            <span class="split-tout__badge">Collection</span>
-                <h4 class="split-tout__heading">Coffee & Tea</h4>
-                <p class="split-tout__copy">Give back every morning with your first sip.</p>
-                <a href="/collections/coffee-tea" class="split-tout__cta">Shop Now
-                    <i class="icon-global icon-global--arrow-dark-orange split-tout__cta-icon"></i>
+                    </div>
                 </a>
-        </div>
-        </div>
-    </div>
-    <!--pear end what's fresh-->
-
-
-    
-     <!--pear footer-->
-    <footer id="footer" class="footer" role="contentinfo">
-        <div class="footer__newsletter">
-            <div id="klaviyo" class="klaviyo">
-                <div class="klaviyo__detail">
-                    <header class="klaviyo__header">
-                        <h3 class="klaviyo__header-title">Boonletter</h3>
-                        <i class="icon-global icon-global--wave-dark-orange">
-
-                        </i>
-                    </header>
-                    <p class="klaviyo__desc">
-                        Treat yourself with weekly product releases, digital love, and exclusive deals.
-                    </p>
+                <div class="split-tout__content-wrapper">
+                    <span class="split-tout__badge">Collection</span>
+                    <h4 class="split-tout__heading">Coffee & Tea</h4>
+                    <p class="split-tout__copy">Give back every morning with your first sip.</p>
+                    <a href="/collections/coffee-tea" class="split-tout__cta">Shop Now
+                        <i class="icon-global icon-global--arrow-dark-orange split-tout__cta-icon"></i>
+                    </a>
                 </div>
-                <div id="klaviyoFormWrap" class="klaviyo__form-wrap">
-                    <div class="klaviyo-form-RrnVgf klaviyo-form form-version-cid-1">
-                        <div class="needsclick Embed__StyledDiv-sc-1h73wx3-0 iKkQlG kl-private-reset-css-Xuajs1">
-                            <form
-                                class="needsclick View__FormView-sc-1i2s79a-0 ezEmxA klaviyo-form-version-cid_1 kl-private-reset-css-Xuajs1"
-                                data-testid="klaviyo-form-RrnVgf">
-                                <div class="needsclick Column__FormColumn-sc-1rrm03f-2 bfAJHs kl-private-reset-css-Xuajs1">
-                                    <div data-testid="form-row"
-                                        class="needsclick Row__FormRow-sc-1avh9u7-1 fMxCHz kl-private-reset-css-Xuajs1">
-                                        <div component="[object Object]" data-testid="form-component"
-                                            class="needsclick FormComponent__StyledFormComponentWrapper-sc-1gg8fea-0 itrmhl notranslate kl-private-reset-css-Xuajs1">
-                                            <div
-                                                class="needsclick TextInput__StyledInputContainer-sc-1ydur12-1 duxqMg kl-private-reset-css-Xuajs1">
-                                                <input type="text" tabindex="0" styling="[object Object]"
-                                                    placeholder="First Name" aria-label="First Name"
-                                                    aria-invalid="false" valid="1" options="[object Object]"
-                                                    class="notranslate needsclick TextInput__FormStyledTextInput-sc-1ydur12-0 fhmQhu kl-private-reset-css-Xuajs1">
-                                                <div
-                                                    class="needsclick ValidationMessage__Container-sc-ja3t6w-0 gDmskm kl-private-reset-css-Xuajs1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                    <div data-testid="form-row"
-                                        class="needsclick Row__FormRow-sc-1avh9u7-1 fMxCHz kl-private-reset-css-Xuajs1">
-                                        <div component="[object Object]" data-testid="form-component"
-                                            class="needsclick FormComponent__StyledFormComponentWrapper-sc-1gg8fea-0 itrmhl notranslate kl-private-reset-css-Xuajs1">
-                                            <div
-                                                class="needsclick TextInput__StyledInputContainer-sc-1ydur12-1 duxqMg kl-private-reset-css-Xuajs1">
-                                                <input type="email" name="email" tabindex="0" styling="[object Object]"
-                                                    placeholder="Email Address" aria-label="Email Address"
-                                                    aria-invalid="false" valid="1" options="[object Object]"
-                                                    class="notranslate needsclick TextInput__FormStyledTextInput-sc-1ydur12-0 fhmQhu kl-private-reset-css-Xuajs1">
-                                                <div
-                                                    class="needsclick ValidationMessage__Container-sc-ja3t6w-0 gDmskm kl-private-reset-css-Xuajs1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div data-testid="form-row"
-                                        class="needsclick Row__FormRow-sc-1avh9u7-1 fMxCHz kl-private-reset-css-Xuajs1">
-                                        <div component="[object Object]" data-testid="form-component"
-                                            class="needsclick FormComponent__StyledFormComponentWrapper-sc-1gg8fea-0 itrmhl notranslate kl-private-reset-css-Xuajs1">
-                                            <button type="button" tabindex="0"
-                                                class="needsclick Button__FormStyledButton-sc-1of1qh3-0 eYPkRN kl-private-reset-css-Xuajs1">
-                                                GO
-                                               
-                                            </button>
-                                        </div>
+            </div>
+        </div>
+        <!--pear end what's fresh-->
+        <!--the boon life start-->
+        <section class="home-blog-feature">
+            <div class="container">
+                <div class="home-blog-feature__logo">
+                    <div class="ir ir--home-blog-feature-logo"><img class="lazyautosizes ls-is-cached lazyloaded"
+                            data-widths="[180,360,540,720,900,1080,1266,1400]" data-sizes="auto" tabindex="-1" alt=""
+                            data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=1400 1400w"
+                            sizes="332px"
+                            srcset="https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/X55LPVg1hxW01khsbR3UI/c4044cd2a8dfcf5951389530d2e9e4f2/blog-logo.png?w=1400 1400w">
+                    </div>
+                </div>
+                <div class="home-blog-feature__list js-blog-feature-carousel flickity-enabled is-draggable"
+                    tabindex="0">
+                    <div class="flickity-viewport" style="height: 389.633px; touch-action: pan-y;">
+                        <div class="flickity-slider" style="left: 0px; transform: translateX(-304.06%);">
+                            <div class="home-blog-feature__item js-blog-feature-item is-selected"
+                                style="position: absolute; left: 304.06%;">
+                                <div class="home-blog-feature__image">
+                                    <div class="ir ir--home-blog-feature-image"><img class="lazyautosizes lazyloaded"
+                                            data-widths="[180,360,540,720,900,1080,1266,1400]" data-sizes="auto"
+                                            tabindex="-1" alt=""
+                                            data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=1400 1400w"
+                                            sizes="555px"
+                                            srcset="https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/5R1NlvjZiMYFUOjsaPgwNj/b4ba3e15d8f3898b7316da2f23365ede/ChristopheDavis-SophieDavis-RoxanneChristophe.jpg?w=1400 1400w">
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer__wrapper">
-            <div class="footer__branding">
-                <div class="boon-definition">
-                    <div class="boon-definition__wrapper">
-                        <div class="boon-definition__content">
-                            <div class="boon-definition__icon">
-                                <i class="icon-global icon-global--logo-white"></i>
+                                <div class="home-blog-feature__desc">
+                                    <h3 class="home-blog-feature__heading">10 Questions with Girls Crushing It Founder
+                                        &amp; CEO Roxanne Christophe</h3>
+                                    <p class="home-blog-feature__excerpt">We connected with founder and CEO Roxanne
+                                        Christophe to hear how her daughters’ determination to sell origami inspired the
+                                        creation of an organization ...</p>
+                                    <div class="home-blog-feature__cta">
+                                        <a class="btn-link btn-link--small home-blog-feature__cta-link"
+                                            href="/blogs/the-boon-life/10-questions-with-girls-crushing-it-founder-ceo-roxanne-christophe">Read
+                                            More</a>
+                                        <i
+                                            class="icon-global icon-global--arrow-dark-orange home-blog-feature__cta-icon"></i>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="boon-definition__copy">
-                                <p class="boon-definition__copy-text">boon (def.)</p>
+                            <div class="home-blog-feature__item js-blog-feature-item"
+                                style="position: absolute; left: 101.35%;" aria-hidden="true">
+                                <div class="home-blog-feature__image">
+                                    <div class="ir ir--home-blog-feature-image is-loading "><img class="lazyload "
+                                            data-src="https://images.ctfassets.net/j3ulnlrvffmg/4tR2FMu09OjnJhyQePe0oK/7299d1250f0637879b3222f761aa79b7/equator-coffee-hero-002.jpg?w={width}"
+                                            data-widths="[180,360,540,720,900,1080,1266,1400]" data-sizes="auto"
+                                            tabindex="-1" alt=""></div>
+                                </div>
+                                <div class="home-blog-feature__desc">
+                                    <h3 class="home-blog-feature__heading">What’s Next for Equator Coffees?</h3>
+                                    <p class="home-blog-feature__excerpt">Equator Coffees Co-founder Helen Russell
+                                        shares how she’s inspired by people, what it took to survive the pandemic as a
+                                        small business, and the power o...</p>
+                                    <div class="home-blog-feature__cta">
+                                        <a class="btn-link btn-link--small home-blog-feature__cta-link"
+                                            href="/blogs/the-boon-life/what-s-next-for-equator-coffees">Read More</a>
+                                        <i
+                                            class="icon-global icon-global--arrow-dark-orange home-blog-feature__cta-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="home-blog-feature__item js-blog-feature-item"
+                                style="position: absolute; left: 202.71%;" aria-hidden="true">
+                                <div class="home-blog-feature__image">
+                                    <div class="ir ir--home-blog-feature-image"><img class="lazyautosizes lazyloaded"
+                                            data-widths="[180,360,540,720,900,1080,1266,1400]" data-sizes="auto"
+                                            tabindex="-1" alt=""
+                                            data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=1400 1400w"
+                                            sizes="555px"
+                                            srcset="https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/26gsIb3UeAdNWvLc4iH1iZ/66fad74030b69a190b5ba18e7880ec77/mera-hero3.jpg?w=1400 1400w">
+                                    </div>
+                                </div>
+                                <div class="home-blog-feature__desc">
+                                    <h3 class="home-blog-feature__heading">Wash Your Hands (and Change the World)</h3>
+                                    <p class="home-blog-feature__excerpt">Sensitive skin, preventable diseases, and
+                                        plastic in the ocean are just three big problems that inspired Soapply Founder
+                                        Mera McGrew to start her own b...</p>
+                                    <div class="home-blog-feature__cta">
+                                        <a class="btn-link btn-link--small home-blog-feature__cta-link"
+                                            href="/blogs/the-boon-life/wash-your-hands-and-change-the-world">Read
+                                            More</a>
+                                        <i
+                                            class="icon-global icon-global--arrow-dark-orange home-blog-feature__cta-icon"></i>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="boon-definition__content">
-                            <div class="boon-definition__copy">
-                                <p class="boon-definition__copy-text boon-definition__copy-text--small">
-                                    Something very beneficial or helpful
-                                </p>
+                    </div><button class="flickity-button flickity-prev-next-button previous" type="button"
+                        aria-label="Previous"><svg class="flickity-button-icon" viewBox="0 0 100 100">
+                            <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path>
+                        </svg></button><button class="flickity-button flickity-prev-next-button next" type="button"
+                        aria-label="Next"><svg class="flickity-button-icon" viewBox="0 0 100 100">
+                            <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"
+                                transform="translate(100, 100) rotate(180) "></path>
+                        </svg></button>
+                    <ol class="flickity-page-dots">
+                        <li class="dot is-selected" aria-label="Page dot 1" aria-current="step"></li>
+                        <li class="dot" aria-label="Page dot 2"></li>
+                        <li class="dot" aria-label="Page dot 3"></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <!--the boon life end-->
+
+        <!--shop for goods-->
+        <div class="gsfg">
+            <header class="gsfgheader">
+                <h3 class="gsfgheading">#ShopForGood</h3><br>
+                <i class="icon-global icon-global--wave-dark-orange"><span></span></i>
+            </header>
+            <div id="gshoppic">
+                <div class="gpic-container" onclick="on()">
+                    <img class="gpic" src="1.jpg">
+                </div>
+                <div class="gpic-container">
+                    <img class="gpic" src="2.jpg">
+                </div>
+                <div class="gpic-container">
+                    <img class="gpic" src="3.jpg">
+                </div>
+                <div class="gpic-container">
+                    <img class="gpic" src="4.jpg">
+                </div>
+                <div class="gpic-container">
+                    <img class="gpic" src="5.jpg">
+                </div>
+                <div class="gpic-container">
+                    <img class="gpic" src="6.jpg">
+                </div>
+                <div class="gpic-container">
+                    <img class="gpic" src="7.jpg">
+                </div>
+                <div class="gpic-container">
+                    <img class="gpic" src="8.jpg">
+                </div>
+                <div class="gpic-container">
+                    <img class="gpic" src="9.jpg">
+                </div>
+                <div class="gpic-container">
+                    <img class="gpic" src="10.jpg">
+                </div>
+            </div>
+
+        </div>
+        <!--shop for goods-->
+
+        <!--pear footer-->
+        <footer id="footer" class="footer" role="contentinfo">
+            <div class="footer__newsletter">
+
+
+                <div id="klaviyo" class="klaviyo">
+                    <div class="klaviyo__details">
+                        <header class="klaviyo__header">
+                            <h3 class="klaviyo__header-title">Boonletter</h3>
+                            <i class="icon-global icon-global--wave-dark-orange"></i>
+                        </header>
+                        <p class="klaviyo__desc">
+                            Treat yourself with weekly product releases, digital love, and exclusive deals.
+                        </p>
+                    </div>
+                    <div id="klaviyoFormWrap" class="klaviyo__form-wrap">
+                        <div class="klaviyo-form-RrnVgf klaviyo-form form-version-cid-1">
+                            <div class="needsclick Embed__StyledDiv-sc-1h73wx3-0 iKkQlG kl-private-reset-css-Xuajs1">
+                                <form
+                                    class="needsclick View__FormView-sc-1i2s79a-0 ezEmxA klaviyo-form-version-cid_1 kl-private-reset-css-Xuajs1"
+                                    data-testid="klaviyo-form-RrnVgf" novalidate="" tabindex="-1">
+                                    <div
+                                        class="needsclick Column__FormColumn-sc-1rrm03f-2 bfAJHs kl-private-reset-css-Xuajs1">
+                                        <div data-testid="form-row"
+                                            class="needsclick Row__FormRow-sc-1avh9u7-1 fMxCHz kl-private-reset-css-Xuajs1">
+                                            <div component="[object Object]" data-testid="form-component"
+                                                class="needsclick FormComponent__StyledFormComponentWrapper-sc-1gg8fea-0 itrmhl notranslate kl-private-reset-css-Xuajs1">
+
+                                            </div>
+                                        </div>
+
+                                        <div data-testid="form-row"
+                                            class="needsclick Row__FormRow-sc-1avh9u7-1 fMxCHz kl-private-reset-css-Xuajs1">
+                                            <div component="[object Object]" data-testid="form-component"
+                                                class="needsclick FormComponent__StyledFormComponentWrapper-sc-1gg8fea-0 itrmhl notranslate kl-private-reset-css-Xuajs1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <p class="boon-definition__copyright">
-                        Copyright Boon Supply 2021. All Rights Reserved
-                    </p>
                 </div>
-            </div>
-            <div class="footer__links hide-phone">
-                <ul class="list-reset footer__links-list">
-                    <li class="footer__links-item">
-                        <h4 class="footer__sublinks-heading">Shop</h4>
-                        <ul class="list-reset footer__sublinks-list">
-                            <li class="footer__sublinks-item">
-                                <a class="footer__sublinks-link">Shop All Items</a>
-                            </li>
-                            <li class="footer__sublinks-item">
-                                <a class="footer__sublinks-item">Shop Reusable</a>
-                            </li>
-                            <li class="footer__sublinks-item">
-                                <a class="footer__sublinks-item">Shop Toxin Free</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="footer__links-item">
-                        <h4 class="footer__sublinks-heading">About</h4>
-                        <ul class="list-reset footer__sublinks-list">
-                            <li class="footer__sublinks-item">
-                                <a class="footer__sublinks-link">About Boon Market</a>
-                            </li>
-                            <li class="footer__sublinks-item">
-                                <a class="footer__sublinks-item">The Boon Life</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="footer__links-item">
-                        <h4 class="footer__sublinks-heading">Support</h4>
-                        <ul class="list-reset footer__sublinks-list">
-                            <li class="footer__sublinks-item">
-                                <a class="footer__sublinks-link">Contact Us</a>
-                            </li>
-                            <li class="footer__sublinks-item">
-                                <a class="footer__sublinks-item">Terms of Service</a>
-                            </li>
-                            <li class="footer__sublinks-item">
-                                <a class="footer__sublinks-item">Privacy Policy</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="footer__links-item">
-                        <h4 class="footer__sublinks-heading">Social</h4>
-                        <ul class="list-reset footer__sublinks-list footer__sublinks-list--social">
-                            <li class="footer__social-item">
-                                <a class="footer__social-link">
-                                    <i class="icon-global icon-global--instagram"></i>
-                                    <span class="screenreader">instagram</span>
-                                </a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link">
-                                    <i class="icon-global icon-global--facebook"></i>
-                                    <span class="screenreader">facebook</span>
-                                </a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link">
-                                    <i class="icon-global icon-global--pinterest"></i>
-                                    <span class="screenreader">pinterest</span>
-                                </a>
-                            </li>
 
-                        </ul>
-                    </li>
-                </ul>
             </div>
-        </div>
-    </footer>
-    <!--pear end footer-->
-    
-    <!--Guitar-->
-    <div id="ghowwework">
-        <div class="ghowwework_header">
-            <h2 class="ghowwework_heading">ABOUT BOON</h2>
-            <h3 class="ghowwework_title">How We Work</h3>
-        </div>
-        <div class="ghowwework_container">
-            <div class="gwrapper">
-                <div class="gsplit-icon-tout">
-                    <div class="gicon-image">
-                        <div class="gir">
-                            <img class="glazyload" src="images/11.png">
+            <div class="footer__wrapper">
+                <div class="footer__branding">
+                    <div class="boon-definition">
+                        <div class="boon-definition__wrapper">
+                            <div class="boon-definition__content">
+                                <div class="boon-definition__icon">
+                                    <i class="icon-global icon-global--logo-white"></i>
+                                </div>
+                                <div class="boon-definition__copy">
+                                    <p class="boon-definition__copy-text">boon (def.)</p>
+                                </div>
+                            </div>
+                            <div class="boon-definition__content">
+                                <div class="boon-definition__copy">
+                                    <p class="boon-definition__copy-text boon-definition__copy-text--small">
+                                        Something very beneficial or helpful
+                                    </p>
+                                </div>
+                            </div>
                         </div>
+                        <p class="boon-definition__copyright">
+                            Copyright Boon Supply 2021. All Rights Reserved
+                        </p>
                     </div>
-                    <div class="gsplit-icon-tout_header">
-                        <h4 class="gsplit-icon-tout_title">
-                            <span class="is-orange">*</span>
-                            Good For You
-                        </h4>
-                    </div>
-                    <p class="gsplit-icon-tout_body">
-                        We feature clever, beautiful products that are zero-waste, non-GMO, and toxin-free.
-                    </p>
                 </div>
-                <div class="gsplit-icon-tout">
-                    <div class="gicon-image">
-                        <div class="gir">
-                            <img class="glazyload" src="images/12.png">
-                        </div>
-                    </div>
-                    <div class="gsplit-icon-tout_header">
-                        <h4 class="gsplit-icon-tout_title">
-                            <span class="is-orange">*</span>
-                            Good For The Planet
-                        </h4>
-                    </div>
-                    <p class="gsplit-icon-tout_body">
-                        Our zero-waste products are featured articles make it easy for anyone to make easy swaps with
-                        big environmental benefit.
-                    </p>
-                </div>
-                <div class="gsplit-icon-tout">
-                    <div class="gicon-image">
-                        <div class="gir">
-                            <img class="glazyload" src="images/13.png">
-                        </div>
-                    </div>
-                    <div class="gsplit-icon-tout_header">
-                        <h4 class="gsplit-icon-tout_title">
-                            <span class="is-orange">*</span>
-                            Good For The Community
-                        </h4>
-                    </div>
-                    <p class="gsplit-icon-tout_body">
-                        Each purchase made on Boon Market sends money to the cause of your choice.
-                    </p>
-                </div>
-            </div>
+                <div class="footer__links hide-phone">
+                    <ul class="list-reset footer__links-list">
+                        <li class="footer__links-item">
+                            <h4 class="footer__sublinks-heading">Shop</h4>
+                            <ul class="list-reset footer__sublinks-list">
+                                <li class="footer__sublinks-item">
+                                    <a class="footer__sublinks-link">Shop All Items</a>
+                                </li>
+                                <li class="footer__sublinks-item">
+                                    <a class="footer__sublinks-item">Shop Reusable</a>
+                                </li>
+                                <li class="footer__sublinks-item">
+                                    <a class="footer__sublinks-item">Shop Toxin Free</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer__links-item">
+                            <h4 class="footer__sublinks-heading">About</h4>
+                            <ul class="list-reset footer__sublinks-list">
+                                <li class="footer__sublinks-item">
+                                    <a class="footer__sublinks-link">About Boon Market</a>
+                                </li>
+                                <li class="footer__sublinks-item">
+                                    <a class="footer__sublinks-item">The Boon Life</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer__links-item">
+                            <h4 class="footer__sublinks-heading">Support</h4>
+                            <ul class="list-reset footer__sublinks-list">
+                                <li class="footer__sublinks-item">
+                                    <a class="footer__sublinks-link">Contact Us</a>
+                                </li>
+                                <li class="footer__sublinks-item">
+                                    <a class="footer__sublinks-item">Terms of Service</a>
+                                </li>
+                                <li class="footer__sublinks-item">
+                                    <a class="footer__sublinks-item">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer__links-item">
+                            <h4 class="footer__sublinks-heading">Social</h4>
+                            <ul class="list-reset footer__sublinks-list footer__sublinks-list--social">
+                                <li class="footer__social-item">
+                                    <a class="footer__social-link">
+                                        <i class="icon-global icon-global--instagram"></i>
+                                        <span class="screenreader">instagram</span>
+                                    </a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a class="footer__social-link">
+                                        <i class="icon-global icon-global--facebook"></i>
+                                        <span class="screenreader">facebook</span>
+                                    </a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a class="footer__social-link">
+                                        <i class="icon-global icon-global--pinterest"></i>
+                                        <span class="screenreader">pinterest</span>
+                                    </a>
+                                </li>
 
-        </div>
-
-    </div>
-
-
-
-    <br><br><br><br><br>
-
-
-
-    <div id="goverlay" onclick="off()">
-        <div class="goverlaydiv">
-            <div class="goverlaypicdiv">
-                <img class="goverlaypic" src="1.jpg" alt="">
-            </div>
-            <div class="goverlaytextdiv">
-                <!--อาจจะต้องเปลี่ยนเป็น button แทน svg ลองแล้วไม่ work
-                <div class="garrow">
-                    <svg class="gbackarrow" width="30" height="30">
-                        <path class="gback" stroke="#222" d="m22.5, 0l-15, 15l15, 15"></path>
-                    </svg>
-                    <svg class="gnextarrow" width="30" height="30">
-                        <path class="gnext" stroke="#222" d="m7.5, 0l15, 15l-15, 15"></path>
-                    </svg>
-                    <div class="gexitarrow">
-                        <svg class="gexit" width="30" height="30">
-                            <g fill="none">
-                                <path stoke="#222" d="m0,0 l30,30"></path>
-                            </g>
-                            <g fill="none">
-                                <path stoke="#222" d="m0,0 l-30,30"></path>
-                            </g>
-                        </svg>
-                    </div>
-                </div><br>-->
-                <img class="gsmallpic" src="1.jpg" alt="">
-                <p class="goverlaytext"><b>$25</b><br><b>GIRLS CRUSHING IT ENTERPRENEUSHIP KICKSHIP KICKSTART KIT</b>
-                </p>
-                <button class="goverlaybutt">ADD TO CART</button>
-                <div class="goverlaytextdetaildiv">
-                    <p class="goverlaytextdetail">
-                        At the heart of Boon is a passion for doing - and helping
-                        other succeed. In celebration of the #InternationalDayoftheGirl
-                        we are excited to introduce The Girls Crushing it Enterpreneurship
-                        Kickstart Kits - the result of a powerful collaboration between two
-                        inspiring women - @RoxanneChristophe, Founder & CEO of
-                        @GirlsCrushingIt, and Boon Founder, Lily Kanter. These cards
-                        and stickers walk through the process of starting your own business - from
-                        identifying a market need and finding the ideal customer, to finding ceo-friendly
-                        alternatives to commonly used business supplies, and even managing their
-                        earnings. Join us in celebrating girls everywhere - 40% of your purchase goes to
-                        the cause of your choice. Learn more at link in bio.
-                        .........
-                    </p>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </div>
+        </footer>
+        <!--pear end footer-->
+        <script async="" type="text/javascript"
+            src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=U6UFgx"></script>
+        <!-- Searchspring IntelliSuggest Tracking -->
+        <script type="text/javascript" src="//cdn.searchspring.net/intellisuggest/is.min.js"></script>
 
-    <div class="gsfg">
-        <header class="gsfgheader">
-            <h3 class="gsfgheading">#ShopForGood</h3><br>
-            <i class="icon-global icon-global--wave-dark-orange"><span></span></i>
-        </header>
-        <div id="gshoppic">
-            <div class="gpic-container" onclick="on()">
-                <img class="gpic" src="images/1.jpg">
-            </div>
-            <div class="gpic-container">
-                <img class="gpic" src="images/2.jpg">
-            </div>
-            <div class="gpic-container">
-                <img class="gpic" src="images/3.jpg">
-            </div>
-            <div class="gpic-container">
-                <img class="gpic" src="images/4.jpg">
-            </div>
-            <div class="gpic-container">
-                <img class="gpic" src="images/5.jpg">
-            </div>
-            <div class="gpic-container">
-                <img class="gpic" src="images/6.jpg">
-            </div>
-            <div class="gpic-container">
-                <img class="gpic" src="images/7.jpg">
-            </div>
-            <div class="gpic-container">
-                <img class="gpic" src="images/8.jpg">
-            </div>
-            <div class="gpic-container">
-                <img class="gpic" src="images/9.jpg">
-            </div>
-            <div class="gpic-container">
-                <img class="gpic" src="images/10.jpg">
-            </div>
-        </div>
+    </main>
 
-    </div>
-    <!--Guitar end-->
-    
-    <script src="Heroes_files/bootstrap.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous">
-    <!--Guitar js-->
-    function on() {
-            document.getElementById("goverlay").style.display = "block";
-        }
-
-    function off() {
-            document.getElementById("goverlay").style.display = "none";
-        }
-    
-    </script>
-
-    
 
 
 
