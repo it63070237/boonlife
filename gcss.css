@@ -1,0 +1,231 @@
+/*about boon*/
+#ghowwework {
+    padding: 1.25rem 0 0;
+}
+
+.ghowwework_header {
+    margin-bottom: 2rem;
+    align-items: center;
+    text-align: center;
+
+}
+
+.ghowwework_heading {
+    margin-bottom: .8125rem;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-top: 0;
+    transition: font-size .4s ease-in-out;
+}
+
+.ghowwework_title {
+    font-size: 2.5rem;
+    line-height: 1.13;
+    margin-top: 0;
+    margin-bottom: .625rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+    .ghowwework_container {
+        overflow: hidden;
+        max-height: 23.4375rem;
+        max-width: 100vw;
+    }
+}
+
+.ghowwework_container {
+    width: 100%;
+}
+
+
+.gwrapper {
+    display: table;
+    align-items: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.gir{
+    margin: 2rem;
+    flex-direction: column;
+}
+.gsplit-icon-tout {
+    max-width: 18.2rem;
+    margin: auto;
+    text-align: center;
+}
+
+.gir img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 95%;
+    margin-bottom: 1rem;
+}
+
+.gir img .glazyload {
+    opacity: 1;
+    transition: opacity .3s;
+}
+
+.is-orange {
+    color: #de470d;
+}
+
+.gsplit-icon-tout_body {
+    font-size: .75rem;
+    max-width: 16rem;
+    margin: auto auto;
+}
+
+.gsplit-icon-tout_title {
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+/*shopforgood*/
+.gsfg {
+    width: 100%;
+    align-items: center;
+}
+
+.gsfgheader {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#gshoppic {
+    width: 100%;
+    position: relative;
+    z-index: inherit;
+    align-items: center;
+}
+
+.gpic-container {
+    width: 100%;
+}
+
+.gpic {
+    margin: 7.5px;
+    width: 18%;
+    float: left;
+    position: relative;
+}
+
+.gpic:hover {
+    opacity: 0.5;
+}
+
+
+#goverlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+    overflow: scroll;
+}
+
+.goverlaypic {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.goverlaydiv {
+    background-color: white;
+    max-height: 100%;
+    position: relative;
+    max-width: 80%;
+    display: table;
+    padding: 20px;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goverlaypicdiv {
+    max-width: 60%;
+    display: table;
+    float: left;
+    margin-right: 20px;
+}
+
+.goverlaytextdiv {
+    max-width: 40%;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    display: table;
+}
+
+.gsmallpic {
+    max-width: 30%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.goverlaytext {
+    text-align: center;
+    font-size: .75rem;
+}
+
+.goverlaybutt {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: .7rem;
+}
+
+.goverlaytextdetaildiv {
+    position: relative;
+    max-width: 400px;
+    text-align: center;
+    right: 0;
+    margin-top: 50px;
+}
+
+.garrow {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.gnextarrow{
+    position: relative;
+    left: 60px;
+}
+
+.gexitarrow{
+    position: absolute;
+    right: 20px;
+}
+
+.g-detail-shares{
+    margin-top: 30px;
+    display: block;
+}
+
+.fa{
+    margin: 10px;
+
+}
