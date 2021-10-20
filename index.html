@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="k-styles.css">
     <link rel="stylesheet" href="index.scss.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="gcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="guitar.js"></script>
     <meta name="theme-color" content="#7952b3">
 
 
@@ -55,217 +58,6 @@
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
             }
-        }
-
-        #ghowwework {
-            padding: 1.25rem 0 0;
-        }
-
-        .ghowwework_header {
-            margin-bottom: 2rem;
-            align-items: center;
-            text-align: center;
-
-        }
-
-        .ghowwework_heading {
-            margin-bottom: .8125rem;
-            font-size: .75rem;
-            font-weight: 700;
-            letter-spacing: 2px;
-            line-height: 1.5;
-            margin-top: 0;
-            transition: font-size .4s ease-in-out;
-        }
-
-        .ghowwework_title {
-            font-size: 2.5rem;
-            line-height: 1.13;
-            margin-top: 0;
-            margin-bottom: .625rem;
-            font-weight: 700;
-        }
-
-        @media screen and (max-width: 1024px) {
-            .ghowwework_container {
-                overflow: hidden;
-                max-height: 23.4375rem;
-                max-width: 100vw;
-            }
-        }
-
-        .ghowwework_container {
-            width: 100%;
-        }
-
-
-        .gwrapper {
-            display: table;
-            align-items: center;
-            max-width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            display: flex;
-            flex-direction: row;
-        }
-
-        .gir {
-            margin: 2rem;
-            flex-direction: column;
-        }
-
-        .gsplit-icon-tout {
-            max-width: 18.2rem;
-            margin: auto;
-            text-align: center;
-        }
-
-        .gir img {
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            max-width: 95%;
-            margin-bottom: 1rem;
-        }
-
-        .gir img .glazyload {
-            opacity: 1;
-            transition: opacity .3s;
-        }
-
-        .is-orange {
-            color: #de470d;
-        }
-
-        .gsplit-icon-tout_body {
-            font-size: .75rem;
-            max-width: 16rem;
-            margin: auto auto;
-        }
-
-        .gsplit-icon-tout_title {
-            line-height: 2rem;
-            font-size: 1.5rem;
-        }
-
-
-
-
-
-        /*shopforgood*/
-        .gsfg {
-            width: 100%;
-            align-items: center;
-        }
-
-        .gsfgheader {
-            align-items: center;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-
-        #gshoppic {
-            width: 100%;
-            position: relative;
-            z-index: inherit;
-            align-items: center;
-        }
-
-        .gpic-container {
-            width: 100%;
-        }
-
-        .gpic {
-            margin: 7.5px;
-            width: 18%;
-            float: left;
-            position: relative;
-        }
-
-        .gpic:hover {
-            opacity: 0.5;
-        }
-
-
-        #goverlay {
-            position: fixed;
-            display: none;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(0, 0, 0, 0.5);
-            z-index: 2;
-            cursor: pointer;
-            overflow: scroll;
-        }
-
-        .goverlaypic {
-            position: relative;
-            max-width: 100%;
-            height: auto;
-            margin-top: 5px;
-        }
-
-        .goverlaydiv {
-            background-color: white;
-            max-height: 100%;
-            position: relative;
-            max-width: 80%;
-            display: table;
-            padding: 20px;
-            padding-top: 0;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .goverlaypicdiv {
-            max-width: 60%;
-            display: table;
-            float: left;
-            margin-right: 20px;
-        }
-
-        .goverlaytextdiv {
-            max-width: 40%;
-            margin-top: 20px;
-            align-items: center;
-            text-align: center;
-            display: table;
-        }
-
-        .gsmallpic {
-            max-width: 30%;
-            height: auto;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        .goverlaytext {
-            text-align: center;
-            font-size: .75rem;
-        }
-
-        .goverlaybutt {
-            background-color: black;
-            color: white;
-            border: none;
-            font-size: .7rem;
-            margin-bottom: 20px;
-        }
-
-        .goverlaytextdetaildiv {
-            position: relative;
-            max-width: 400px;
-            text-align: center;
-            right: 0;
-        }
-
-        .garrow {
-            position: absolute;
         }
     </style>
 
@@ -634,61 +426,6 @@
 
         </div>
 
-
-
-        <br><br><br><br><br>
-
-
-
-        <div id="goverlay" onclick="off()">
-            <div class="goverlaydiv">
-                <div class="goverlaypicdiv">
-                    <img class="goverlaypic" src="1.jpg" alt="">
-                </div>
-                <div class="goverlaytextdiv">
-                    <!--อาจจะต้องเปลี่ยนเป็น button แทน svg ลองแล้วไม่ work
-                <div class="garrow">
-                    <svg class="gbackarrow" width="30" height="30">
-                        <path class="gback" stroke="#222" d="m22.5, 0l-15, 15l15, 15"></path>
-                    </svg>
-                    <svg class="gnextarrow" width="30" height="30">
-                        <path class="gnext" stroke="#222" d="m7.5, 0l15, 15l-15, 15"></path>
-                    </svg>
-                    <div class="gexitarrow">
-                        <svg class="gexit" width="30" height="30">
-                            <g fill="none">
-                                <path stoke="#222" d="m0,0 l30,30"></path>
-                            </g>
-                            <g fill="none">
-                                <path stoke="#222" d="m0,0 l-30,30"></path>
-                            </g>
-                        </svg>
-                    </div>
-                </div><br>-->
-                    <img class="gsmallpic" src="1.jpg" alt="">
-                    <p class="goverlaytext"><b>$25</b><br><b>GIRLS CRUSHING IT ENTERPRENEUSHIP KICKSHIP KICKSTART
-                            KIT</b>
-                    </p>
-                    <button class="goverlaybutt">ADD TO CART</button>
-                    <div class="goverlaytextdetaildiv">
-                        <p class="goverlaytextdetail">
-                            At the heart of Boon is a passion for doing - and helping
-                            other succeed. In celebration of the #InternationalDayoftheGirl
-                            we are excited to introduce The Girls Crushing it Enterpreneurship
-                            Kickstart Kits - the result of a powerful collaboration between two
-                            inspiring women - @RoxanneChristophe, Founder & CEO of
-                            @GirlsCrushingIt, and Boon Founder, Lily Kanter. These cards
-                            and stickers walk through the process of starting your own business - from
-                            identifying a market need and finding the ideal customer, to finding ceo-friendly
-                            alternatives to commonly used business supplies, and even managing their
-                            earnings. Join us in celebrating girls everywhere - 40% of your purchase goes to
-                            the cause of your choice. Learn more at link in bio.
-                            .........
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!--Guitar end-->
         <!-- Keng Start -->
@@ -1522,44 +1259,648 @@
 
         <!--shop for goods-->
         <div class="gsfg">
-            <header class="gsfgheader">
-                <h3 class="gsfgheading">#ShopForGood</h3><br>
-                <i class="icon-global icon-global--wave-dark-orange"><span></span></i>
-            </header>
-            <div id="gshoppic">
-                <div class="gpic-container" onclick="on()">
-                    <img class="gpic" src="1.jpg">
+        <header class="gsfgheader">
+            <h3 class="gsfgheading">#ShopForGood</h3><br>
+            <i class="icon-global icon-global--wave-dark-orange"><span></span></i>
+        </header>
+        <div id="gshoppic">
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic"
+                    src="https://scontent.cdninstagram.com/v/t51.29350-15/245045824_608811560255510_539899529521295580_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=LSiEmI-MO8EAX9iyTu7&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=12847003b72a3d9aae894a46329d95c0&amp;oe=6173EEFC">
+            </div>
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic"
+                    src="https://scontent.cdninstagram.com/v/t51.29350-15/243156207_465464121220694_114520696852665716_n.jpg?_nc_cat=108&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CxVmtBQPE-kAX_8f2LI&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=01d2e29607a81ccca9ce08375206e0ca&amp;oe=6174712C">
+            </div>
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic"
+                    src="https://scontent.cdninstagram.com/v/t51.29350-15/242963967_534882090912488_3634327963155773451_n.jpg?_nc_cat=102&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=QS2i-s--gM8AX80S6cD&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=365460a941c8f67a4e7011b5d4597290&amp;oe=61757BF3">
+            </div>
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic" src="https://scontent.cdninstagram.com/v/t51.29350-15/242874106_223671619699213_4092083079144325689_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=EDJJyYBCxpYAX_Mn5W1&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=4368377c6fe3dac1c3309767f8c6ff4c&amp;oe=617474B8">
+            </div>
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic" src="https://scontent.cdninstagram.com/v/t51.29350-15/242654679_214489144000608_8830681325949924834_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_aid=0&_nc_ohc=pNoWeNkZaqsAX9Yafp8&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=b7581f9b9011dbef760d17ff111b05c5&oe=617496ED">
+            </div>
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic" src="https://scontent.cdninstagram.com/v/t51.29350-15/242177979_1278124799291776_4684840062016821264_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=YvS_0nCgzIMAX_45xRJ&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=47f2ab3bdc1ddfe2c9d2160a31e0c893&oe=61742CFC">
+            </div>
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic" src="https://scontent.cdninstagram.com/v/t51.29350-15/241325100_189266233173135_2795292682000682204_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=9h5FrSrXw2MAX85n60N&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=76c761f58548c0cc72d9e14b8919c326&oe=6174416D">
+            </div>
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic" src="https://scontent.cdninstagram.com/v/t51.29350-15/241410625_1030827877735762_6967042479364934176_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=8ZOtuexKrQsAX8Yy5ep&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=24c9c237cdf215929b8f64842b2d56ba&oe=61758619">
+            </div>
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic" src="https://scontent.cdninstagram.com/v/t51.29350-15/241289402_4634257336598018_4136234920711255029_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=R1Eq2E_K0XoAX__FCDE&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=ec77e30abe18124fd4766fc8aa7a772a&oe=61746341">
+            </div>
+            <div class="gpic-container" onclick="on()">
+                <img class="gpic" src="https://scontent.cdninstagram.com/v/t51.29350-15/241240858_528924141673618_6590703968622027783_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=nkc_KhgmIBAAX9U5112&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=7a051fae5f3830f3bc266a9fbf3dc708&oe=6173AA60">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!--guitar ovelay-->
+    <!--overlay page1-->
+    <div id="goverlay" onclick="off()">
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic"
+                    src="https://scontent.cdninstagram.com/v/t51.29350-15/245045824_608811560255510_539899529521295580_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=LSiEmI-MO8EAX9iyTu7&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=12847003b72a3d9aae894a46329d95c0&amp;oe=6173EEFC"
+                    alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
                 </div>
-                <div class="gpic-container">
-                    <img class="gpic" src="2.jpg">
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
                 </div>
-                <div class="gpic-container">
-                    <img class="gpic" src="3.jpg">
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
                 </div>
-                <div class="gpic-container">
-                    <img class="gpic" src="4.jpg">
+                <div>
+                    <img class="gsmallpic"
+                        src="https://scontent.cdninstagram.com/v/t51.29350-15/245045824_608811560255510_539899529521295580_n.jpg?_nc_cat=106&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=LSiEmI-MO8EAX9iyTu7&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=12847003b72a3d9aae894a46329d95c0&amp;oe=6173EEFC"
+                        alt="">
+                    <p class="goverlaytext"><b>$25</b><br><b>GIRLS CRUSHING IT ENTERPRENEUSHIP KICKSHIP KICKSTART
+                            KIT</b>
+                    </p>
                 </div>
-                <div class="gpic-container">
-                    <img class="gpic" src="5.jpg">
+                <button class="goverlaybutt">ADD TO CART</button>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        At the heart of Boon is a passion for doing - and helping
+                        other succeed. In celebration of the #InternationalDayoftheGirl
+                        we are excited to introduce The Girls Crushing it Enterpreneurship
+                        Kickstart Kits - the result of a powerful collaboration between two
+                        inspiring women - @RoxanneChristophe, Founder & CEO of
+                        @GirlsCrushingIt, and Boon Founder, Lily Kanter. These cards
+                        and stickers walk through the process of starting your own business - from
+                        identifying a market need and finding the ideal customer, to finding ceo-friendly
+                        alternatives to commonly used business supplies, and even managing their
+                        earnings. Join us in celebrating girls everywhere - 40% of your purchase goes to
+                        the cause of your choice. Learn more at link in bio.
+                        <br><br><br>
+                        "#dayofthegirl #boonsupply #boongivesback #buyboongrowgood #doermovement
+                        #consciousconsumerism #shopforgood #sociallyaware #philanthropy #makeadifference
+                        #makeanimpact #giveback #ecolifestyle #liveconsciously #consciousconsumption #goodforyou
+                        #goodfortheplanet #goodforyourcommunity
+                    </p>
                 </div>
-                <div class="gpic-container">
-                    <img class="gpic" src="6.jpg">
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>11 OCTOBER 2021</span>
                 </div>
-                <div class="gpic-container">
-                    <img class="gpic" src="7.jpg">
-                </div>
-                <div class="gpic-container">
-                    <img class="gpic" src="8.jpg">
-                </div>
-                <div class="gpic-container">
-                    <img class="gpic" src="9.jpg">
-                </div>
-                <div class="gpic-container">
-                    <img class="gpic" src="10.jpg">
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
                 </div>
             </div>
-
         </div>
+
+
+        <!--overlay page2-->
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic"
+                    src="https://scontent.cdninstagram.com/v/t51.29350-15/243156207_465464121220694_114520696852665716_n.jpg?_nc_cat=108&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=CxVmtBQPE-kAX_8f2LI&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=01d2e29607a81ccca9ce08375206e0ca&amp;oe=6174712C"
+                    alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        Support hardworking kids like this little fundraiser when you shop our collection of curated
+                        goods on Boon Supply.
+                        We’ll give back 40% of what you spend to your cause of choice!
+                        <br><br><br>
+                        #boonsupply #wepowerthedoers #boongivesback #buyboongrowgood #doermovement
+                        #consciousconsumerism #shopforgood #fundraiserideas #fundraisingideas #sociallyaware
+                        #philanthropy #makeadifference #makeanimpact #giveback #ecolifestyle #liveconsciously
+                        #consciousconsumption
+                        #goodforyou #goodfortheplanet #goodforyourcommunity #zerowaste
+                    </p>
+                </div>
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>26 SEPTEMBER 2021</span>
+                </div>
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
+                </div>
+            </div>
+        </div>
+
+        <!--overlay page3-->
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic"
+                    src="https://scontent.cdninstagram.com/v/t51.29350-15/242963967_534882090912488_3634327963155773451_n.jpg?_nc_cat=102&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=QS2i-s--gM8AX80S6cD&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=365460a941c8f67a4e7011b5d4597290&amp;oe=61757BF3"
+                    alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        We are proud to announce that Boon Supply has completed our work to become Climate Neutral
+                        Certified
+                        and offset carbon emissions from our business operations. We are committed to reducing,
+                        offsetting and
+                        making this a top priority. Thank you to the important work that @beclimateneutral is doing - we
+                        look
+                        forward to partnering in this most important endeavor.
+                        <br><br><br>
+                        #climatechange #bepartofthesolution #decarbonize #beclimateneutral #buyclimateneutral
+                        #boonsupply #wepowerthedoers #boongivesback
+                    </p>
+                </div>
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>25 SEPTEMBER 2021</span>
+                </div>
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <!--overlay page4-->
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic" src="https://scontent.cdninstagram.com/v/t51.29350-15/242874106_223671619699213_4092083079144325689_n.jpg?_nc_cat=105&amp;ccb=1-5&amp;_nc_sid=8ae9d6&amp;_nc_ohc=EDJJyYBCxpYAX_Mn5W1&amp;_nc_ht=scontent.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=4368377c6fe3dac1c3309767f8c6ff4c&amp;oe=617474B8" alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        We helped a Dallas elementary school raise $9,200 to support a special field trip. ❤️ 
+                        With plenty of waste-free, kid-friendly products to choose from, fundraising is easier than ever. 
+                        <br><br><br>
+                        #boonsupply #wepowerthedoers #boonsupply #boongivesback #buyboongrowgood #doermovement 
+                        #consciousconsumerism #shopforgood #fundraiserideas #fundraisingideas #sociallyaware 
+                        #philanthropy #makeadifference #makeanimpact #giveback #ecolifestyle #liveconsciously 
+                        #consciousconsumption #goodforyou #goodfortheplanet
+                    </p>
+                </div>
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>24 SEPTEMBER 2021</span>
+                </div>
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--overlay page5-->
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic" src="https://scontent.cdninstagram.com/v/t51.29350-15/242654679_214489144000608_8830681325949924834_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_aid=0&_nc_ohc=pNoWeNkZaqsAX9Yafp8&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=b7581f9b9011dbef760d17ff111b05c5&oe=617496ED" alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        What do you do when no one is watching? Boon Supply helps you with the smaller things 
+                        by making it easy to start fundraising for causes you care about. Remember, a little 
+                        effort goes a long way 💚 
+                        <br><br><br>
+                        #boonsupply #boongivesback #buyboongrowgood #doermovement #consciousconsumerism 
+                        #shopforgood #sociallyaware #philanthropy #makeadifference #makeanimpact #giveback 
+                        #ecolifestyle #liveconsciously #consciousconsumption #goodforyou #goodfortheplanet 
+                        #goodforyourcommunity #zerowaste 
+                    </p>
+                </div>
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>22 SEPTEMBER 2021</span>
+                </div>
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--overlay page6-->
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic" src="https://scontent.cdninstagram.com/v/t51.29350-15/242177979_1278124799291776_4684840062016821264_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=YvS_0nCgzIMAX_45xRJ&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=47f2ab3bdc1ddfe2c9d2160a31e0c893&oe=61742CFC" alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        Happy #wastefreewednesday ♻️ How do you keep fruits and veggies fresh? Plastic wrap is 
+                        so 2010. Pick up our reusable food wraps at the link in our bio to help kick single-use plastic to the curb. 
+                        <br><br><br>
+                        #boonsupply #boongivesback #buyboongrowgood #doermovement  #consciousconsumerism 
+                        #shopforgood #sociallyaware #philanthropy #makeadifference #makeanimpact #giveback 
+                        #ecolifestyle #liveconsciously #consciousconsumption #goodforyou #goodfortheplanet 
+                        #goodforyourcommunity #sustainableswaps #zerowaste 
+                    </p>
+                </div>
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>16 SEPTEMBER 2021</span>
+                </div>
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--overlay page7-->
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic" src="https://scontent.cdninstagram.com/v/t51.29350-15/241325100_189266233173135_2795292682000682204_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=9h5FrSrXw2MAX85n60N&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=76c761f58548c0cc72d9e14b8919c326&oe=6174416D" alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        Our kids will define the future of our planet 🌎 Start a fall fundraiser to support your
+                         local school & invest in those who will inherit our earth and make big changes! Learn 
+                         more at the link in our bio.⁠ 
+                        <br><br><br>
+                        #boonsupply #boongivesback #buyboongrowgood #doermovement  #consciousconsumerism 
+                        #shopforgood #sociallyaware #philanthropy #makeadifference #makeanimpact #giveback 
+                        #ecolifestyle #liveconsciously #consciousconsumption #goodforyou #goodfortheplanet 
+                        #goodforyourcommunity #zerowaste 
+                    </p>
+                </div>
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>10 SEPTEMBER 2021</span>
+                </div>
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--overlay page8-->
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic" src="https://scontent.cdninstagram.com/v/t51.29350-15/241410625_1030827877735762_6967042479364934176_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=8ZOtuexKrQsAX8Yy5ep&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=24c9c237cdf215929b8f64842b2d56ba&oe=61758619" alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        Happy #wastefreewednesday ♻️ Did you know that the average American uses 365 plastic 
+                        bags per year? That’s one bag for every day. Reduce your footprint on the earth when 
+                        you pick up a pair of our Mesh Farmer’s Market Totes (for you + a friend!), then choose
+                         a cause and we’ll give back 40%!<br><br>Link in bio. 
+                        <br><br><br>
+                        #boonsupply #boongivesback #buyboongrowgood #doermovement  #consciousconsumerism 
+                        #shopforgood #sociallyaware #philanthropy #makeadifference #makeanimpact #giveback 
+                        #ecolifestyle #liveconsciously #consciousconsumption #goodforyou #goodfortheplanet 
+                        #goodforyourcommunity #sustainableswaps #zerowaste 
+                    </p>
+                </div>
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>09 SEPTEMBER 2021</span>
+                </div>
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--overlay page9-->
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic" src="https://scontent.cdninstagram.com/v/t51.29350-15/241289402_4634257336598018_4136234920711255029_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=R1Eq2E_K0XoAX__FCDE&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=ec77e30abe18124fd4766fc8aa7a772a&oe=61746341" alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        We love our teachers! 📚Support your child’s favorite teacher or the entire school
+                         with a Boon Supply fundraiser—40% of all purchases goes straight to your cause. 
+                         Start supporting in the time it takes to finish your morning coffee ☕️
+                        <br><br>Link in bio. 
+                        <br><br><br>
+                        #boonsupply #boongivesback #buyboongrowgood #doermovement #consciousconsumerism 
+                        #shopforgood #sociallyaware #philanthropy #makeadifference #makeanimpact #giveback 
+                        #ecolifestyle #liveconsciously #consciousconsumption #goodforyou #goodfortheplanet 
+                        #goodforyourcommunity #zerowaste
+                    </p>
+                </div>
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>05 SEPTEMBER 2021</span>
+                </div>
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--overlay page10-->
+        <div class="goverlaydiv">
+            <div class="goverlaypicdiv">
+                <img class="goverlaypic" src="https://scontent.cdninstagram.com/v/t51.29350-15/241240858_528924141673618_6590703968622027783_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=nkc_KhgmIBAAX9U5112&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&oh=7a051fae5f3830f3bc266a9fbf3dc708&oe=6173AA60" alt="">
+            </div>
+            <div class="goverlaytextdiv">
+                <div class="garrow">
+                    <svg class="gbackarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m22.5,0l-15,15l15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="garrow">
+                    <svg class="gnextarrow" width="30" height="30">
+                        <g>
+                            <path fill="none" stroke-width="1px" d="m7.5,0l15,15l-15,15" stroke="#222"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="gexitarrow">
+                    <svg class="gexit" width="30" height="30">
+                        <g stroke="#222" stroke-width="1px" fill="none">
+                            <path d="m0,0l30,30"></path>
+                            <path d="m30,0l-30,30"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="goverlaytextdetaildiv">
+                    <p class="goverlaytextdetail">
+                        Is your school lunch game ready for fall? Achieve your #momgoals when you stock up 
+                        on our zero-waste lunch essentials 🥪 Bonus: 40% of your purchase goes back to your 
+                        school or cause of choice. ✨ 
+                        <br><br><br>
+                        #boonsupply #boongivesback #buyboongrowgood #doermovement  #consciousconsumerism 
+                        #shopforgood #sociallyaware #philanthropy #makeadifference #makeanimpact #giveback 
+                        #ecolifestyle #liveconsciously #consciousconsumption #goodforyou #goodfortheplanet 
+                        #goodforyourcommunity #zerowaste
+                    </p>
+                </div>
+                <div class="gpost-info">
+                    <span> boonsupply</span> <span class="fs-slashes">//</span> INSTAGRAM
+                    <span>//</span>
+                    <span>03 SEPTEMBER 2021</span>
+                </div>
+                <div class="g-detail-shares">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-pinterest"></i>
+                    <i class="fa fa-link"></i>
+                </div>
+            </div>
+        </div>
+    </div>
         <!--shop for goods-->
 
         <!--pear footer-->
