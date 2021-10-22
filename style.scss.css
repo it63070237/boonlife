@@ -167,7 +167,7 @@ select {
 [type=reset],
 [type=submit],
 button {
-  -webkit-appearance: button; }
+  -webkit-appearance: button;}
 
 [type=button]::-moz-focus-inner,
 [type=reset]::-moz-focus-inner,
@@ -5007,7 +5007,7 @@ body.search-open {
     width: 14.375rem !important; }
 
   .klaviyo-form input[type=email] {
-    width: 18.5rem !important; }
+    width: 18.5rem !important;}
 
   .template- .shopify-policy__container h2 {
     margin: auto auto 1.875rem;
@@ -5972,3 +5972,4 @@ body.search-open {
   .cause-item--carousel .cause-item__select-btn {
     margin-right: 0;
     margin-left: 0; } }
+
