@@ -1,0 +1,498 @@
+[
+    {
+        "id": 1,
+        "topic": "Hibear",
+        "name": "Insulated Stainless Steel Bottle with Topographic Print",
+        "price": 85,
+        "discount": 10,
+        "product_code": "70247",
+        "description": "A water bottle - or a flask - that celebrates and protects the planet. Boon loves this Insulated Stainless Steel Bottle with Topographic Print. Designed for making and drinking coffee, tea, cocktails, and more, every detail is considered—from the freezable steel core that keeps drink cold without diluting (while also doubling as a muddle for cocktail making) to the electropolish interior finish that protects against the transfer of taste, smell, and mold. And it's made by Hibear, a fellow Climate Neutral brand who cares about the planet—and zero waste lifestyles—as much as Boon does. This bottle was designed to represent the Seven Summits—the highest mountains on each continent—and features artwork by Lauren Ouye, who draws inspiration from the topographic maps she studied while hiking in the Sierra Nevada Mountains.",
+        "tags": [
+            "Reusable",
+            "Climate Neutral"
+        ],
+        "details": [
+            "Total volume: 32 oz.; Height: 11; Width: 3.7; Weight: 29 oz. ",
+            "Made from double wall stainless steel with durable powder coat",
+            "12 oz. stainless steel filter for making coffee, tea, etc.",
+            "Invertible lid for brewing pour over coffee",
+            "Freezable, removable thermal core for keeping drinks cold without diluting",
+            "Removable silicone sleeve that doubles as another drinking vessel (perfect for pets!)",
+            "Insulation keeps drinks cold for 18 hours, or hot for 8 hours",
+            "Wide mouth design makes hand washing easy"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Lunch Essentials",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70247-1.jpg?v=1634320283",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70247-2.jpg?v=1634320283"
+        ]
+    },
+    {
+        "id": 2,
+        "topic": "Caraway",
+        "name": "Cookware Set",
+        "price": 395,
+        "discount": 10,
+        "product_code": "CW-CSET-CRM",
+        "description": "Ditch the chemicals with Caraway’s ceramic-coated cookware. Our complete set has everything you'll need for healthy cooking in your kitchen, staying organized with both our pot and lid holders, and looking good while doing so.",
+        "tags": null,
+        "details": [
+            "Fry pan - perfect for eggs, flipping pancakes and sautéing veggies ",
+            "Saucepan - risottos, mac and cheese, soups and sauces are all welcome here",
+            "Sauté pan - your go-to pan for dinner parties, stir-fries and dishes with stock",
+            "Dutch oven - your new best friend for pastas, roasts, stews and boils",
+            "Magnetic pan racks - modular racks that house each pot for easy sideways access",
+            "Canvas lid holder - the perfect resting spot for all three lids to keep them at arm's reach"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Cooking & Pantry",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/CarawayThumbnailImage.jpg?v=1634857714",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/CW-CSET-CRM-1.jpg?v=1626125421",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/CW-CSET-CRM-2.jpg?v=1626125423",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/CW-CSET-CRM-3.jpg?v=1626125420",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/caraway-cookset-master.gif?v=1626295665"
+        ]
+    },
+    {
+        "id": 3,
+        "topic": "Hibear",
+        "name": "Insulated Stainless Steel Bottle with Mountain Artwork",
+        "price": 95,
+        "discount": 10,
+        "product_code": "70246",
+        "description": "A water bottle - or a flask - that celebrates and protects the planet. Boon loves this Insulated Stainless Steel Bottle with Mountain Artwork that is designed for making and drinking coffee, tea, cocktails, and more. Every detail is considered—from the freezable steel core that keeps drinks cold without diluting (while also doubling as a muddle for cocktail making) to the electropolish interior finish that protects against the transfer of taste, smell, and mold. Bonus: It's made by Hibear, a fellow Climate Neutral brand who cares about the planet—and zero waste living—as much as Boon does. This limited-edition print was designed in collaboration with artist Bryan Merrell, whose whimsical work is inspired by the Sierra Nevada Mountains.",
+        "tags": [
+            "Reusable",
+            "Climate Neutral"
+        ],
+        "details": [
+            "Total volume: 32 oz.; Height: 11; Width: 3.7; Weight: 29 oz. ",
+            "Made from double wall stainless steel with durable powder coat",
+            "12 oz. stainless steel filter for making coffee, tea, etc.",
+            "Invertible lid for brewing pour over coffee",
+            "Freezable, removable thermal core for keeping drinks cold without diluting",
+            "Removable silicone sleeve that doubles as another drinking vessel (perfect for pets!)",
+            "Insulation keeps drinks cold for 18 hours, or hot for 8 hours",
+            "Wide mouth design makes hand washing easy"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Lunch Essentials",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70246-1.jpg?v=1634320281",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70246-2.jpg?v=1634320281",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70246-3.jpg?v=1634320281"
+        ]
+    },
+    {
+        "id": 4,
+        "topic": "Boon Supply",
+        "name": "Large Gold Baking Sheet",
+        "price": 25,
+        "discount": 40,
+        "product_code": "10019",
+        "description": "This gold non-stick carbon steel baking pan will quickly become your favorite. The textured bottom increases airflow for even baking.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral"
+        ],
+        "details": [
+            "17''L x 11.5''W x 1''H ",
+            "Carbon steel",
+            "Non-stick",
+            "Handwash recommended",
+            "Imported"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Cooking & Pantry",
+        "pics": ["https://cdn.shopify.com/s/files/1/0515/6762/4376/products/10019-1.jpg?v=1634785319"]
+    },
+    {
+        "id": 5,
+        "topic": "Atelier Saucier",
+        "name": "Reclaimed Denim Lunch Box Napkins",
+        "price": 128,
+        "discount": 10,
+        "product_code": "MAQ-041",
+        "description": "Zero waste is the name of the game with Boon partner Atelier Saucier. These Reclaimed Denim Lunch Box Napkins feature brightly colored embroidery for each day of the week and complementary rolled edges—perfect for anything from lunch boxes to weekend breakfasts. Atelier Saucier makes them in their Los Angeles studio, sourced from local denim factories' surplus fabric that would otherwise go to waste. This set is great for teaching kids (and adults!) the importance of repurposing and eliminating single-use items like paper napkins.",
+        "tags": [
+            "Social Good",
+            "Made in the USA",
+            "Reusable",
+            "Woman Founded",
+            "Ethically Made"
+        ],
+        "details": [
+            "Seven piece set",
+            "Measures 15'' x 15''",
+            "100% premium reclaimed denim",
+            "Wash in cold water, hang dry, iron on low heat while damp",
+            "Sustainably Made in the USA"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Lunch Essentials",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/MAQ-041-1.jpg?v=1633553340",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/MAQ-041-2.jpg?v=1633553340",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/MAQ-041-3.jpg?v=1633553340"
+        ]
+    },
+    {
+        "id": 6,
+        "topic": "Boon Supply",
+        "name": "Reusable Zip Pouches Set of 3, Frenchie",
+        "price": 18,
+        "discount": 40,
+        "product_code": "14062",
+        "description": "Pack snacks or other fresh goodies in these French-inspired reusable zip pouches. Designed by our friends at Hello!Lucky.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral",
+            "Reusable"
+        ],
+        "details": [
+            "Sayings: 'Snailed it!', 'Stay paw-sitive!', 'It's cool!'",
+            "8.6'L x 7.5'W",
+            "PEVA",
+            "Handwash only",
+            "Imported",
+            "CA65 Compliant"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Lunch Essentials",
+        "pics": ["https://cdn.shopify.com/s/files/1/0515/6762/4376/products/14062-1.jpg?v=1634765536"]
+    },
+    {
+        "id": 7,
+        "topic": "Atelier Saucier",
+        "name": "Blue and White Stripe Repurposed Fabric Napkins",
+        "price": 66,
+        "discount": 10,
+        "product_code": "MAQ-049",
+        "description": "Zero waste is the name of the game with Boon partner Atelier Saucier. These classic Blue and White Stripe Repurposed Fabric Napkins are made from premium fashion fabric that would have otherwise gone to waste. The rescued textiles are given new life at Atelier Saucier's Los Angeles studio. Each napkin features rolled edges in dusty orange, flame red, deep pine green, or royal blue.",
+        "tags": [
+            "Social Good",
+            "Made in the USA",
+            "Reusable",
+            "Woman Founded",
+            "Ethically Made"
+        ],
+        "details": [
+            "Four piece set",
+            "Measures 17' x 17'",
+            "100% premium reclaimed fabric",
+            "Wash in cold water, hang dry, iron on low heat while damp",
+            "Sustainably Made in the USA"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Lunch Essentials",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/MAQ-049-1.jpg?v=1633550548",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/MAQ-049-2.jpg?v=1633550548",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/MAQ-049-3.jpg?v=1633550548",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/MAQ-049-4.jpg?v=1633550548"
+        ]
+    },
+    {
+        "id": 8,
+        "topic": "Boon Supply",
+        "name": "Reusable Silicone Freezer Bags, Set of 2, Teal",
+        "price": 22,
+        "discount": 40,
+        "product_code": "60004",
+        "description": "Perfect to go from freezer to microwave and then into the dishwasher, these bags are a household must-have.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral",
+            "Reusable"
+        ],
+        "details": [
+            "10'W x 8'H x 3.25'D",
+            "Leak proof closure",
+            "Silicone",
+            "Dishwasher safe.",
+            "mported",
+            "BPA-Free"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Lunch Essentials",
+        "pics": ["https://cdn.shopify.com/s/files/1/0515/6762/4376/products/60004-1.jpg?v=1634786399"]
+    },
+    {
+        "id": 9,
+        "topic": "Boon Supply",
+        "name": "Reusable Zip Pouches, Set of 5",
+        "price": 22,
+        "discount": 40,
+        "product_code": "14046",
+        "description": "Reusable multi use food safe storage. Set of 5.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral",
+            "Reusable"
+        ],
+        "details": [
+            "Two 8.5'W x 7.5'H",
+            "One 9.5'W x 6.5'H x 2.5'D",
+            "One 7.75'W x 5'H x 2.5'D",
+            "One 6'W x 4.25'H x 2.5'D",
+            "Translucent PEVA",
+            "Zip closure",
+            "Handwash only",
+            "BPA Free",
+            "Imported"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Lunch Essentials",
+        "pics": ["https://cdn.shopify.com/s/files/1/0515/6762/4376/products/14046-1_7b8be8c5-ad1c-4084-b8cc-6dccbc816b8f.jpg?v=1634841162"]
+    },
+    {
+        "id": 10,
+        "topic": "Boon Supply",
+        "name": "Insulated Zip Lunch Tote, Coral",
+        "price": 28,
+        "discount": 40,
+        "product_code": "30616",
+        "description": "Keep your cool with this insulated lunch tote in a classic color.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral",
+            "Reusable"
+        ],
+        "details": [
+            "13.5'W x 5.5'D x 9'H",
+            "Coral. Woven handles with 7' drop length",
+            "Zipper closure",
+            "Wipeable PEVA lining",
+            "Exterior made of polyester",
+            "Imported",
+            "Spot clean, line dry"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Lunch Essentials",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/30616-1_c105764c-155b-46bf-8833-e76f9ac8675e.jpg?v=1634770921",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/30616-1-r.jpg?v=1614977596"
+        ]
+    },
+    {
+        "id": 11,
+        "topic": "Boon Supply",
+        "name": "Travel Tumbler, Teal",
+        "price": 19,
+        "discount": 40,
+        "product_code": "60023",
+        "description": "Whether you are at home or on-the-go, this borosilicate glass mug holds hot or cold drinks without tainting the taste. It is microwave safe so you sip and reheat your favorite hot drink throughout the day.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral",
+            "Reusable"
+        ],
+        "details": [
+            "16 OZ",
+            "Made of borosilicate glass with silicone sleeve and lid.",
+            "Dishwasher safe.",
+            "Imported",
+            "BPA-Free"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Lunch Essentials",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/60023-1.jpg?v=1634836124"
+        ]
+    },
+    {
+        "id": 12,
+        "topic": "Boon Supply",
+        "name": "Food Huggy, Set of 4",
+        "price": 15,
+        "discount": 40,
+        "product_code": "14029",
+        "description": "Keep open fruits and vegetables fresh with these silicone food huggies. Can also be used to cover bowls and cans. Set of 4.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral",
+            "Reusable"
+        ],
+        "details": [
+            "2.5 to 5.5 inches in diameter",
+            "Silicone",
+            "Dishwasher, microwave, oven, and freezer safe",
+            "BPA free",
+            "Imported",
+            "Includes 4 covers (bowls sold separately)"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Cooking & Pantry",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/14029-1.jpg?v=1634832771"
+        ]
+    },
+    {
+        "id": 13,
+        "topic": "Boon Supply",
+        "name": "Compost Bin",
+        "price": 30,
+        "discount": 40,
+        "product_code": "17007",
+        "description": "The countertop canister holds food scraps until they are transferred to an outdoor compost bin. The in-lid carbon filter absorbs odors.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral"
+        ],
+        "details": [
+            "7.7'D x 8.5'H",
+            "Coated galvanized iron",
+            "Dishwasher safe bucket",
+            "Inner plastic bucket",
+            "Imported",
+            "Carbon filtered lid"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Cooking & Pantry",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/17007-1_dc5d8d3b-0d9d-4ebc-ac7c-63d4ce2018a1.jpg?v=1634841187",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/17007-2.jpg?v=1634408301",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/17007-1-r.jpg?v=1614977628"
+        ]
+    },
+    {
+        "id": 14,
+        "topic": "Boon Supply",
+        "name": "Silicone Popsicle Mold",
+        "price": 26,
+        "discount": 40,
+        "product_code": "17006",
+        "description": "Made of high quality food grade non toxic silicone. Create healthy popsicle treats any time of year.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral"
+        ],
+        "details": [
+            "9'L x 6'W x 4'H",
+            "Silicone",
+            "Dishwasher safe",
+            "BPA free",
+            "Imported",
+            "Slots for ten popsicles, includes 20 sticks"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Cooking & Pantry",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/17006-1.jpg?v=1634785423",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/17006-2.jpg?v=1634785440",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/17006-3.jpg?v=1634785449"
+        ]
+    },
+    {
+        "id": 15,
+        "topic": "Boon Supply",
+        "name": "Cookie Cutters With Pouch, Set of 5",
+        "price": 15,
+        "discount": 40,
+        "product_code": "10025",
+        "description": "These adorable cookie cutters are the perfect way to bring merry to your baked treats. This set comes with a pouch for storage.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral"
+        ],
+        "details": [
+            "From 3.25'D to 4'D",
+            "Star: 3.75'W √ó 3.75'H",
+            "Angel: 3.25'W √ó 3.25'H",
+            "Tree: 3.75'W √ó 2.56'H",
+            "Snowflake: 3.94'W x 3.94'H",
+            "Bell: 3'W √ó 3.54'H",
+            "Includes a drawstring jute bag",
+            "Stainless steel",
+            "Dishwasher safe",
+            "Imported"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Cooking & Pantry",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/10025-1.jpg?v=1634785347"
+        ]
+    },
+    {
+        "id": 16,
+        "topic": "Boon Supply",
+        "name": "Reusable Towels, Set of 4, Fruit",
+        "price": 24,
+        "discount": 40,
+        "product_code": "60008",
+        "description": "Set of four eco-friendly ultra absorbent towels. A great alternative to paper towels and plastic sponges.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral",
+            "Reusable"
+        ],
+        "details": [
+            "7.5'L x 6.7'W",
+            "Four different prints: Bananas, Oranges, Watermelons, Cherries.",
+            "Made of wood cellulose and cotton",
+            "Holds 16 times its weight.",
+            "Dishwasher safe and machine washable.",
+            "Imported"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Cooking & Pantry",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/60008-1.jpg?v=1634836095"
+        ]
+    },
+    {
+        "id": 17,
+        "topic": "Boon Supply",
+        "name": "Rectangle Silicone Lids, Set of 2",
+        "price": 19,
+        "discount": 40,
+        "product_code": "14045",
+        "description": "Set of two stretchy rectangle silicone lids. Perfect to cover casseroles, baked goods and all kinds of leftovers.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral",
+            "Reusable"
+        ],
+        "details": [
+            "Fits a variety of rectangle containers up to 15 inches long.",
+            "Silicone",
+            "Dishwasher, microwave, oven, and freezer safe",
+            "BPA-Free",
+            "Imported"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Cooking & Pantry",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/14045-1_a8a36075-691b-4256-9f05-5385651796cc.jpg?v=1634841140"
+        ]
+    },
+    {
+        "id": 18,
+        "topic": "Boon Supply",
+        "name": "Mesh Drawstring Produce Bags, Set of 3",
+        "price": 22,
+        "discount": 40,
+        "product_code": "43900",
+        "description": "These drawstring produce bags are the perfect solution for eliminating plastic at the grocery store. Reusable and washable, the breathable material allows them to be stored in the fridge.",
+        "tags": [
+            "Social Good",
+            "Climate Neutral",
+            "Reusable"
+        ],
+        "details": [
+            "Small: 10'W x 12'L",
+            "Medium: 12'W x 15'L",
+            "Large: 14'W x 18'L",
+            "Cotton",
+            "Machine washable",
+            "Imported"
+        ],
+        "catagory": "Kitchen & Pantry",
+        "sub_catagory": "Cooking & Pantry",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/43900-1.jpg?v=1634786318"
+        ]
+    }
+]
