@@ -5,7 +5,7 @@
         "name": "Insulated Stainless Steel Bottle with Topographic Print",
         "price": 85,
         "discount": 10,
-        "product_code": "70247",
+        "product_code": "SKU: 70247",
         "description": "A water bottle - or a flask - that celebrates and protects the planet. Boon loves this Insulated Stainless Steel Bottle with Topographic Print. Designed for making and drinking coffee, tea, cocktails, and more, every detail is considered—from the freezable steel core that keeps drink cold without diluting (while also doubling as a muddle for cocktail making) to the electropolish interior finish that protects against the transfer of taste, smell, and mold. And it's made by Hibear, a fellow Climate Neutral brand who cares about the planet—and zero waste lifestyles—as much as Boon does. This bottle was designed to represent the Seven Summits—the highest mountains on each continent—and features artwork by Lauren Ouye, who draws inspiration from the topographic maps she studied while hiking in the Sierra Nevada Mountains.",
         "tags": [
             "Reusable",
@@ -34,7 +34,7 @@
         "name": "Cookware Set",
         "price": 395,
         "discount": 10,
-        "product_code": "CW-CSET-CRM",
+        "product_code": "SKU: CW-CSET-CRM",
         "description": "Ditch the chemicals with Caraway’s ceramic-coated cookware. Our complete set has everything you'll need for healthy cooking in your kitchen, staying organized with both our pot and lid holders, and looking good while doing so.",
         "tags": null,
         "details": [
@@ -61,7 +61,7 @@
         "name": "Insulated Stainless Steel Bottle with Mountain Artwork",
         "price": 95,
         "discount": 10,
-        "product_code": "70246",
+        "product_code": "SKU: 70246",
         "description": "A water bottle - or a flask - that celebrates and protects the planet. Boon loves this Insulated Stainless Steel Bottle with Mountain Artwork that is designed for making and drinking coffee, tea, cocktails, and more. Every detail is considered—from the freezable steel core that keeps drinks cold without diluting (while also doubling as a muddle for cocktail making) to the electropolish interior finish that protects against the transfer of taste, smell, and mold. Bonus: It's made by Hibear, a fellow Climate Neutral brand who cares about the planet—and zero waste living—as much as Boon does. This limited-edition print was designed in collaboration with artist Bryan Merrell, whose whimsical work is inspired by the Sierra Nevada Mountains.",
         "tags": [
             "Reusable",
@@ -91,7 +91,7 @@
         "name": "Large Gold Baking Sheet",
         "price": 25,
         "discount": 40,
-        "product_code": "10019",
+        "product_code": "SKU: 10019",
         "description": "This gold non-stick carbon steel baking pan will quickly become your favorite. The textured bottom increases airflow for even baking.",
         "tags": [
             "Social Good",
@@ -114,7 +114,7 @@
         "name": "Reclaimed Denim Lunch Box Napkins",
         "price": 128,
         "discount": 10,
-        "product_code": "MAQ-041",
+        "product_code": "SKU: MAQ-041",
         "description": "Zero waste is the name of the game with Boon partner Atelier Saucier. These Reclaimed Denim Lunch Box Napkins feature brightly colored embroidery for each day of the week and complementary rolled edges—perfect for anything from lunch boxes to weekend breakfasts. Atelier Saucier makes them in their Los Angeles studio, sourced from local denim factories' surplus fabric that would otherwise go to waste. This set is great for teaching kids (and adults!) the importance of repurposing and eliminating single-use items like paper napkins.",
         "tags": [
             "Social Good",
@@ -144,7 +144,7 @@
         "name": "Reusable Zip Pouches Set of 3, Frenchie",
         "price": 18,
         "discount": 40,
-        "product_code": "14062",
+        "product_code": "SKU: 14062",
         "description": "Pack snacks or other fresh goodies in these French-inspired reusable zip pouches. Designed by our friends at Hello!Lucky.",
         "tags": [
             "Social Good",
@@ -169,7 +169,7 @@
         "name": "Blue and White Stripe Repurposed Fabric Napkins",
         "price": 66,
         "discount": 10,
-        "product_code": "MAQ-049",
+        "product_code": "SKU: MAQ-049",
         "description": "Zero waste is the name of the game with Boon partner Atelier Saucier. These classic Blue and White Stripe Repurposed Fabric Napkins are made from premium fashion fabric that would have otherwise gone to waste. The rescued textiles are given new life at Atelier Saucier's Los Angeles studio. Each napkin features rolled edges in dusty orange, flame red, deep pine green, or royal blue.",
         "tags": [
             "Social Good",
@@ -200,7 +200,7 @@
         "name": "Reusable Silicone Freezer Bags, Set of 2, Teal",
         "price": 22,
         "discount": 40,
-        "product_code": "60004",
+        "product_code": "SKU: 60004",
         "description": "Perfect to go from freezer to microwave and then into the dishwasher, these bags are a household must-have.",
         "tags": [
             "Social Good",
@@ -225,7 +225,7 @@
         "name": "Reusable Zip Pouches, Set of 5",
         "price": 22,
         "discount": 40,
-        "product_code": "14046",
+        "product_code": "SKU: 14046",
         "description": "Reusable multi use food safe storage. Set of 5.",
         "tags": [
             "Social Good",
@@ -253,7 +253,7 @@
         "name": "Insulated Zip Lunch Tote, Coral",
         "price": 28,
         "discount": 40,
-        "product_code": "30616",
+        "product_code": "SKU: 30616",
         "description": "Keep your cool with this insulated lunch tote in a classic color.",
         "tags": [
             "Social Good",
@@ -282,7 +282,7 @@
         "name": "Travel Tumbler, Teal",
         "price": 19,
         "discount": 40,
-        "product_code": "60023",
+        "product_code": "SKU: 60023",
         "description": "Whether you are at home or on-the-go, this borosilicate glass mug holds hot or cold drinks without tainting the taste. It is microwave safe so you sip and reheat your favorite hot drink throughout the day.",
         "tags": [
             "Social Good",
@@ -308,7 +308,7 @@
         "name": "Food Huggy, Set of 4",
         "price": 15,
         "discount": 40,
-        "product_code": "14029",
+        "product_code": "SKU: 14029",
         "description": "Keep open fruits and vegetables fresh with these silicone food huggies. Can also be used to cover bowls and cans. Set of 4.",
         "tags": [
             "Social Good",
@@ -335,7 +335,7 @@
         "name": "Compost Bin",
         "price": 30,
         "discount": 40,
-        "product_code": "17007",
+        "product_code": "SKU: 17007",
         "description": "The countertop canister holds food scraps until they are transferred to an outdoor compost bin. The in-lid carbon filter absorbs odors.",
         "tags": [
             "Social Good",
@@ -363,7 +363,7 @@
         "name": "Silicone Popsicle Mold",
         "price": 26,
         "discount": 40,
-        "product_code": "17006",
+        "product_code": "SKU: 17006",
         "description": "Made of high quality food grade non toxic silicone. Create healthy popsicle treats any time of year.",
         "tags": [
             "Social Good",
@@ -391,7 +391,7 @@
         "name": "Cookie Cutters With Pouch, Set of 5",
         "price": 15,
         "discount": 40,
-        "product_code": "10025",
+        "product_code": "SKU: 10025",
         "description": "These adorable cookie cutters are the perfect way to bring merry to your baked treats. This set comes with a pouch for storage.",
         "tags": [
             "Social Good",
@@ -421,7 +421,7 @@
         "name": "Reusable Towels, Set of 4, Fruit",
         "price": 24,
         "discount": 40,
-        "product_code": "60008",
+        "product_code": "SKU: 60008",
         "description": "Set of four eco-friendly ultra absorbent towels. A great alternative to paper towels and plastic sponges.",
         "tags": [
             "Social Good",
@@ -448,7 +448,7 @@
         "name": "Rectangle Silicone Lids, Set of 2",
         "price": 19,
         "discount": 40,
-        "product_code": "14045",
+        "product_code": "SKU: 14045",
         "description": "Set of two stretchy rectangle silicone lids. Perfect to cover casseroles, baked goods and all kinds of leftovers.",
         "tags": [
             "Social Good",
@@ -474,7 +474,7 @@
         "name": "Mesh Drawstring Produce Bags, Set of 3",
         "price": 22,
         "discount": 40,
-        "product_code": "43900",
+        "product_code": "SKU: 43900",
         "description": "These drawstring produce bags are the perfect solution for eliminating plastic at the grocery store. Reusable and washable, the breathable material allows them to be stored in the fridge.",
         "tags": [
             "Social Good",
