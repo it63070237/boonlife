@@ -977,10 +977,171 @@
         ]
     },
 
-
-
-
     
+    
+    
+    {
+        "id": 73,
+        "topic": "Cotopaxi",
+        "name": "Del Dia Travel Cube, 10L",
+        "price": 20,
+        "discount": 10,
+        "product_code": "SKU: 70216",
+        "description": "Whether you’re road-tripping somewhere for the weekend or are living out of a backpack for two months, organization is key, and Cotopaxi's travel cubes keep all of your essentials in order. Made with repurposed materials and a wrap-around zipper for easy access, these simple organizers store clothes, toiletries, and other must-have items. Mesh side panels provide ample ventilation, while a top grab handle makes for easy carrying or pulling out of your pack.",
+        "tags": [
+            "Certified B Corporation",
+            "Social Good"
+        ],
+        "details": [
+            "Durable yet lightweight construction",
+            "Repurposed nylon and mesh",
+            "Wrap-around zipper for quick access",
+            "Mesh side panels boost breathability",
+            "Top handle for easy carry",
+            "13' x 10' x 6'",
+            "10 liters"
+        ],
+        "catagory": "Gifting",
+        "sub_catagory": "The Endless Explorer",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70216-1_809e2571-27f4-4c40-aa80-ab578b5e968f.jpg?v=1634843013"
+        ]
+    },
+    {
+        "id": 74,
+        "topic": "Village Thrive",
+        "name": "Handwoven Sun Visor in Black and Blonde",
+        "price": 54,
+        "discount": 10,
+        "product_code": "SKU: L-HT-HOLPA-BKOMB-SM ",
+        "description": "Shop sustainably and support local artisans. Village Thrive embodies the Boon mindset by offering sustainable, natural products handmade by Balinese craftspeople. The Handwoven Sun Visor in Black and Blonde is hand woven from Indonesian pandeanous leaves and combines boater and visor style to give you style and shade in one. Village Thrive partners with highly skilled craftspeople in Bali who use traditional techniques to harvest, dry, and weave these leaves into unique sun hats/visors. Contribute to local craftspeople and bring the tropics to your next outing. Offered in two sizes.",
+        "tags": [
+            "Woman Founded",
+            "Ethically Made"
+        ],
+        "details": [
+            "Total diameter measures approximately 14' with a 3.5' brim",
+            "S/M size is recommended for head circumferences between 20.5-21.5'",
+            "M/L size is recommended for head circumferences between 22-23'",
+            "Exact measurements may vary due to handmade nature",
+            "100% Pandanus Leaf",
+            "Carefully apply low heat from an iron to the brim to reshape if necessary",
+            "Ethically Made in Indonesia"
+        ],
+        "catagory": "Gifting",
+        "sub_catagory": "The Endless Explorer",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/L-HT-HOLPA-BKOMB-SM-1.jpg?v=1632088178",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/L-HT-HOLPA-BKOMB-SM-2.jpg?v=1632088179"
+        ]
+    },
+    {
+        "id": 75,
+        "topic": "Village Thrive",
+        "name": "Eco-friendly Round Rattan Backpack",
+        "price": 89,
+        "discount": 10,
+        "product_code": "SKU: L-BG-RA-BKPK",
+        "description": "Shop sustainably and support local artisans. Village Thrive embodies the Boon mindset by offering sustainable, natural products handmade by Balinese craftspeople. The Eco-friendly Round Rattan Backpack looks natural and supports the health of our planet. Rattan is incredibly sustainable, it's the fastest-growing tropical wood and preserves the rainforest's natural balance while converting carbon dioxide to oxygen. The techniques used to turn raw rattan wood into furniture and accessories have been passed down for generations, relying on handicraft rather than pollution-heavy manufacturing processes. Rattan's strength and resiliency will hold up well to normal wear and tear, reducing waste by lengthening the life of your bag. Each bag features an iron button closure and is lined in batik print fabric.",
+        "tags": [
+            "Woman Founded",
+            "Ethically Made"
+        ],
+        "details": [
+            "Measures approximately 9.5' in diameter",
+            "Comprised of rattan, leather, atta plant, and iron buttons",
+            "Ethically Made in Indonesia"
+        ],
+        "catagory": "Gifting",
+        "sub_catagory": "The Endless Explorer",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/L-BG-RA-BKPK-1.jpg?v=1633709517",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/L-BG-RA-BKPK-3.jpg?v=1632153703",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/L-BG-RA-BKPK-5.jpg?v=1632153703"
+        ]
+    },
+    {
+        "id": 76,
+        "topic": "Cotopaxi",
+        "name": "Do Good 5 Panel Hat, Papaya Lagoon",
+        "price": 29,
+        "discount": 10,
+        "product_code": "SKU: 70221",
+        "description": "A classic five-panel hat sporting Cotopaxi's company creed, the Do Good 5 Panel Hat proclaims our mission to make an impact, and inspires others to do the same. Made from 100% cotton, this comfy lid features a subtle, graphic screen print and an adjustable, nylon strap with clip closure for easy adjustability.",
+        "tags": [
+            "Certified B Corporation",
+            "Social Good"
+        ],
+        "details": [
+            "Low-profile, five-panel design",
+            "100% cotton",
+            "Screen-printed DO GOOD graphic",
+            "Nylon strap clip closure",
+            "Soft, breathable eyelets",
+            "One size fits most"
+        ],
+        "catagory": "Gifting",
+        "sub_catagory": "The Endless Explorer",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70221-1.jpg?v=1616197455",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70221-2.jpg?v=1616198716"
+        ]
+    },
+    {
+        "id": 77,
+        "topic": "Cotopaxi",
+        "name": "Del Dia Travel Cube, 3L",
+        "price": 18,
+        "discount": 10,
+        "product_code": "SKU: 70217",
+        "description": "Whether you’re road-tripping somewhere for the weekend or are living out of a backpack for two months, organization is key, and Cotopaxi's travel cubes keep all of your essentials in order. Made with repurposed materials and a wrap-around zipper for easy access, these simple organizers store clothes, toiletries, and other must-have items. Mesh side panels provide ample ventilation, while a top grab handle makes for easy carrying or pulling out of your pack.",
+        "tags": [
+            "Certified B Corporation",
+            "Social Good",
+            "Reusable"
+        ],
+        "details": [
+            "Durable yet lightweight construction",
+            "Repurposed nylon and mesh",
+            "Wrap-around zipper for quick access",
+            "Mesh side panels boost breathability",
+            "Top handle for easy carry",
+            "3 liters"
+        ],
+        "catagory": "Gifting",
+        "sub_catagory": "The Endless Explorer",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70217-1_f995bddd-851b-46a8-a79a-cd3b740cf6fc.jpg?v=1634843039"
+        ]
+    },
+    {
+        "id": 78,
+        "topic": "Cotopaxi",
+        "name": "Square Mountain Trucker Hat, Indigo",
+        "price": 29,
+        "discount": 10,
+        "product_code": "SKU: 70222",
+        "description": "The perfect cap for when the sun is shining, and even for when it isn’t. Equipped with a mesh back panel, an adjustable snapback closure, and a woven patch graphic, the Square Mountain Trucker Hat is 100% cotton comfort.",
+        "tags": [
+            "Certified B Corporation",
+            "Social Good"
+            
+        ],
+        "details": [
+            "Medium profile trucker",
+            "Woven patch graphic",
+            "Breathable mesh back panel",
+            "Adjustable snapback closure",
+            "100% cotton fabric",
+            "One size fits most"
+        ],
+        "catagory": "Gifting",
+        "sub_catagory": "The Endless Explorer",
+        "pics": [
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70222-1.jpg?v=1616197457",
+            "https://cdn.shopify.com/s/files/1/0515/6762/4376/products/70222-2.jpg?v=1616198625"
+        ]
+    },
     {
         "id": "79",
         "topic": "Atelier Saucier",
