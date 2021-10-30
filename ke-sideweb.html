@@ -53,16 +53,13 @@
 
 </head>
 
-<body>
+<body class="template-product>
     <main id="main" class="page-wrap" role="main">
         <section id="product" class="pv">
 
 
             <!-- kae header start -->
-            <header class="kheader" id="kheader" style="transform: translate3d(0px, 0px, 0px);">
-                <div class="kheader-1" style="background-color: #343434" id="kheader-1">
-                    <span class="kbanner__copy" style="color: #fff" id="kbanner">Welcome to the Boon Market Preview.</span>
-                </div>
+            <header class="kheader2" id="kheader2" style="transform: translate3d(0px, 0px, 0px);">
                 <div class="kheader__container header__flex container" id="kheader__container">
                     <div class="kheader__flex-item kheader__flex-item--flex-start">
                         <nav class="knav knav--header" id="knav">
@@ -134,18 +131,17 @@
                     </div>
                 </div>
             </header>
-    
             <script>
                 window.onscroll = function () { myFunction() };
 
-                var header = document.getElementById("kheader");
+                var header = document.getElementById("kheader2");
                 var sticky = header.offsetTop;
 
                 function myFunction() {
                     if (window.pageYOffset > sticky) {
-                        header.classList.add("sticky");
+                        header.classList.add("sticky1");
                     } else {
-                        header.classList.remove("sticky");
+                        header.classList.remove("sticky1");
                     }
                 }
             </script>
