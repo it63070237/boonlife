@@ -302,11 +302,6 @@ button, input, optgroup, select, textarea {
     }
 }
 @media only screen and (min-width: 1025px){
-.kheader__container {
-    padding: 1.25rem 1.875rem;
-    }
-}
-@media only screen and (min-width: 1025px){
 .kbanner {
     padding-top: .625rem;
     padding-bottom: .4375rem;
@@ -625,6 +620,7 @@ h3 {
 .donated-impact__icon-below {
     position: absolute;
     left: 50%;
+    top: 105%;
     transform: translateX(-50%) rotate(
 90deg);
 }
@@ -675,7 +671,7 @@ h3 {
 .sticky {
     background-color: #fff;
     position: fixed;
-    top: -35px;
+    top: -34.5px;
     min-width: 100%;
     transition: border-bottom-color .3s ease-in-out;
     margin: 0;
@@ -699,7 +695,7 @@ h3 {
     font-size: .64187rem;
     }
 }
-.kheader.sticky {
+.kheader .sticky {
     border-bottom: 1px solid #dadada;
     -webkit-transition: border-bottom-color .3s ease-in-out;
     transition: border-bottom-color .3s ease-in-out;
@@ -711,4 +707,65 @@ h3 {
 .kmain {
     overflow: hidden;
     transition: .4s ease-in-out;
+}
+@media only screen and (min-width: 1025px){
+.navigation__list--child {
+    background-color: #fff;
+    border-top: 1px solid rgba(52,52,52,.15);
+    box-shadow: 0 5px 10px 0 rgb(52 52 52 / 15%);
+    display: block;
+    margin-left: -4px;
+    margin-top: 0;
+    opacity: 0;
+    padding-bottom: 3.125rem;
+    padding-top: 2.3125rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    visibility: hidden;
+    z-index: 13;
+    }
+}
+@media only screen and (min-width: 1025px){
+.navigation__list {
+    transition: visibility .4s ease-in-out,opacity .4s ease-in-out;
+    }
+}
+.acc__menu {
+    overflow: hidden;
+    padding: 0.625rem 1.5625rem;
+    transform: translate3d(0,0,0);
+}
+
+
+
+
+
+@media only screen and (min-width: 1025px){
+.template-product .kheader2 {
+    border-bottom-color: rgba(52,52,52,.15);
+    }
+}
+.template-product .kheader2 {
+    border-bottom: 1px solid #dadada;
+}
+.sticky1 {
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    min-width: 100%;
+    transition: border-bottom-color .3s ease-in-out;
+    margin: 0;
+}
+@media only screen and (min-width: 1025px){
+.sticky1 .kheader__container {
+    padding-top: 3px;
+    padding-bottom: 2px;
+    }
+}
+@media only screen and (min-width: 1025px){
+.sticky1 .kheader__logo {
+        font-size: .64187rem;
+    }
 }
