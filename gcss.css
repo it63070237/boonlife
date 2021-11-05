@@ -105,6 +105,9 @@
     align-items: center;
     text-align: center;
     margin-bottom: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #gshoppic {
@@ -112,17 +115,32 @@
     position: relative;
     z-index: inherit;
     align-items: center;
+
 }
 
 .gpic-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
+    align-items: center;
 }
 
 .gpic {
-    margin: 10px;
-    width: 18.5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    max-width: 17%;
     float: left;
     position: relative;
+}
+
+@media screen and (max-width: 700px) {
+    .gpic{
+        max-width:40%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
 
 .gpic:hover {
@@ -287,6 +305,7 @@
     padding-top: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 .goverlaypicdiv {
@@ -367,3 +386,48 @@
     background-color: white;
     display: block;
 }
+
+.gsplit-icon-touts__header-subtitle{
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .gsplit-icon-touts__header-subtitle{
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+#carouselExampleControls{
+    width: 100%;
+    align-items: center;
+}
+.gsplit{
+    max-width: 80%;
+
+}
+
+.carousel-item{
+    visibility: hidden;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel-item{
+        visibility: visible;
+    }
+    .ghowwework_container{
+        visibility: hidden;
+    }
+}
+
