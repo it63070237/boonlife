@@ -290,6 +290,7 @@ ul li {
 .footer__sublinks-item {
     line-height: 1.5;
     padding-bottom: 0.6rem;
+    font-size: small;
 }
 .footer__sublinks-link {
     color: #747474;
@@ -363,3 +364,4 @@ ul li:last-child {
     margin-right: 0;
     padding: 1.1rem 1.25rem !important;
     text-align: left !important; }
+
