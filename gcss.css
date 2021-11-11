@@ -112,10 +112,7 @@
 
 #gshoppic {
     width: 100%;
-    position: relative;
-    z-index: inherit;
     align-items: center;
-
 }
 
 .gpic-container {
@@ -130,7 +127,7 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
-    max-width: 17%;
+    max-width: 18.5%;
     float: left;
     position: relative;
 }
