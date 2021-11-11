@@ -110,6 +110,11 @@
     margin-right: auto;
 }
 
+.gsfgheading{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 #gshoppic {
     width: 100%;
     align-items: center;
