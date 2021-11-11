@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href="k-styles.css" rel="stylesheet">
+    <link href="old.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <!--Kae Start-->
     <header class="kheader" id="kheader" style="transform: translate3d(0px, 0px, 0px);">
         <div class="kheader-1" style="background-color: #343434" id="kheader-1">
             <span class="kbanner__copy" style="color: #fff" id="kbanner">Welcome to the Boon Market Preview.</span>
@@ -293,80 +292,61 @@
         </div>
         </div>
     </header>
-    <main id="kmain" class="kmain" role="main">
+    <main class="kmain" id="kmain" role="main">
         <section class="khome-hero js-home-hero">
-            <div class="js-home-hero-carousel flickity-enabled is-fade" data-animation-delay="5000" tabindex="0">
-                <div class="flickity-viewport" style="height: 896.75px; touch-action: pan-y;">
-                    <div class="flickity-slider" style="left: 0px; transform: translateX(50%);">
-                        <div class="ir ir--home-hero home-hero__slide is-selected"
-                            style="position: absolute; left: -50%; opacity: 0.884062;">
-                            <div class="ir ir--home-hero">
-                                <img class="phone-only home-hero__image lazyloaded"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/6sTvTwiHT3HvaMsxdf23DI/1957477b91bcdb516cdff96ebe3fc363/f21-market-mobile-homepage.jpg"
-                                    alt=""
-                                    src="https://images.ctfassets.net/j3ulnlrvffmg/6sTvTwiHT3HvaMsxdf23DI/1957477b91bcdb516cdff96ebe3fc363/f21-market-mobile-homepage.jpg">
-                                <img class="hide-phone home-hero__image lazyloaded"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/26e2UoOSrMGctrXy1WYyKc/a2ec3b60be8069261eb573292be76fbd/f21-market-desktop-homepage.jpg"
-                                    alt=""
-                                    src="https://images.ctfassets.net/j3ulnlrvffmg/26e2UoOSrMGctrXy1WYyKc/a2ec3b60be8069261eb573292be76fbd/f21-market-desktop-homepage.jpg">
-                            </div>
-                            <div class="home-hero__content">
-                                <ul class="home-hero__link-list hide-mobile"></ul>
+            <div class="home-hero__carousel">
+                <div class="ir ir--home-hero home-hero__slide is-selected" style="position: relative; opacity: 1;">
+                    <div class="ir ir--home-hero ir1">
+                        <img class="phone-only home-hero__image lazyloaded" src="mobile-homepage-1.jpg" alt="">
+                        <img class="hide-phone home-hero__image lazyloaded" src="desktop-homepage-1.jpg" alt="">
+                    </div>
+                    <div class="home-hero__content">
+                        <ul class="home-hero__link-list hide-mobile"></ul>
 
-                                <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do <span
-                                        class="home-hero__scroll js-home-hero-scroll">Good</span><span
-                                        class="home-hero__heading--asterisk">*</span>
-                                </h1>
+                        <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do <span
+                                class="home-hero__scroll js-home-hero-scroll">Good</span><span
+                                class="home-hero__heading--asterisk">*</span>
+                        </h1>
+                        <h2 class="home-hero__subheading">*Every purchase gives back to the cause <br> that matters most to you.</h2>
 
-                                <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
-                                    style="background-color: #FFFFFF;">SHOW</a>
-                            </div>
-                        </div>
-                        <div class="ir ir--home-hero home-hero__slide"
-                            style="position: absolute; left: -50%; opacity: 0;" aria-hidden="true">
-                            <div class="ir ir--home-hero">
-                                <img class="phone-only home-hero__image lazyloaded"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/6SYcI2bk4bpSoY7brclDU6/806e9ddd90c85c22fdb57b50d75f7bb1/f21-market-mobile-homepage-2.jpg"
-                                    alt=""
-                                    src="https://images.ctfassets.net/j3ulnlrvffmg/6SYcI2bk4bpSoY7brclDU6/806e9ddd90c85c22fdb57b50d75f7bb1/f21-market-mobile-homepage-2.jpg">
-                                <img class="hide-phone home-hero__image lazyloaded"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/1GJ1z8WS5ntc4CFfRtIaqE/337dcba67b261f9e029f3b6068a9ddba/f21-market-desktop-homepage-2.jpg"
-                                    alt=""
-                                    src="https://images.ctfassets.net/j3ulnlrvffmg/1GJ1z8WS5ntc4CFfRtIaqE/337dcba67b261f9e029f3b6068a9ddba/f21-market-desktop-homepage-2.jpg">
-                            </div>
-                            <div class="home-hero__content">
-                                <ul class="home-hero__link-list hide-mobile"></ul>
+                        <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
+                            style="background-color: #FFFFFF;">SHOP NOW</a>
+                    </div>
+                </div>
+                <div class="ir ir--home-hero home-hero__slide" style="position: relative; opacity: 1;">
+                    <div class="ir ir--home-hero ir1">
+                        <img class="phone-only home-hero__image lazyloaded" src="mobile-homepage-2.jpg" alt="">
+                        <img class="hide-phone home-hero__image lazyloaded" src="desktop-homepage-2.jpg" alt="">
+                    </div>
+                    <div class="home-hero__content">
+                        <ul class="home-hero__link-list hide-mobile"></ul>
 
-                                <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do Good<span
-                                        class="home-hero__heading--asterisk">*</span>
-                                </h1>
+                        <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do Good<span
+                                class="home-hero__heading--asterisk">*</span>
+                        </h1>
+                        <h2 class="home-hero__subheading">*Every purchase gives back to the cause <br> that matters most to you.</h2>
 
-                                <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
-                                    style="color: #FFFFFF;">SHOW NOW</a>
-                            </div>
-                        </div>
-                        <div class="ir ir--home-hero home-hero__slide is-selected"
-                            style="position: absolute; left: -50%; opacity: 1;">
-                            <div class="ir ir--home-hero">
-                                <img class="lazyload phone-only home-hero__image"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/Ib7o9fce1Ofzki5oZPqCp/8aaf6e96393c0bb3ed3afaf0dfcfe39f/f21-market-mobile-homepage-3.jpg"
-                                    alt="">
-                                <img class="hide-phone home-hero__image lazyloaded"
-                                    data-src="https://images.ctfassets.net/j3ulnlrvffmg/6ZQPyFjYAnyY2MgVZAN0NN/ef57fbb2baedcdcbb374e35bc06744f2/f21-market-desktop-homepage-3.jpg"
-                                    alt=""
-                                    src="https://images.ctfassets.net/j3ulnlrvffmg/6ZQPyFjYAnyY2MgVZAN0NN/ef57fbb2baedcdcbb374e35bc06744f2/f21-market-desktop-homepage-3.jpg">
-                            </div>
-                            <div class="home-hero__content">
-                                <ul class="home-hero__link-list hide-mobile"></ul>
+                        <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
+                            style="color: #FFFFFF;">SHOP
+                            NOW</a>
+                    </div>
+                </div>
+                <div class="ir ir--home-hero home-hero__slide is-selected" style="position: relative; opacity: 1;">
+                    <div class="ir ir--home-hero ir1">
+                        <img class="lazyload phone-only home-hero__image" src="mobile-homepage-3.jpg" alt="">
+                        <img class="hide-phone home-hero__image lazyloaded" src="desktop-homepage-3.jpg" alt="">
+                    </div>
+                    <div class="home-hero__content">
+                        <ul class="home-hero__link-list hide-mobile"></ul>
 
-                                <h1 class="home-hero__heading js-home-hero-title">Shop Goods That Do Good<span
-                                        class="home-hero__heading--asterisk">*</span>
-                                </h1>
+                        <h1 class="home-hero__heading js-home-hero-title">New: Boon Experiences<span
+                                class="home-hero__heading--asterisk">*</span>
+                        </h1>
+                        <h2 class="home-hero__subheading">*Interactive online workshops, conversations, and classes that give back 40% to your cause.</h2>
 
-                                <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
-                                    style="color: #FFFFFF">SHOW NOW</a>
-                            </div>
-                        </div>
+                        <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
+                            style="color: #FFFFFF">SHOP
+                            NOW</a>
                     </div>
                 </div>
             </div>
@@ -399,6 +379,7 @@
             <i class="icon-global icon-global--wave-dark-orange donated-impact__icon-below"></i>
         </div>
     </main>
+
     <script>
         window.onscroll = function () { myFunction() };
 
@@ -413,7 +394,23 @@
             }
         }
     </script>
-    <!--Kae End-->
+    <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("home-hero__slide");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 8000);
+        }
+    </script>
 </body>
 
 </html>
