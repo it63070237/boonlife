@@ -121,22 +121,22 @@
 
 #gshoppic {
     width: 100%;
-    align-items: center;
+    height: auto;
 }
 
 .gpic-container {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     align-items: center;
+    margin-left: 5px;
 }
 
 .gpic {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
-    max-width: 18.5%;
+    max-width: 18%;
     float: left;
     position: relative;
 }
