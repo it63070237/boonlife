@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shop</title>
-    <link rel="stylesheet" href="k-style.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="k-styles.css">
+    <link rel="stylesheet" href="ke-shop.css">
     <link rel="stylesheet" href="gcss.css">
     <link rel="stylesheet" href="pr-footer.css">
     <link rel="stylesheet" href="cooking.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
 </head>
 
 <body>
     <header class="kheader" id="kheader" style="transform: translate3d(0px, 0px, 0px);">
-
         <div class="kheader__container header__flex container" id="kheader__container">
             <div class="kheader__flex-item kheader__flex-item--flex-start">
                 <nav class="knav knav--header" id="knav">
@@ -25,26 +35,26 @@
                         <li class="knav__item js-nav-item">
                             <button type="button" class="knav__button js-acc-btn acc__btn">
                                 Shop
-                                <i class="knav__button-icon icon-global icon-global--chevron">
+                                <img src="icon/arrow-down-icon-11549436707mosicxsqad-removebg-preview.png"
+                                    style="width: 15px; height:10px;"
+                                    class="knav__button-icon icon-global icon-global--chevron">
 
-                                </i>
-                                <i class="knav__button-wave icon-global icon-global--wave-dark-orange-large desktop-only"
+                                </img>
+                                <!--<i class="knav__button-wave icon-global icon-global--wave-dark-orange-large desktop-only"
                                     id="knav__button-wave">
-
-                                </i>
+                                </i>-->
                             </button>
                             <div class="navigation__list navigation__list--child js-acc-menu js-navigation-dropdown acc__menu"
                                 style="top: 90px;">
-                                <ul class="list-reset navigation__list-wrapper">
+                                <!--<ul class="list-reset navigation__list-wrapper">
                                     <li class="navigation__item navigation__item--child">
-                                        <a href="/collections/kitchen-and-pantry"
+                                        <a
+                                            href="/collections/kitchen-and-pantry"
                                             class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Kitchen
                                             &amp; Pantry</a>
-
                                         <button type="button"
                                             class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Kitchen
                                             &amp; Pantry</button>
-
                                         <ul
                                             class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
                                             <li class="navigation__item navigation__item--grand-child">
@@ -68,11 +78,9 @@
                                             href="/collections/sustainable-home"
                                             class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Sustainable
                                             Home</a>
-
                                         <button type="button"
                                             class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Sustainable
                                             Home</button>
-
                                         <ul
                                             class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
                                             <li class="navigation__item navigation__item--grand-child">
@@ -96,11 +104,9 @@
                                             href="/collections/zero-waste-essentials"
                                             class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Zero-Waste
                                             Essentials</a>
-
                                         <button type="button"
                                             class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Zero-Waste
                                             Essentials</button>
-
                                         <ul
                                             class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
                                             <li class="navigation__item navigation__item--grand-child">
@@ -129,11 +135,9 @@
                                             href="/collections/accessories-more"
                                             class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Accessories
                                             &amp; More</a>
-
                                         <button type="button"
                                             class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Accessories
                                             &amp; More</button>
-
                                         <ul
                                             class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
                                             <li class="navigation__item navigation__item--grand-child">
@@ -160,10 +164,8 @@
                                     </li>
                                     <li class="navigation__item navigation__item--child"><a href="/collections/gifting"
                                             class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Gifting</a>
-
                                         <button type="button"
                                             class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Gifting</button>
-
                                         <ul
                                             class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
                                             <li class="navigation__item navigation__item--grand-child">
@@ -215,7 +217,6 @@
                                     <li
                                         class="navigation__item navigation__item--child navigation__item--tout navigation__item--empty">
                                         <div class="navigation-tout hide-mobile">
-
                                             <a href="/collections/gifting">
                                                 <div class="ir ir--navigation-tout navigation-tout__image"><img
                                                         class="lazyautosizes lazyloaded"
@@ -226,8 +227,6 @@
                                                         srcset="https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=1400 1400w">
                                                 </div>
                                             </a>
-
-
                                             <h4 class="navigation-tout__sub-header">SPOTLIGHT</h4>
                                             <h3 class="navigation-tout__header">Gifts That Give Back</h3>
                                             <a class="navigation-tout__cta" href="/collections/gifting">Explore<i
@@ -235,7 +234,7 @@
                                             </a>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul>-->
                             </div>
                         </li>
                         <li class="knav__item">
@@ -246,9 +245,9 @@
             </div>
             <div class="kheader__flex-item">
                 <div class="kheader__logo">
-                    <i class="kheader__logo-icon icon-global icon-global--logo-market-alt">
-                        <span class="screenreader">Boon Market</span>
-                    </i>
+                    <img src="icon/boonmarket.png" style="width: 100px;"
+                        class="kheader__logo-icon icon-global icon-global--logo-market-alt">
+                    </img>
                 </div>
             </div>
             <div class="kheader__flex-item kheader__flex-item--flex-end">
@@ -256,10 +255,10 @@
                     <div id="kheaderSearch" class="kheader-search">
                         <button id="ksearchButton" type="button" class="btn-icon header-search__button">
                             <span class="screenreader">Search</span>
-                            <i
+                            <img src="icon/search.svg"
                                 class="icon-global icon-global--search header-search__icon header-search__icon--inactive">
 
-                            </i>
+                            </img>
                             <i
                                 class="icon-global icon-global--search-dark-orange header-search__icon header-search__icon--active">
 
@@ -269,16 +268,17 @@
                     <div class="kheader-account hide-mobile">
                         <a href="/account/login" class="btn-icon header-account__button">
                             <span class="screenreader">Account Login</span>
-                            <i class="icon-global icon-global--user">
+                            <img src="icon/person.svg" style="height: 20px;" class="icon-global icon-global--user">
 
-                            </i>
+                            </img>
                         </a>
                     </div>
                     <div class="kheader-bag">
                         <button type="button" class="btn-icon js-bag-toggle" id="bagBtn">
-                            <i class="icon-global icon-global--bag">
+                            <img src="icon/bag.svg" class="icon-global icon-global--bag"
+                                style="height: -moz-available; padding-top: 3;">
 
-                            </i>
+                            </img>
                             <span class="screenreader">Toggle Cart</span>
                         </button>
                     </div>
@@ -288,47 +288,100 @@
         </div>
     </header>
     <main id="kmain" class="kmain" role="main">
-        <section class="khome-hero js-home-hero">
-            <div class="js-home-hero-carousel flickity-enabled is-fade" data-animation-delay="5000" tabindex="0">
-                <div class="flickity-viewport" style="height: 896.75px; touch-action: pan-y;">
-                    <div class="flickity-slider" style="left: 0px; transform: translateX(50%);">
-                        <div class="ir ir--home-hero home-hero__slide is-selected"
-                            style="position: absolute; left: -50%;">
-                            <div class="ir ir--home-hero">
-                                <img src="images/kitchen-pantry-desktop.jpg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
+        <section class="khome-hero">
+            <div class="collection-pills">
+                <div class="cata-btn container">
+                    <span class="btn collection-pills__btn is-selected">All Kitchen &amp; Pantry</span>
+                    <a href="/collections/cooking-pantry" class="btn collection-pills__btn">Cooking &amp; Pantry</a>
+                    <a href="/collections/lunch-essentials" class="btn collection-pills__btn">Lunch Essentials</a>
                 </div>
-                <div class="text">
-                    <div class="minitext">
-                        <span>SERVE SOME GOOD</span>
-                        <span class="is-orange">*</span>
-                        <h1 class="topic">Kitchen & Pantry</h1>
-                    </div>
-                    <div class="button fil" onclick="filter()">
-                        <button type="button" class="btn collection-filters__btn" aria-label="Open Filters"><i
-                                class="icon-collection icon-collection--filter collection-filters__btn-icon"></i> FILTER
-                            BY VALUE</button>
-                    </div>
-                    <div class="button sort">
-                        <button onclick="sort()" type="button" class="btn collection-filters__btn"
-                            aria-label="Open Sort"><i
-                                class="icon-collection icon-collection--sort collection-filters__btn-icon"></i>
-                            SORT</button>
-                    </div>
-
-                </div>
-
+            </div>
         </section>
-        <div class="collection-pills">
-            <div class="collection-pills__inner container">
-                <span class="btn collection-pills__btn is-selected">All Kitchen &amp; Pantry</span>
-                <a href="/collections/cooking-pantry" class="btn collection-pills__btn">Cooking &amp; Pantry</a>
-                <a href="/collections/lunch-essentials" class="btn collection-pills__btn">Lunch Essentials</a>
+        
+        <div class="ke-collection-grid">
+            <div class="container">
+                <div class="collection-grid__count">
+                    <p class="collection-grid__count-text">57 Products</p>
+                </div>
+                <div class="ke-collection-card" id="collection">
+
+                </div>
             </div>
         </div>
+        <script>
+            $.getJSON("data.json", function (data) {
+                var carousel_items = document.getElementById("collection");
+                for (var i = 0; i < data.length; i++) {
+                    if ("Kitchen & Pantry" === data[i].catagory) {
+
+
+                        var carou_article = document.createElement("article");
+                        carou_article.className = "ke-product-grid";
+
+                        var prod_img = document.createElement("div");
+                        prod_img.className = "ke-product-header";
+
+                        var prod_img_link = document.createElement("a");
+                        prod_img_link.className = "ke-to-shop";
+                        prod_img_link.href = "";
+
+                        var prod_img_img = document.createElement("img");
+                        prod_img_img.src = data[i].pics[0];
+                        prod_img_img.alt = data[i].name;
+                        prod_img_link.append(prod_img_img);
+                        prod_img.append(prod_img_link);
+                        carou_article.append(prod_img);
+
+                        var prod_header = document.createElement("div");
+                        prod_header.className = "ke-product-header";
+
+                        var prod_header_span = document.createElement("span");
+                        prod_header_span.className = "ke-product-header-title";
+                        prod_header_span.innerHTML = data[i].topic;
+                        prod_header.append(prod_header_span);
+
+                        var prod_header_h3 = document.createElement("h3");
+                        prod_header_h3.className = "ke-name-to-shop";
+
+                        var prod_header_h3_a = document.createElement("a");
+                        prod_header_h3_a.className = "ke-product-header-name";
+                        prod_header_h3_a.innerHTML = data[i].name;
+                        prod_header_h3.append(prod_header_h3_a);
+                        prod_header.append(prod_header_h3);
+                        carou_article.append(prod_header);
+
+                        var prod_footer = document.createElement("div");
+                        prod_footer.className = "ke-product-carousel-footer";
+
+                        var prod_footer_button = document.createElement("button");
+                        prod_footer_button.className = "ke-product-footer-btn";
+                        prod_footer_button.type = "button";
+                        prod_footer_button.value = data[i].id;
+                        prod_footer_button.onclick = "";
+                        prod_footer_button.innerHTML = "Add to Bag - ";
+
+                        var prod_footer_button_span = document.createElement("span");
+                        prod_footer_button_span.innerHTML = "$" + data[i].price;
+                        prod_footer_button.append(prod_footer_button_span);
+                        prod_footer.append(prod_footer_button);
+
+                        var prod_footer_discount = document.createElement("div");
+                        prod_footer_discount.className = "ke-product-footer-discount";
+
+                        var prod_footer_discount_span = document.createElement("span");
+                        prod_footer_discount_span.className = "ke-product-footer-discount-text";
+                        prod_footer_discount_span.innerHTML = data[i].discount + "% Giveback";
+                        prod_footer_discount.append(prod_footer_discount_span);
+                        prod_footer.append(prod_footer_discount);
+                        carou_article.append(prod_footer);
+
+                        carousel_items.appendChild(carou_article);
+                    }
+                }
+            }).fail(function () {
+                console.log("An error has occurred.");
+            });
+        </script>
     </main>
 
 
@@ -451,46 +504,37 @@
                 <div id="klaviyoFormWrap" class="klaviyo__form-wrap">
                     <div class="klaviyo-form-RrnVgf klaviyo-form form-version-cid-1">
                         <div class="pr_threebox">
-                            <form
-                                class="pr_private"
-                                data-testid="klaviyo-form-RrnVgf">
+                            <form class="pr_private" data-testid="klaviyo-form-RrnVgf">
                                 <div class=" pr_setbox ">
-                                    <div data-testid="form-row"
-                                        class="pr_bfinput">
-                                        <div component="[object Object]" data-testid="form-component"
-                                            class="pr_box ">
-                                            <div
-                                                class="pr_firstmail">
+                                    <div data-testid="form-row" class="pr_bfinput">
+                                        <div component="[object Object]" data-testid="form-component" class="pr_box ">
+                                            <div class="pr_firstmail">
                                                 <input type="text" tabindex="0" styling="[object Object]"
                                                     placeholder="First Name" aria-label="First Name"
                                                     aria-invalid="false" valid="1" options="[object Object]"
                                                     class="pr_infm ">
-                                               
+
                                             </div>
                                         </div>
-                                    </div> 
-                                    <div data-testid="form-row"
-                                        class="pr_box ">
+                                    </div>
+                                    <div data-testid="form-row" class="pr_box ">
                                         <div component="[object Object]" data-testid="form-component"
                                             class="pr_bfinput">
-                                            <div
-                                                class="pr_firstmail">
+                                            <div class="pr_firstmail">
                                                 <input type="email" name="email" tabindex="0" styling="[object Object]"
                                                     placeholder="Email Address" aria-label="Email Address"
                                                     aria-invalid="false" valid="1" options="[object Object]"
                                                     class="pr_infm">
-                                               
+
                                             </div>
                                         </div>
                                     </div>
-                                    <div data-testid="form-row"
-                                        class="pr_box">
+                                    <div data-testid="form-row" class="pr_box">
                                         <div component="[object Object]" data-testid="form-component"
                                             class="pr_private">
-                                            <button type="button" tabindex="0"
-                                                class="pr_go pr_private">
+                                            <button type="button" tabindex="0" class="pr_go pr_private">
                                                 GO
-                                               
+
                                             </button>
                                         </div>
                                     </div>
@@ -595,11 +639,12 @@
             </div>
         </div>
     </footer>
-        <!--pear end footer-->
-        <script async="" type="text/javascript"
-            src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=U6UFgx"></script>
-        <!-- Searchspring IntelliSuggest Tracking -->
-        <script type="text/javascript" src="//cdn.searchspring.net/intellisuggest/is.min.js"></script>
+
+    <!--pear end footer-->
+    <script async="" type="text/javascript"
+        src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=U6UFgx"></script>
+    <!-- Searchspring IntelliSuggest Tracking -->
+    <script type="text/javascript" src="//cdn.searchspring.net/intellisuggest/is.min.js"></script>
     <script>
         window.onscroll = function () { myFunction() };
 
@@ -629,6 +674,37 @@
             document.getElementById("sortoverlay").style.display = "none";
         }
 
+    </script>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("kheader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+    <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("home-hero__slide");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 8000);
+        }
     </script>
 </body>
 
