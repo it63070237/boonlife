@@ -43,22 +43,13 @@ h3 {
      font-size: 2rem;
     line-height: 2rem;
 }
-.icon-global {
-    display: inline-block;
-}
+
 .icon-global--wave-dark-orange::before {
     background-position: 0 -366.8125em;
     width: 4.5em;
     height: .4375em;
 }
-.icon-global::before {
-    background-image: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/sprite-icon-global-50474367.svg?v=2509735192581679796");
-    background-repeat: no-repeat;
-    background-size: 31.375em 372.9375em;
-    content: '';
-    display: block;
-    font-size: 1em;
-}
+
 .pr_klaviyo__desc {
     font-size: 1rem;
     line-height: 1.7;
@@ -320,11 +311,7 @@ ul li:last-child {
     display: flex;
     
 }
-.icon-global--instagram::before {
-    background-position: 0 -300.6875em;
-    width: 1.625em;
-    height: 1.625em;
-}
+
 .screenreader {
     border: 0;
     clip: rect(0,0,0,0);
@@ -336,21 +323,11 @@ ul li:last-child {
     width: 1px;
 }
 
-.icon-global--facebook::before {
 
-    background-position: 0 -259.5em;
-    width: .75em;
-    height: 1.2em;
-
-}
 .footer__social-item:last-child {
     padding-right: 0;
 }
-.icon-global--pinterest::before {
-    background-position: 0 -335.3125em;
-    width: 1.1875em;
-    height: 1.3125em;
-}
+
 .klaviyo-form input {
     background: white !important;
     border: 1px solid #cacaca !important;
@@ -364,4 +341,3 @@ ul li:last-child {
     margin-right: 0;
     padding: 1.1rem 1.25rem !important;
     text-align: left !important; }
-
