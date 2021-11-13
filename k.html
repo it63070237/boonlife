@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="k-styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+</head>
+
+<body class="template-product">
+    <!--Kae Start-->
+    <header class="kheader2" id="kheader2" style="transform: translate3d(0px, 0px, 0px);">
+        <div class="kheader__container header__flex container" id="kheader__container">
+            <div class="kheader__flex-item kheader__flex-item--flex-start">
+                <nav class="knav knav--header" id="knav">
+                    <button id="knavButton" class="knav__button btn-icon hide-desktop">
+                        <span class="screenreader">Navigation</span>
+                        <i class="icon-global icon-global--hamburger navigation__button-hamburger-icon"></i>
+                    </button>
+                    <ul class="klist-reset navigation__list hide-mobile">
+                        <li class="knav__item js-nav-item">
+                            <button type="button" class="knav__button js-acc-btn acc__btn">
+                                Shop
+                                <i class="knav__button-icon icon-global icon-global--chevron">
+
+                                </i>
+                                <i class="knav__button-wave icon-global icon-global--wave-dark-orange-large desktop-only"
+                                    id="knav__button-wave">
+
+                                </i>
+                            </button>
+                            <div class="navigation__list navigation__list--child js-acc-menu js-navigation-dropdown acc__menu"
+                                style="top: 90px;">
+                            </div>
+                        </li>
+                        <li class="knav__item">
+                            <a href="/blogs/the-boon-life" class="knav__button knav__button--url">The Boon Life</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="kheader__flex-item">
+                <div class="kheader__logo">
+                    <i class="kheader__logo-icon icon-global icon-global--logo-market-alt">
+                        <span class="screenreader">Boon Market</span>
+                    </i>
+                </div>
+            </div>
+            <div class="kheader__flex-item kheader__flex-item--flex-end">
+                <div class="kheader__flex">
+                    <div id="kheaderSearch" class="kheader-search">
+                        <button id="ksearchButton" type="button" class="btn-icon header-search__button">
+                            <span class="screenreader">Search</span>
+                            <i
+                                class="icon-global icon-global--search header-search__icon header-search__icon--inactive">
+
+                            </i>
+                            <i
+                                class="icon-global icon-global--search-dark-orange header-search__icon header-search__icon--active">
+
+                            </i>
+                        </button>
+                    </div>
+                    <div class="kheader-account hide-mobile">
+                        <a href="/account/login" class="btn-icon header-account__button">
+                            <span class="screenreader">Account Login</span>
+                            <i class="icon-global icon-global--user">
+
+                            </i>
+                        </a>
+                    </div>
+                    <div class="kheader-bag">
+                        <button type="button" class="btn-icon js-bag-toggle" id="bagBtn">
+                            <i class="icon-global icon-global--bag">
+
+                            </i>
+                            <span class="screenreader">Toggle Cart</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+    </main>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("kheader2");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky1");
+            } else {
+                header.classList.remove("sticky1");
+            }
+        }
+    </script>
+    <!--Kae End-->
+</body>
+
+</html>
