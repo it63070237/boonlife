@@ -60,30 +60,7 @@ h3 {
     
 }
 
-.icon-global--wave-dark-orange::before {
 
-    background-position: 0 -366.8125em;
-    width: 4.5em;
-    height: 0.4375em;
-
-    
-}
-.icon-global-head::before {
-    background-image: url("https://images.ctfassets.net/j3ulnlrvffmg/1cbxRdpVNKdUNlDLrg2RQ7/ebbe8212a9f32665018cf190c525a6a5/2110-home-accessories-circle-tout.jpg?w=540");
-    background-repeat: no-repeat;
-    background-size: 31.375em 372.9375em;
-    content: '';
-    display: block;
-    font-size: 1em;
-}
-.icon-global::before {
-    background-image: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/sprite-icon-global-50474367.svg?v=2509735192581679796");
-    background-repeat: no-repeat;
-    background-size: 31.375em 372.9375em;
-    content: '';
-    display: block;
-    font-size: 1em;
-}
 .container {
     margin: 0 auto;
     max-width: 1439px;
@@ -177,10 +154,19 @@ img {
 .icon-global {
     display: inline-block;
 }
-.icon-global--arrow-dark-orange::before {
-    background-position: 0 -1em;
-    width: 1.1875em;
-    height: 1em;
+.icon-global--wave-dark-orange::before {
+    background-position: 0 -366.8125em;
+    width: 4.5em;
+    height: .4375em;
+    margin-left: 44rem;
+}
+.icon-global::before {
+    background-image: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/sprite-icon-global-50474367.svg?v=2509735192581679796");
+    background-repeat: no-repeat;
+    background-size: 31.375em 372.9375em;
+    content: '';
+    display: block;
+    font-size: 1em;
 }
 .pr-split-tout--alt {
     background-color: #f7f5f2;
