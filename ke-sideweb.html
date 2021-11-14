@@ -8,448 +8,508 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/apple-touch-icon.png"
-        sizes="180x180">
-    <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32"
-        type="image/png">
-    <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16"
-        type="image/png">
-    <link rel="manifest" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/safari-pinned-tab.svg"
-        color="#7952b3">
     <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon.ico">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/apple-touch-icon.png"
-        sizes="180x180">
-    <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32"
-        type="image/png">
-    <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16"
-        type="image/png">
-    <link rel="manifest" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/manifest.json">
-    <link rel="mask-icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/safari-pinned-tab.svg"
-        color="#7952b3">
     <link rel="icon" href="https://getbootstrap.com/docs/5.0/assets/img/favicons/favicon.ico">
+
     <link rel="stylesheet" href="font-awesome.css">
-    <link rel="stylesheet" href="ke-side-styles.css">
-    <link rel="stylesheet" href="index.scss.css">
+    <link rel="stylesheet" href="k-styles.css">
     <link rel="stylesheet" href="pr-footer.css">
     <link rel="stylesheet" href="gcss.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="guitar.js"></script>
-    <link rel="stylesheet" href="style.scss.css">
+
     <link rel="stylesheet" href="product.scss.css">
+    <link rel="stylesheet" href="ke-side-styles.css">
+
+
     <meta name="theme-color" content="#7952b3">
 
 </head>
 
-<body class="template-product>
-    <main id="main" class="page-wrap" role="main">
-        <section id="product" class="pv">
+<body class="template-product">
+    <header class="kheader2" id="kheader2" style="transform: translate3d(0px, 0px, 0px); z-index: 13;">
+        <div class="kheader__container header__flex container" id="kheader__container">
+            <div class="kheader__flex-item kheader__flex-item--flex-start">
+                <nav class="knav knav--header" id="knav">
+                    
+                    <ul class="klist-reset navigation__list hide-mobile">
+                        <li class="knav__item js-nav-item">
+                            <button type="button" class="knav__button js-acc-btn acc__btn">
+                                Shop
+                                <i class="knav__button-icon icon-global icon-global--chevron">
 
-
-            <!-- kae header start -->
-            <header class="kheader2" id="kheader2" style="transform: translate3d(0px, 0px, 0px);">
-                <div class="kheader__container header__flex container" id="kheader__container">
-                    <div class="kheader__flex-item kheader__flex-item--flex-start">
-                        <nav class="knav knav--header" id="knav">
-                            <button id="knavButton" class="knav__button btn-icon hide-desktop">
-                                <span class="screenreader">Navigation</span>
-                                <i class="icon-global icon-global--hamburger navigation__button-hamburger-icon"></i>
+                                </i>
                             </button>
-                            <ul class="klist-reset navigation__list hide-mobile">
-                                <li class="knav__item js-nav-item">
-                                    <button type="button" class="knav__button js-acc-btn acc__btn">
-                                        Shop
-                                        <i class="knav__button-icon icon-global icon-global--chevron">
+                            <div class="navigation__list navigation__list--child js-acc-menu js-navigation-dropdown acc__menu"
+                                style="top: 90px;">
+                            </div>
+                        </li>
+                        <li class="knav__item">
+                            <a href="/blogs/the-boon-life" class="knav__button knav__button--url">The Boon Life</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="kheader__flex-item">
+                <div class="kheader__logo">
+                    <i class="kheader__logo-icon icon-global icon-global--logo-market-alt">
+                        <span class="screenreader">Boon Market</span>
+                    </i>
+                </div>
+            </div>
+            <div class="kheader__flex-item kheader__flex-item--flex-end">
+                <div class="kheader__flex">
+                    <div id="kheaderSearch" class="kheader-search">
+                        <button id="ksearchButton" type="button" class="btn-icon header-search__button">
+                            <span class="screenreader">Search</span>
+                            <i
+                                class="icon-global icon-global--search header-search__icon header-search__icon--inactive">
 
-                                        </i>
-                                        <i class="knav__button-wave icon-global icon-global--wave-dark-orange-large desktop-only"
-                                            id="knav__button-wave">
-
-                                        </i>
-                                    </button>
-                                    <div class="navigation__list navigation__list--child js-acc-menu js-navigation-dropdown acc__menu"
-                                        style="top: 90px;">
-                                    </div>
-                                </li>
-                                <li class="knav__item">
-                                    <a href="/blogs/the-boon-life" class="knav__button knav__button--url">The Boon Life</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="kheader__flex-item">
-                        <div class="kheader__logo">
-                            <i class="kheader__logo-icon icon-global icon-global--logo-market-alt">
-                                <span class="screenreader">Boon Market</span>
                             </i>
-                        </div>
+                            <i
+                                class="icon-global icon-global--search-dark-orange header-search__icon header-search__icon--active">
+
+                            </i>
+                        </button>
                     </div>
-                    <div class="kheader__flex-item kheader__flex-item--flex-end">
-                        <div class="kheader__flex">
-                            <div id="kheaderSearch" class="kheader-search">
-                                <button id="ksearchButton" type="button" class="btn-icon header-search__button">
-                                    <span class="screenreader">Search</span>
-                                    <i
-                                        class="icon-global icon-global--search header-search__icon header-search__icon--inactive">
+                    <div class="kheader-account hide-mobile">
+                        <a href="/account/login" class="btn-icon header-account__button">
+                            <span class="screenreader">Account Login</span>
+                            <i class="icon-global icon-global--user">
 
-                                    </i>
-                                    <i
-                                        class="icon-global icon-global--search-dark-orange header-search__icon header-search__icon--active">
+                            </i>
+                        </a>
+                    </div>
+                    <div class="kheader-bag">
+                        <button type="button" class="btn-icon js-bag-toggle" id="bagBtn">
+                            <i class="icon-global icon-global--bag">
 
-                                    </i>
-                                </button>
-                            </div>
-                            <div class="kheader-account hide-mobile">
-                                <a href="/account/login" class="btn-icon header-account__button">
-                                    <span class="screenreader">Account Login</span>
-                                    <i class="icon-global icon-global--user">
-
-                                    </i>
-                                </a>
-                            </div>
-                            <div class="kheader-bag">
-                                <button type="button" class="btn-icon js-bag-toggle" id="bagBtn">
-                                    <i class="icon-global icon-global--bag">
-
-                                    </i>
-                                    <span class="screenreader">Toggle Cart</span>
-                                </button>
-                            </div>
-                        </div>
+                            </i>
+                            <span class="screenreader">Toggle Cart</span>
+                        </button>
                     </div>
                 </div>
-            </header>
-            <script>
-                window.onscroll = function () { myFunction() };
+            </div>
+        </div>
+    </header>
 
-                var header = document.getElementById("kheader2");
-                var sticky = header.offsetTop;
+    <main id="main" class="page-wrap" role="main">
+   
 
-                function myFunction() {
-                    if (window.pageYOffset > sticky) {
-                        header.classList.add("sticky1");
-                    } else {
-                        header.classList.remove("sticky1");
-                    }
-                }
-            </script>
-            <!-- kae header end -->
-            <!-- keng main start -->
-            <main id="main" class="page-wrap" role="main">
         <section id="product" class="pv">
 
-
-            <!-- kae header start -->
-            <!-- kae header end -->
             <!-- keng main start -->
-            <section class="pv-essentials">
-                <div class="pv-essentials__container container">
+            <div class="ke-row-container container">
 
-                    <div class="pv-essential">
+                <div class="ke-row-col">
 
-                        <div id="gallery" class="carousel">
-
-
-
-                        </div>
-                    </div>
-
-                    <div class="pv-essential">
-
-                        <header class="pv-header" id="head">
-
-
-
-
-                        </header>
-
-
-
-
-                        <form method="post" action="/cart/add" id="addToBagForm" accept-charset="UTF-8"
-                            class="shopify-product-form" enctype="multipart/form-data"
-                            data-product-handle="chambray-pillow-cover-clay" data-enable-history-state="true"
-                            data-max-qty="41" data-bag-qty="0"><input type="hidden" name="form_type"
-                                value="product"><input type="hidden" name="utf8" value="✓">
-
-                            <select class="input js-hidden-id hide" name="id">
-
-                                <option value="40690095292600" selected="selected">Default Title</option>
-
-                            </select>
-
-
-                            <div class="pv-sku" id="code">
-                                <span class="pv-sku__text js-product-sku">SKU: PLW055
-                                </span>
-                            </div>
-
-                            <div class="pv-description" id="description">
-                                
-                            </div>
-
-                            <div class="pv-description-icons">
-                                <ul class="pv-description-icons__list list-reset">
-                                    <li class="pv-description-icons__item"><img
-                                            class="pv-description-icons__icon ls-is-cached lazyloaded"
-                                            data-src="https://images.ctfassets.net/j3ulnlrvffmg/6IiDhX2a6pwZLa7QaKmCD/70f040d23823b4403357936b4168413c/icon_woman-founded.svg"
-                                            alt=""
-                                            src="https://images.ctfassets.net/j3ulnlrvffmg/6IiDhX2a6pwZLa7QaKmCD/70f040d23823b4403357936b4168413c/icon_woman-founded.svg">
-                                        <p class="pv-description-icons__text">Woman Founded</p>
-                                    </li>
-                                    <li class="pv-description-icons__item"><img
-                                            class="pv-description-icons__icon ls-is-cached lazyloaded"
-                                            data-src="https://images.ctfassets.net/j3ulnlrvffmg/6ba4BhLoV8yffj2DuMXSht/fa1246d3a40591605ecf21ac6b9be7fc/icon_ethically-made.svg"
-                                            alt=""
-                                            src="https://images.ctfassets.net/j3ulnlrvffmg/6ba4BhLoV8yffj2DuMXSht/fa1246d3a40591605ecf21ac6b9be7fc/icon_ethically-made.svg">
-                                        <p class="pv-description-icons__text">Ethically Made</p>
-                                    </li>
-                                </ul>
-                            </div>
-
-
-                            <div class="pv-actions">
-                                <div class="pv-action pv-qty">
-                                    <div id="pvIncrement" class="pv-increment increment js-increment">
-                                        <input class="js-pv-quantity" type="hidden" name="quantity" value="1" min="1">
-                                        <button type="button"
-                                            class="pv-increment__btn increment__btn increment__add js-increment-btn"
-                                            data-action="add">
-                                            <i
-                                                class="increment__icon increment__icon--add icon-global icon-global--plus"></i>
-                                            <span class="screenreader">Add</span>
-                                        </button>
-                                        <span class="js-increment-text bag-item__increment-number">1</span>
-                                        <button type="button"
-                                            class="pv-increment__btn increment__btn increment__subtr js-increment-btn"
-                                            data-action="remove">
-                                            <i
-                                                class="increment__icon increment__icon--subtr icon-global icon-global--minus"></i>
-                                            <span class="screenreader">Subtract</span>
-                                        </button>
-                                    </div>
-                                    <div class="pv-increment__oos js-increment-oos hide">
-                                        Currently Out of Stock
-                                    </div>
-                                </div>
-
-                                <div id="btnAddToBagWrap" class="pv-action pv-add"><button
-                                        class="pv-add__btn btn btn--primary" id="btnAddToBag" name="add" type="submit">
-                                        <span class="js-add-to-bag-text" id="btnAddToBagText">Add to Bag</span>
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="pv-qty__messages messages" id="quantityMessages"></div>
-
-                        </form>
-
-                        <div id="notifyConfig" class="notify notify--config js-product-notify" style="display:none;">
-                            <form action="/contact" class="notify__form js-notify-form" data-product-id="6942097899704"
-                                data-variant-id="40690095292600" method="post">
-                                <div class="notify__form-inline form-inline">
-                                    <div class="form-inline__input input-placeholder">
-                                        <label for="notifyInputConfig">
-                                            Enter your email
-                                        </label>
-                                        <input class="notify__input form-inline__input input js-notify-email"
-                                            id="notifyInputConfig" name="contact[email]" required="" type="email"
-                                            value="">
-                                    </div>
-                                    <button class="notify__btn form-inline__btn btn btn--tertiary js-notify-btn"
-                                        type="submit">
-                                        <span class="btn__label">Notify</span>
-                                    </button>
-                                </div>
-                                <div class="notify__response" id="notifyMessageConfig" style="display:none"></div>
-                            </form>
-                        </div>
-
-
-
-
-                        <section class="pv-details" id="detail">
-                            <h3>Details:</h3>
-                            
-                        </section>
-
-
-                        <section class="pv-share">
-                            <button type="button" class="btn btn--tertiary btn--full pv-share__btn js-modal-trigger"
-                                id="shareModalTrigger">
-                                Share This Product
-                            </button>
-                        </section>
-
+                    <div id="gallery" class="carousel">
+                        
                     </div>
                 </div>
 
+                <div class="ke-row-col" style="padding: 0 10rem 0 3rem;">
+
+                    <header class="ke-info-header" id="head">
+
+                    </header>
+
+                    <form method="post" action="/cart/add" id="addToBagForm" accept-charset="UTF-8"
+                        class="shopify-product-form" enctype="multipart/form-data"
+                        data-product-handle="chambray-pillow-cover-clay" data-enable-history-state="true"
+                        data-max-qty="41" data-bag-qty="0"><input type="hidden" name="form_type" value="product"><input
+                            type="hidden" name="utf8" value="✓">
+
+                        <div id="code">
+
+                        </div>
+
+                        <div class="ke-descrip" id="description">
+
+                        </div>
+
+                        <div class="icon-section">
+                            <ul class="icon-ul" id="icon_ul_grid">
+
+                            </ul>
+                        </div>
+
+                        <!-- peem start button -->
+                        <div class="button-set ">
+                            <div class="button-set-quan">
+                                <div id="ButtonSet" class="button-set-quan-grid">
+                                    <button type="button"
+                                        class="pv-increment__btn increment__btn increment__add js-increment-btn"
+                                        data-action="add">
+                                        <i
+                                            class="increment__icon increment__icon--add icon-global icon-global--plus"></i>
+                                        <span class="screenreader">Add</span>
+                                    </button>
+                                    <span class="bag-item__increment-number">1</span>
+                                    <button type="button"
+                                        class="pv-increment__btn increment__btn increment__subtr js-increment-btn"
+                                        data-action="remove">
+                                        <i
+                                            class="increment__icon increment__icon--subtr icon-global icon-global--minus"></i>
+                                        <span class="screenreader">Subtract</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="btnAddToBagWrap" class="pv-action pv-add">
+                                <button class="pv-add__btn btn btn--primary" id="btnAddToBag" name="add" type="submit">
+                                    <span id="btnAddToBagText">Add to Bag</span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- peem end button -->
+
+                    </form>
+
+                    <section class="detail-section" id="detail">
+                        <h3 class="detail-section-header">Details:</h3>
+
+                    </section>
+
+
+                    <section>
+                        <button type="button" class="ke-share-btn"
+                            id="shareModalTrigger">
+                            Share This Product
+                        </button>
+                    </section>
+
                 </div>
+            </div>
 
 
-            </section>
+
             <script>
+                var params = new URLSearchParams(window.location.search);
+                var id = params.get("id");
+                let requestURL = 'data.json';
+                let request = new XMLHttpRequest();
+                request.onreadystatechange = function () {
+                    if (request.readyState == 4 && request.status == 200) {
+                        dataReportStatus(JSON.parse(request.responseText));
+                    }
+                };
+                request.open("GET", requestURL, true);
+                request.send();
 
+                function dataReportStatus(data) {
+
+                    var num = 10; //change
+                    var prod_id = "";
+                    for (var i = 0; i < data.length; i++) {
+                        if (data[i].id == num) {
+                            prod_id = i;
+                            break;
+                        }
+                    }
+                    var prod_carousel = document.getElementById("gallery");
+                    for (var pic = 0; pic < data[prod_id].pics.length; pic++) {
+
+                        var img = document.createElement("img");
+                        img.src = data[prod_id].pics[pic];
+                        img.style = "max-width: 1080px; max-height: 1300px;";
+
+                        var figure = document.createElement("figure");
+                        figure.appendChild(img);
+
+                        var anchor = document.createElement("a");
+                        anchor.href = data[prod_id].pics[pic];
+                        anchor.appendChild(figure);
+
+                        var grid = document.createElement("div");
+                        grid.className = "ke-carousel-grid-img";
+                        grid.appendChild(anchor);
+
+                        var product = document.createElement("div");
+                        product.className = "ke-carousel-grid";
+                        product.appendChild(grid)
+
+
+                        prod_carousel.appendChild(product)
+                    }
+
+
+                    var $carousel = $('.carousel');
+                    $carousel.on('ready.flickity', function () {
+                        console.log('Flickity ready');
+                    });
+
+                    $carousel.flickity({
+                        wrapAround: true,
+                        prevNextButtons: false
+                    });
+
+                    var brand = document.createElement("p");
+                    brand.className = "ke-header-title";
+                    brand.appendChild(document.createTextNode(data[prod_id].topic));
+
+                    var prod_name = document.createElement("h1");
+                    prod_name.className = "ke-header-name";
+                    prod_name.appendChild(document.createTextNode(data[prod_id].name));
+
+                    var sum_price = document.createElement("div");
+                    sum_price.className = "ke-row-price-dis";
+
+                    var price_text = document.createElement("span");
+                    price_text.className = "ke-price-text";
+                    price_text.appendChild(document.createTextNode("$" + data[prod_id].price + ".00"))
+
+                    var price = document.createElement("p");
+                    price.appendChild(price_text);
+
+                    sum_price.appendChild(price);
+
+                    var badge_text = document.createElement("span");
+                    badge_text.className = "ke-badge-text"
+                    badge_text.appendChild(document.createTextNode(data[prod_id].discount + "% Giveback"));
+
+                    var badge = document.createElement("div");
+                    badge.className = "ke-badge-bg";
+                    badge.appendChild(badge_text);
+                    sum_price.appendChild(badge);
+
+                    var head = document.getElementById("head");
+                    head.appendChild(brand);
+                    head.appendChild(prod_name);
+                    head.appendChild(sum_price);
+
+                    var code = document.getElementById("code");
+
+                    var code_text = document.createElement("span");
+                    code_text.className = "ke-code-text";
+                    code_text.appendChild(document.createTextNode(data[prod_id].product_code));
+                    code.appendChild(code_text);
+
+                    var icon_space = document.getElementById("icon_ul_grid");
+
+                    for (var icon = 0; icon < data[prod_id].tags.length; icon++) {
+                        var source = "";
+                        if (data[prod_id].tags[icon] === "Social Good") {
+                            source = "icon/icon_positivity.svg";
+                        }
+                        else if (data[prod_id].tags[icon] === "Climate Neutral") {
+                            source = "icon/icon-certified-organic.svg";
+                        }
+                        else if (data[prod_id].tags[icon] === "Reusable") {
+                            source = "icon/icon_upcycled.svg";
+                        }
+                        else if (data[prod_id].tags[icon] === "Woman Founded") {
+                            source = "icon/Group 9.svg";
+                        }
+                        else if (data[prod_id].tags[icon] === "Made in the USA") {
+                            source = "icon/icon-made-in-the-usa.svg";
+                        }
+                        else {
+                            source = "icon/icon_b.svg";
+                        }
+                        var icon_img = document.createElement("img");
+                        icon_img.src = source;
+
+                        var icon_text = document.createElement("p")
+                        icon_text.className = "icon-text";
+                        icon_text.appendChild(document.createTextNode(data[prod_id].tags[icon]));
+
+                        var icon_li = document.createElement("li");
+                        icon_li.className = "icon-li";
+                        icon_li.appendChild(icon_img);
+                        icon_li.appendChild(icon_text);
+                        icon_space.appendChild(icon_li);
+                    }
+
+
+                    var descrip = document.getElementById("description");
+
+                    var descrip_text = document.createElement("p");
+                    descrip_text.appendChild(document.createTextNode(data[prod_id].description));
+                    descrip.appendChild(descrip_text);
+
+                    var sec_detail = document.getElementById("detail");
+                    var detail_ul = document.createElement("ul");
+                    for (var det = 0; det < data[prod_id].details.length; det++) {
+                        var detail_li = document.createElement("li");
+                        detail_li.className = "detail-section-li"
+                        detail_li.appendChild(document.createTextNode(data[prod_id].details[det]));
+                        detail_ul.appendChild(detail_li);
+                    }
+                    sec_detail.appendChild(detail_ul)
+                }
+
+            </script>
+            <script>
+                $(".flickity-button flickity-prev-next-button next").css("right", "calc(50% + 320px)");
+                $(".flickity-button flickity-prev-next-button next").css("padding-top", "930px");
             </script>
             <!-- keng main end -->
 
 
-            <!-- about brand start -->
-            <!-- about brand end -->
-
-            <!-- keng carousel start -->
-            <!-- keng carousel end -->
-
-
         </section>
-        <script>
-            let params = new URLSearchParams(location.search);
-            let requestURL = 'data.json';
-            let request = new XMLHttpRequest();
-            request.onreadystatechange = function () {
-                if (request.readyState == 4 && request.status == 200) {
-                    dataReportStatus(JSON.parse(request.responseText));
-                }
-            };
-            request.open("GET", requestURL, true);
-            request.send();
 
-            function dataReportStatus(data) {
+        <section class="pv-about">
+            <div class="pv-about__container">
+                <div class="pv-about__short-desc-container">
+                    <div class="badge badge--category">
+                        <span class="badge__text badge__text--category">Brands We Love</span>
+                    </div>
 
-                var num = 78; //change
+                    <div class="heading-with-separator">
+                        <h2 class="pv-about__heading">About Atelier Saucier</h2>
+                        <i class="icon-global icon-global--wave-dark-orange"></i>
+                    </div>
+                    <p class="pv-about__short-desc">Breathing new life into forgotten fabrics</p>
+                </div>
+                <div class="pv-about__long-desc-container">
+                    <div class="pv-about__separator"></div>
+                    <p class="pv-about__long-desc">Sustainability plus giving back make Atelier Saucier a Boon favorite.
+                        They thoughtfully source surplus premium fabrics from L.A. fashion houses and repurpose them
+                        into table linens, runners and napkins. Their small-batch production process reduces waste, and
+                        they give back to wellness initiatives in Los Angeles.</p>
+                </div>
+            </div>
+        </section>
+        <div class="px-4 pt-5 my-5 text-center border-bottom ke-bg-carousel">
+            <header class="ke-header-carousel">
+                <br>
+                <h3 class="ke-font-size-carousel">Shop Your Values</h3>
+                <img src="icon/spliticon.png" alt=""
+                    style="width: 100px; justify-content: center; display: inline-block; padding-top: 0.8rem;">
+                <br>
+                <br>
+                <br>
+            </header>
+            <br><br>
+            <div class="ke-set-button">
+                <div class="ke-struct-carousel">
+                    <div class="set-carousel" id="set-carousel">
 
-                var prod_id = "";
-                for (var i = 0; i < data.length; i++) {
-                    if (data[i].id == num) {
-                        prod_id = i;
-                        break;
+                    </div>
+                </div>
+                <script>
+                    var $carousel = $('.set-carousel');
+                    // bind event listener first
+                    $carousel.on('ready.flickity', function () {
+                        console.log('Flickity ready');
+
+                    });
+
+                    $carousel.flickity({
+                        wrapAround: true,
+                        pageDots: false
+                    });
+
+                </script>
+                <script>
+                    function createItem(catagory) {
+                        $.getJSON("data.json", function (data) {
+                            var flkty = $carousel.data('flickity');
+                            var $cells = $carousel.find('.carousel-cell');
+                            $carousel.flickity('remove', $cells.slice(0, flkty.cells.length));
+                            $carousel.flickity('reloadCells');
+                            for (var i = 0; i < 50; i++) {
+                                for (var tag = 0; tag < data[i].tags.length; tag++) {
+                                    if (catagory === data[i].tags[tag]) {
+                                        var carousel_items = document.getElementById("carousel");
+
+                                        var carou_article = document.createElement("article");
+                                        carou_article.className = "ke-product-grid carousel-cell";
+
+                                        var prod_img = document.createElement("div");
+                                        prod_img.className = "ke-product-header";
+
+                                        var prod_img_link = document.createElement("a");
+                                        prod_img_link.className = "ke-to-shop";
+                                        prod_img_link.href = "";
+
+                                        var prod_img_img = document.createElement("img");
+                                        prod_img_img.src = data[i].pics[0];
+                                        prod_img_img.alt = data[i].name;
+                                        prod_img_link.append(prod_img_img);
+                                        prod_img.append(prod_img_link);
+                                        carou_article.append(prod_img);
+
+                                        var prod_header = document.createElement("div");
+                                        prod_header.className = "ke-product-header";
+
+                                        var prod_header_span = document.createElement("span");
+                                        prod_header_span.className = "ke-product-header-title";
+                                        prod_header_span.innerHTML = data[i].topic;
+                                        prod_header.append(prod_header_span);
+
+                                        var prod_header_h3 = document.createElement("h3");
+                                        prod_header_h3.className = "ke-name-to-shop";
+
+                                        var prod_header_h3_a = document.createElement("a");
+                                        prod_header_h3_a.className = "ke-product-header-name";
+                                        prod_header_h3_a.innerHTML = data[i].name;
+                                        prod_header_h3.append(prod_header_h3_a);
+                                        prod_header.append(prod_header_h3);
+                                        carou_article.append(prod_header);
+
+                                        var prod_footer = document.createElement("div");
+                                        prod_footer.className = "ke-product-carousel-footer";
+
+                                        var prod_footer_button = document.createElement("button");
+                                        prod_footer_button.className = "ke-product-footer-btn";
+                                        prod_footer_button.type = "button";
+                                        prod_footer_button.value = data[i].id;
+                                        prod_footer_button.onclick = "";
+                                        prod_footer_button.innerHTML = "Add to Bag - ";
+
+                                        var prod_footer_button_span = document.createElement("span");
+                                        prod_footer_button_span.innerHTML = "$" + data[i].price;
+                                        prod_footer_button.append(prod_footer_button_span);
+                                        prod_footer.append(prod_footer_button);
+
+                                        var prod_footer_discount = document.createElement("div");
+                                        prod_footer_discount.className = "ke-product-footer-discount";
+
+                                        var prod_footer_discount_span = document.createElement("span");
+                                        prod_footer_discount_span.className = "ke-product-footer-discount-text";
+                                        prod_footer_discount_span.innerHTML = data[i].discount + "% Giveback";
+                                        prod_footer_discount.append(prod_footer_discount_span);
+                                        prod_footer.append(prod_footer_discount);
+                                        carou_article.append(prod_footer);
+
+                                        $carousel.flickity('append', carou_article);
+                                        console.log("success")
+                                        $carousel.flickity('reloadCells');
+                                    }
+                                }
+                            }
+                        }).fail(function () {
+                            console.log("An error has occurred.");
+                        });
                     }
-                }
-                var prod_carousel = document.getElementById("gallery");
-                for (var pic = 0; pic < data[prod_id].pics.length; pic++) {
+                    var carousel_value = "Social Good";
+                    createItem(carousel_value);
+                </script>
 
-                    var img = document.createElement("img");
-                    img.src = data[prod_id].pics[pic];
-                    img.style = "max-width: 1080px; max-height: 1300px;";
+                <br><br><br><br>
 
-                    var figure = document.createElement("figure");
-                    figure.className = "mz-figure mz-click-zoom mz-no-expand mz-inner-zoom mz-no-zoom";
-                    figure.appendChild(img);
-
-                    var anchor = document.createElement("a");
-                    anchor.href = data[prod_id].pics[pic];
-                    anchor.className = "MagicZoom";
-                    anchor.appendChild(figure);
-
-                    var grid = document.createElement("div");
-                    grid.className = "ir ir--product";
-                    grid.appendChild(anchor);
-
-                    var product = document.createElement("div");
-                    product.className = "pv-gallery__item";
-                    product.appendChild(grid)
-
-
-                    prod_carousel.appendChild(product)
-                }
-
-
-                var $carousel = $('.carousel');
-                // bind event listener first
-                $carousel.on('ready.flickity', function () {
-                    console.log('Flickity ready');
-                    buttons = $('.main-carousel .flickity-button')
-                });
-
-                $carousel.flickity({
-                    wrapAround: true,
-                });
-
-                var brand = document.createElement("p");
-                brand.className = "pv-brand";
-                brand.appendChild(document.createTextNode(data[prod_id].topic));
-
-                var prod_name = document.createElement("h1");
-                prod_name.className = "pv-title";
-                prod_name.appendChild(document.createTextNode(data[prod_id].name));
-
-                var sum_price = document.createElement("div");
-                sum_price.className = "pv-price-giveback";
-
-                var price_text = document.createElement("span");
-                price_text.className = "pv-price__original";
-                price_text.appendChild(document.createTextNode("$" + data[prod_id].price + ".00"))
-
-                var price = document.createElement("p");
-                price.appendChild(price_text);
-                price.className = "pv-price";
-                sum_price.appendChild(price);
-
-                var badge_text = document.createElement("span");
-                badge_text.className = "badge__text badge__text--giveback"
-                badge_text.appendChild(document.createTextNode(data[prod_id].discount + "% Giveback"));
-
-                var badge = document.createElement("div");
-                badge.className = "pv-giveback-badge badge badge--giveback";
-                badge.appendChild(badge_text);
-                sum_price.appendChild(badge);
-
-                var head = document.getElementById("head");
-                head.appendChild(brand);
-                head.appendChild(prod_name);
-                head.appendChild(sum_price);
-
-                var code = document.getElementById("code");
-                code.className = "pv-sku";
-
-                var code_text = document.createElement("span");
-                code_text.className = "pv-sku__text";
-                code_text.appendChild(document.createTextNode(data[prod_id].product_code));
-                code.appendChild(code_text);
-
-                var descrip = document.getElementById("description");
-                descrip.className = "pv-description";
-
-                var descrip_text = document.createElement("p");
-                descrip_text.appendChild(document.createTextNode(data[prod_id].description));
-                descrip.appendChild(descrip_text);
-
-                var sec_detail = document.getElementById("detail");
-                var detail_ul = document.createElement("ul");
-                for(var det=0; det < data[prod_id].details.length; det++){
-                    var detail_li = document.createElement("li");
-                    detail_li.appendChild(document.createTextNode(data[prod_id].details[det]));
-                    detail_ul.appendChild(detail_li);
-                }
-                sec_detail.appendChild(detail_ul)
-            }
-
-        </script>
+                <script>
+                    var carousel_value = "Social Good";
+                    createItem(carousel_value);
+                    $(".ke-cata-btn").click(function () {
+                        $(".ke-selected").removeClass("ke-selected");
+                        $(this).addClass("ke-selected");
+                        carousel_value = $(this).val();
+                        createItem(carousel_value);
+                        $carousel.flickity('reloadCells');
+                    })
+                </script>
+            </div>
+        </div>
     </main>
-            <!-- keng main end -->
-            
-
-            <!-- about brand start -->
-            <!-- about brand end -->
-
-            <!-- keng carousel start -->
-            <!-- keng carousel end -->
-
-
-        </section>
-
-        <!-- pear footer start -->
+    <!-- pear footer start -->
     <footer id="footer" class="footer" role="contentinfo">
         <div class="pr_footer__newsletter">
             <div id="klaviyo" class="klaviyo">
@@ -467,46 +527,37 @@
                 <div id="klaviyoFormWrap" class="klaviyo__form-wrap">
                     <div class="klaviyo-form-RrnVgf klaviyo-form form-version-cid-1">
                         <div class="pr_threebox">
-                            <form
-                                class="pr_private"
-                                data-testid="klaviyo-form-RrnVgf">
+                            <form class="pr_private" data-testid="klaviyo-form-RrnVgf">
                                 <div class=" pr_setbox ">
-                                    <div data-testid="form-row"
-                                        class="pr_bfinput">
-                                        <div component="[object Object]" data-testid="form-component"
-                                            class="pr_box ">
-                                            <div
-                                                class="pr_firstmail">
+                                    <div data-testid="form-row" class="pr_bfinput">
+                                        <div component="[object Object]" data-testid="form-component" class="pr_box ">
+                                            <div class="pr_firstmail">
                                                 <input type="text" tabindex="0" styling="[object Object]"
                                                     placeholder="First Name" aria-label="First Name"
                                                     aria-invalid="false" valid="1" options="[object Object]"
                                                     class="pr_infm ">
-                                               
+
                                             </div>
                                         </div>
-                                    </div> 
-                                    <div data-testid="form-row"
-                                        class="pr_box ">
+                                    </div>
+                                    <div data-testid="form-row" class="pr_box ">
                                         <div component="[object Object]" data-testid="form-component"
                                             class="pr_bfinput">
-                                            <div
-                                                class="pr_firstmail">
+                                            <div class="pr_firstmail">
                                                 <input type="email" name="email" tabindex="0" styling="[object Object]"
                                                     placeholder="Email Address" aria-label="Email Address"
                                                     aria-invalid="false" valid="1" options="[object Object]"
                                                     class="pr_infm">
-                                               
+
                                             </div>
                                         </div>
                                     </div>
-                                    <div data-testid="form-row"
-                                        class="pr_box">
+                                    <div data-testid="form-row" class="pr_box">
                                         <div component="[object Object]" data-testid="form-component"
                                             class="pr_private">
-                                            <button type="button" tabindex="0"
-                                                class="pr_go pr_private">
+                                            <button type="button" tabindex="0" class="pr_go pr_private">
                                                 GO
-                                               
+
                                             </button>
                                         </div>
                                     </div>
@@ -611,12 +662,25 @@
             </div>
         </div>
     </footer>
-        <!-- pear footer end -->
+    <!-- pear footer end -->
+    <script>
+        window.onscroll = function () { myFunction() };
 
-        <!-- peem start -->
-        <!-- peem end -->
+        var header = document.getElementById("kheader2");
+        var sticky = header.offsetTop;
 
-    </main>
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky1");
+            } else {
+                header.classList.remove("sticky1");
+            }
+        }
+    </script>
+    <!-- peem start -->
+    <!-- peem end -->
+
+
 </body>
 
 </html>
