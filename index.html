@@ -21,14 +21,189 @@
 
     <link rel="stylesheet" href="pr-whatfresh.css">
     <link rel="stylesheet" href="k-styles.css">
+    <link rel="stylesheet" href="peem-css.css">
     <link rel="stylesheet" href="ke-styles.css">
+    <script src="peem-js.js"></script>
     <script src="guitar.js"></script>
     <meta name="theme-color" content="#7952b3">
 
 </head>
 
 <body class="template-index has-banner is-sticky" data-new-gr-c-s-check-loaded="8.887.0" data-gr-ext-installed="">
-    <!--Kae Start-->
+
+    <script>
+        function createItemBag(id) {
+            $.getJSON("data.json", function (data) {
+                for (var i = 0; i < data.length; i++) {
+                    if (id == data[i].id) {
+                        console.log("Success5");
+                        var space = document.getElementById("pe-prodcontent");
+
+                        var bag_article = document.createElement("article");
+                        bag_article.className = "ke-in-bag";
+                        /* End article */
+
+                        var bag_article_grid = document.createElement("div");
+                        bag_article_grid.className = "ke-in-bag-grid";
+
+                        var bag_article_grid_img = document.createElement("div");
+                        bag_article_grid_img.className = "ke-in-bag-img-grid";
+
+                        var bag_article_grid_img_crop = document.createElement("div");
+                        bag_article_grid_img_crop.className = "ke-img-crop";
+
+                        var bag_article_grid_img_crop_img = document.createElement("img");
+                        bag_article_grid_img_crop_img.className = "ke-in-bag-img-img";
+                        bag_article_grid_img_crop_img.src = data[i].pics[0];
+
+                        bag_article_grid_img_crop.appendChild(bag_article_grid_img_crop_img);
+                        bag_article_grid_img.appendChild(bag_article_grid_img_crop);
+
+                        /* End img */
+                        bag_article_grid.appendChild(bag_article_grid_img);
+                        /* End img */
+
+                        var bag_article_grid_content = document.createElement("div");
+                        bag_article_grid_content.className = "ke-in-bag-content";
+
+                        var bag_article_grid_content_header = document.createElement("div");
+                        bag_article_grid_content_header.className = "ke-in-bag-content-header-grid";
+                        
+                        var bag_article_grid_content_header_topic = document.createElement("p");
+                        bag_article_grid_content_header_topic.className = "ke-in-bag-content-header-topic";
+                        bag_article_grid_content_header_topic.innerHTML = data[i].topic;
+
+                        bag_article_grid_content_header.appendChild(bag_article_grid_content_header_topic);
+                        
+                        var bag_article_grid_content_header_name = document.createElement("h4");
+                        bag_article_grid_content_header_name.className = "ke-in-bag-content-header-topic-name";
+                        bag_article_grid_content_header_name.innerHTML = data[i].name;
+
+                        bag_article_grid_content_header.appendChild(bag_article_grid_content_header_name);
+
+                        bag_article_grid_content.appendChild(bag_article_grid_content_header);
+                        /* end content_header*/
+
+                        var bag_article_grid_content_order = document.createElement("div");
+                        bag_article_grid_content_order.className = "ke-in-bag-order";
+
+                        var bag_article_grid_content_order_qty = document.createElement("div");
+                        bag_article_grid_content_order_qty.className = "ke-in-bag-order-qty";
+
+                        var bag_article_grid_content_order_qty_btn = document.createElement("div");
+                        bag_article_grid_content_order_qty_btn.className = "ke-in-bag-order-button-set";
+
+                        var bag_article_grid_content_order_qty_btn_num = document.createElement("span");
+                        bag_article_grid_content_order_qty_btn_num.className = "ke-in-bag-order-button-qty";
+                        bag_article_grid_content_order_qty_btn_num.innerHTML = 1;
+                        bag_article_grid_content_order_qty_btn_num.type = "text";
+                        bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_num);
+
+                        var bag_article_grid_content_order_qty_btn_add = document.createElement("button");
+                        bag_article_grid_content_order_qty_btn_add.className = "ke-in-bag-order-button-qty-add";
+                        
+                        var bag_article_grid_content_order_qty_btn_add_pic = document.createElement("img");
+                        bag_article_grid_content_order_qty_btn_add_pic.src = "icon/plus.svg";
+                        bag_article_grid_content_order_qty_btn_add_pic.style = "width: 20px;";
+                        bag_article_grid_content_order_qty_btn_add.appendChild(bag_article_grid_content_order_qty_btn_add_pic);
+                        bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_add);
+
+                        var bag_article_grid_content_order_qty_btn_minus = document.createElement("button");
+                        bag_article_grid_content_order_qty_btn_minus.className = "ke-in-bag-order-button-qty-minus";
+                        
+                        var bag_article_grid_content_order_qty_btn_minus_pic = document.createElement("img");
+                        bag_article_grid_content_order_qty_btn_minus_pic.src = "icon/dash.svg";
+                        bag_article_grid_content_order_qty_btn_minus_pic.style = "width: 20px;";
+                        bag_article_grid_content_order_qty_btn_minus.appendChild(bag_article_grid_content_order_qty_btn_minus_pic);
+                        bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_minus);
+                        bag_article_grid_content_order_qty.appendChild(bag_article_grid_content_order_qty_btn);
+                        /* end button*/
+
+                        var bag_article_grid_content_order_qty_rem = document.createElement("a");
+                        bag_article_grid_content_order_qty_rem.className = "ke-in-bag-order-remove";
+                        bag_article_grid_content_order_qty_rem.innerHTML = "Remove";
+                        bag_article_grid_content_order_qty.appendChild(bag_article_grid_content_order_qty_rem);
+
+                        bag_article_grid_content_order.appendChild(bag_article_grid_content_order_qty);
+                        /* end button section */
+                        
+                        var bag_article_grid_content_order_footer = document.createElement("div");
+                        bag_article_grid_content_order_footer.className = "ke-in-bag-order-footer";
+
+                        var bag_article_grid_content_order_footer_discount = document.createElement("span");
+                        bag_article_grid_content_order_footer_discount.className = "ke-in-bag-order-footer-discount";
+                        bag_article_grid_content_order_footer_discount.innerHTML = data[i].discount + "% giveback";
+                        bag_article_grid_content_order_footer.appendChild(bag_article_grid_content_order_footer_discount);
+
+                        var bag_article_grid_content_order_footer_price = document.createElement("span");
+                        bag_article_grid_content_order_footer_price.className = "ke-in-bag-order-footer-price";
+                        bag_article_grid_content_order_footer_price.innerHTML =  "$" + data[i].price + ".00";
+                        bag_article_grid_content_order_footer.appendChild(bag_article_grid_content_order_footer_price);
+
+                        bag_article_grid_content_order.appendChild(bag_article_grid_content_order_footer);
+
+                        bag_article_grid_content.appendChild(bag_article_grid_content_order);
+                        bag_article_grid.appendChild(bag_article_grid_content);
+                        bag_article.appendChild(bag_article_grid);
+                        space.appendChild(bag_article);
+                    }
+                }
+            }).fail(function () {
+                console.log("An error has occurred.");
+            });
+        };
+
+        $(document).ready(function () {
+            $(".ke-product-footer-btn").click(function () {
+                openNav();
+                $("#nullContent").hide();
+                console.log($(this).attr("value"))
+                createItemBag($(this).attr("value"));
+            });
+        });
+
+        $(".ke-product-footer-btn").click(function () {
+                openNav();
+                $("#nullContent").hide();
+                console.log($(this).attr("value"))
+                createItemBag($(this).attr("value"));
+            });
+
+    </script>
+
+    <!-- peem start -->
+    <div id="mySidebar" class="sidebar container-products">
+        <header style="border-bottom: 0.5px solid black;">
+            <div class="pe-header">
+                <a href="javascript:void(0)" class="btn-icon closebtn" onclick="closeNav()">x</a>
+                <h4 class="title">Your Bag (count)</h4>
+            </div>
+        </header>
+        <div class="pe-content">
+            <div class="row" id="nullContent">
+                <div id="bagEmpty" class="bag__empty">
+                    <h3>
+                        <img src="icon/arrow-left.svg" alt="" style="width: 20px;" class="pe-img-pad">
+                        <span class="pe-header-main-text">Back to shopping</span>
+                    </h3>
+                    <p class="pe-header-text-desc">
+                        You have no items in your shopping cart.
+                    </p>
+                </div>
+            </div>
+            <div class="row" id="pe-prodcontent">
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="overlay" onclick="closeNav()"></div>
+    <!-- peem end -->
+
 
     <!--Kae Start-->
     <header class="kheader" id="kheader" style="transform: translate3d(0px, 0px, 0px);">
@@ -57,195 +232,6 @@
                             </button>
                             <div class="navigation__list navigation__list--child js-acc-menu js-navigation-dropdown acc__menu"
                                 style="top: 90px;">
-                                <!--<ul class="list-reset navigation__list-wrapper">
-                                    <li class="navigation__item navigation__item--child">
-                                        <a
-                                            href="/collections/kitchen-and-pantry"
-                                            class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Kitchen
-                                            &amp; Pantry</a>
-                                        <button type="button"
-                                            class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Kitchen
-                                            &amp; Pantry</button>
-                                        <ul
-                                            class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/cooking-pantry"
-                                                    class="navigation__button navigation__button--grand-child">Cooking
-                                                    &amp; Pantry</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/lunch-essentials"
-                                                    class="navigation__button navigation__button--grand-child">Lunch
-                                                    Essentials</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child hide-desktop">
-                                                <a href="/collections/kitchen-and-pantry"
-                                                    class="navigation__button navigation__button--grand-child">All
-                                                    Kitchen &amp; Pantr</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="navigation__item navigation__item--child"><a
-                                            href="/collections/sustainable-home"
-                                            class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Sustainable
-                                            Home</a>
-                                        <button type="button"
-                                            class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Sustainable
-                                            Home</button>
-                                        <ul
-                                            class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/home-decor"
-                                                    class="navigation__button navigation__button--grand-child">Home
-                                                    Decor</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/home-accessories"
-                                                    class="navigation__button navigation__button--grand-child">Home
-                                                    Accessories</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child hide-desktop">
-                                                <a href="/collections/sustainable-home"
-                                                    class="navigation__button navigation__button--grand-child">All
-                                                    Sustainable Home</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="navigation__item navigation__item--child"><a
-                                            href="/collections/zero-waste-essentials"
-                                            class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Zero-Waste
-                                            Essentials</a>
-                                        <button type="button"
-                                            class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Zero-Waste
-                                            Essentials</button>
-                                        <ul
-                                            class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/waste-free-living"
-                                                    class="navigation__button navigation__button--grand-child">Waste-Free
-                                                    Living</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/bags-totes"
-                                                    class="navigation__button navigation__button--grand-child">Bags
-                                                    &amp; Totes</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/personal-care-cleaning"
-                                                    class="navigation__button navigation__button--grand-child">Personal
-                                                    Care &amp; Cleaning</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child hide-desktop">
-                                                <a href="/collections/zero-waste-essentials"
-                                                    class="navigation__button navigation__button--grand-child">All
-                                                    Zero-Waste Essentials</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="navigation__item navigation__item--child"><a
-                                            href="/collections/accessories-more"
-                                            class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Accessories
-                                            &amp; More</a>
-                                        <button type="button"
-                                            class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Accessories
-                                            &amp; More</button>
-                                        <ul
-                                            class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/personal-accessories"
-                                                    class="navigation__button navigation__button--grand-child">Personal
-                                                    Accessories</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/pet-accessories"
-                                                    class="navigation__button navigation__button--grand-child">Pet
-                                                    Accessories</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/baby-child"
-                                                    class="navigation__button navigation__button--grand-child">Baby
-                                                    &amp; Child</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child hide-desktop">
-                                                <a href="/collections/accessories-more"
-                                                    class="navigation__button navigation__button--grand-child">All
-                                                    Accessories &amp; More</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="navigation__item navigation__item--child"><a href="/collections/gifting"
-                                            class="desktop-only navigation__button navigation__button--child js-acc-btn acc__btn">Gifting</a>
-                                        <button type="button"
-                                            class="mobile-only navigation__button navigation__button--child js-acc-btn acc__btn">Gifting</button>
-                                        <ul
-                                            class="list-reset navigation__list navigation__list--grand-child js-acc-menu acc__menu">
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/gifts-for-the-endless-explorer"
-                                                    class="navigation__button navigation__button--grand-child">For the
-                                                    Endless Explorer</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/gifts-for-the-earth-lover"
-                                                    class="navigation__button navigation__button--grand-child">For the
-                                                    Earth Lover</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/gifts-for-the-lifelong-learner"
-                                                    class="navigation__button navigation__button--grand-child">For the
-                                                    Lifelong Learner</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/gifts-for-the-one-who-has-it-all"
-                                                    class="navigation__button navigation__button--grand-child">For the
-                                                    One Who Has it All</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/gifts-for-the-ultimate-host"
-                                                    class="navigation__button navigation__button--grand-child">For the
-                                                    Ultimate Host</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/gifts-for-the-stocking-stuffer"
-                                                    class="navigation__button navigation__button--grand-child">For the
-                                                    Stocking Stuffer</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child">
-                                                <a href="/collections/gift-wrap"
-                                                    class="navigation__button navigation__button--grand-child">Gift
-                                                    Wrap</a>
-                                            </li>
-                                            <li class="navigation__item navigation__item--grand-child hide-desktop">
-                                                <a href="/collections/gifting"
-                                                    class="navigation__button navigation__button--grand-child">All
-                                                    Gifting</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="navigation__item navigation__item--child navigation__item--empty"><a
-                                            href="/collections/all-items"
-                                            class="navigation__button navigation__button--url navigation__button--child">Shop
-                                            All Products</a></li>
-                                    <li
-                                        class="navigation__item navigation__item--child navigation__item--tout navigation__item--empty">
-                                        <div class="navigation-tout hide-mobile">
-                                            <a href="/collections/gifting">
-                                                <div class="ir ir--navigation-tout navigation-tout__image"><img
-                                                        class="lazyautosizes lazyloaded"
-                                                        data-widths="[180,360,540,720,900,1080,1266,1400]"
-                                                        data-sizes="auto" tabindex="-1" alt=""
-                                                        data-srcset="https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=1400 1400w"
-                                                        sizes="280px"
-                                                        srcset="https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=180 180w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=360 360w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=540 540w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=720 720w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=900 900w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=1080 1080w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=1266 1266w, https://images.ctfassets.net/j3ulnlrvffmg/UInXMxSxYT08XZzSMxitM/af3b6798c82ef427143af1e1871142e5/2110-gifting-nav-circle-tout.jpg?w=1400 1400w">
-                                                </div>
-                                            </a>
-                                            <h4 class="navigation-tout__sub-header">SPOTLIGHT</h4>
-                                            <h3 class="navigation-tout__header">Gifts That Give Back</h3>
-                                            <a class="navigation-tout__cta" href="/collections/gifting">Explore<i
-                                                    class="navigation-tout__icon icon-global icon-global--arrow-dark-orange"></i>
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>-->
                             </div>
                         </li>
                         <li class="knav__item">
@@ -285,8 +271,9 @@
                         </a>
                     </div>
                     <div class="kheader-bag">
-                        <button type="button" class="btn-icon js-bag-toggle" id="bagBtn">
-                            <img src="icon/bag.svg" class="icon-global icon-global--bag" style="height: -moz-available; padding-top: 3;">
+                        <button type="button" class="btn-icon js-bag-toggle" id="bagBtn" onclick="openNav();">
+                            <img src="icon/bag.svg" class="icon-global icon-global--bag"
+                                style="height: -moz-available; padding-top: 3;">
 
                             </img>
                             <span class="screenreader">Toggle Cart</span>
@@ -605,6 +592,14 @@
                                     prod_header_h3_a.id = data[i].id;
                                     prod_header_h3_a.className = "ke-product-header-name";
                                     prod_header_h3_a.innerHTML = data[i].name;
+                                    prod_header_h3_a.href = "#";
+                                    prod_header_h3_a.onclick = function () {
+                                        var id = $(".ke-to-shop").attr("id");
+                                        var params = new URLSearchParams();
+                                        params.append("id", id);
+                                        var url = "ke-sideweb.html?" + params.toString();
+                                        location.href = url;
+                                    }
                                     prod_header_h3.append(prod_header_h3_a);
                                     prod_header.append(prod_header_h3);
                                     carou_article.append(prod_header);
@@ -614,9 +609,7 @@
 
                                     var prod_footer_button = document.createElement("button");
                                     prod_footer_button.className = "ke-product-footer-btn";
-                                    prod_footer_button.type = "button";
                                     prod_footer_button.value = data[i].id;
-                                    prod_footer_button.onclick = "";
                                     prod_footer_button.innerHTML = "Add to Bag - ";
 
                                     var prod_footer_button_span = document.createElement("span");
@@ -668,8 +661,6 @@
 
         </script>
         <!-- Keng End -->
-
-
 
 
         <!-- pear what's fresh-->
@@ -781,7 +772,7 @@
                 https://images.ctfassets.net/j3ulnlrvffmg/4oLLGCb2Ubekxk2QJ8FnW6/60b07910a0a7932b9ca2a663d75cc911/coffee-tea-featured-collection.jpg?w=1400 1400w">
                         </div>
                     </a>
-                
+
                     <div class="pr-split-tout__content-wrapper">
                         <span class="pr-split-tout__badge">Collection</span>
                         <h4 class="pr-split-tout__heading">Coffee & Tea</h4>
@@ -1670,7 +1661,17 @@
         }
     </script>
     <!--Kae End scr-->
+
+
     <!--pear footer-->
+
+
+
+
+
+
+
+
     <footer id="footer" class="footer" role="contentinfo">
         <div class="pr_footer__newsletter">
             <div id="klaviyo" class="klaviyo">
