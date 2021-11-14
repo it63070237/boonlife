@@ -138,22 +138,7 @@
   font-size: 1rem;
   text-align: left;
 }
-img {
-  display: block;
-  min-height: 1px;
-  width: 100%;
-  border-style: none;
-  max-width: 100%;
-  cursor: pointer;
-  font-size: .75rem;
-  font-weight: 700;
-  line-height: 1.5;
-  text-align: left;
-  text-transform: uppercase;
-}
-.ke-product-header {
-  border-bottom: 1px solid rgba(52,52,52,.15);
-}
+
 .ke-to-shop {
   padding-bottom: 120%;
   display: block;
@@ -200,6 +185,7 @@ img {
   letter-spacing: .5px;
   font-size: .875rem;
   text-transform: none;
+  color: black;
 }
 
 .ke-product-carousel-footer {
@@ -324,4 +310,348 @@ img {
 .ke-blog-boon {
   width: 20.75rem;
   margin: 0 auto 2.8125rem;
+}
+/* Flickity  */
+.flickity-enabled {
+  position: relative; }
+
+.flickity-enabled:focus {
+  outline: 0; }
+
+.flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100%; }
+
+.flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab; }
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing; }
+
+.flickity-page-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: .625rem 0 0;
+  padding-top: 20px;
+  width: 100%; }
+
+.flickity-page-dots .dot {
+  background-color: rgba(52,52,52,.2);
+  border-radius: 100%;
+  display: block;
+  height: 0.58rem;
+  margin: 0 .4rem;
+  padding: 0;
+  -webkit-transition: background-color .4s ease-in-out;
+  transition: background-color .4s ease-in-out;
+  width: 0.58rem; }
+
+.flickity-page-dots .dot.is-selected {
+  background-color: #747474; }
+
+.flickity-prev-next-button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 40%; }
+
+.flickity-prev-next-button::before {
+  background-image: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/sprite-icon-global-c2968b44.svg?v=16982338080051851343");
+  background-repeat: no-repeat;
+  background-size: 31.375em 375.125em;
+  content: '';
+  display: block;
+  background-position: 0 -248.25em;
+  width: .875em;
+  height: .5625em;
+  font-size: 2.125rem; }
+
+.flickity-prev-next-button.previous {
+  left: -4rem;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.flickity-prev-next-button.next {
+  right: -4rem;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+
+.flickity-button-icon,
+.hide,
+.no-display {
+  display: none; }
+
+.ke-img {
+  display: block;
+  min-height: 1px;
+  width: 100%;
+  border-style: none;
+  max-width: 100%;
+  cursor: pointer;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: uppercase;
+}
+@font-face {
+  font-family: Forno;
+  font-style: normal;
+  font-weight: 100;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Thin.woff2?v=16499828073377610024") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Thin.woff?v=2209208443287599195") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: italic;
+  font-weight: 100;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-ThinSlanted.woff2?v=7075443949934634978") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-ThinSlanted.woff?v=7317935856052173192") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: normal;
+  font-weight: 200;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-ExtraLight.woff2?v=16960942433799133083") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-ExtraLight.woff?v=18309072512438369148") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: italic;
+  font-weight: 200;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-ExtraLightSlanted.woff2?v=1005894890544000143") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-ExtraLightSlanted.woff?v=6116040898612005269") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: normal;
+  font-weight: 300;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Light.woff2?v=1577936745306837392") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Light.woff?v=1116439714663661656") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: italic;
+  font-weight: 300;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-LightSlanted.woff2?v=18406525696351906294") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-LightSlanted.woff?v=9360262386258712342") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: normal;
+  font-weight: 400;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Regular.woff2?v=2019809443842997901") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Regular.woff?v=3524191919823130866") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: italic;
+  font-weight: 400;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Slanted.woff2?v=3318595871210862592") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Slanted.woff?v=14409500787269507928") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: normal;
+  font-weight: 500;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Medium.woff2?v=10884732943457969481") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Medium.woff?v=15220023931492888853") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: italic;
+  font-weight: 500;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-MediumSlanted.woff2?v=17761796059566087215") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-MediumSlanted.woff?v=7789614807669377468") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: normal;
+  font-weight: 700;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Bold.woff2?v=5116176443877844688") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-Bold.woff?v=16937323386679555721") format("woff"); }
+
+@font-face {
+  font-family: Forno;
+  font-style: italic;
+  font-weight: 700;
+  src: url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-BoldSlanted.woff2?v=7613596390642307781") format("woff2"), url("//cdn.shopify.com/s/files/1/0515/6762/4376/t/2/assets/Forno-BoldSlanted.woff?v=3718421530285631029") format("woff"); }
+
+.ke-in-bag {
+    border-bottom: .0625rem solid rgba(0,0,0,.12);
+}
+.ke-in-bag-grid {
+  display: flex;
+  padding-bottom: .625rem;
+  padding-top: 1.25rem;
+}
+.ke-in-bag-img-grid {
+  width: 5.5rem;
+}
+.ke-img-crop{
+  padding-bottom: 120.53333%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.ke-in-bag-img-img {
+  display: block;
+  min-height: 1px;
+  width: 100%;
+  border-style: none;
+  max-width: 100%;
+}
+.ke-in-bag-content {
+  padding-right: 1.875rem;
+  -webkit-box-flex: 1;
+  flex: 1;
+  padding-left: .9375rem;
+}
+
+.ke-in-bag-content-header-grid{
+  margin-bottom: .625rem;
+}
+
+.ke-in-bag-content-header-topic{
+  font-size: .75rem;
+  line-height: 1.42;
+  margin-bottom: .125rem;
+  margin: 0
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ke-in-bag-content-header-topic-name {
+  font-size: .875rem;
+  letter-spacing: .03125rem;
+  line-height: 1.29;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.ke-in-bag-order {
+  height: 4.9375rem;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.ke-in-bag-order-qty {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.ke-in-bag-order-button-set {
+  -webkit-box-align: center;
+  align-items: center;
+  background: #fff;
+  border: .0625rem solid #dadada;
+  border-radius: .3125rem;
+  display: flex;
+  height: 2.5rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-right: .625rem;
+  width: 5.625rem;
+  position: relative;
+}
+
+.ke-in-bag-order-button-qty-add {
+  right: 0;
+  -webkit-box-align: center;
+  align-items: center;
+  background: 0 0;
+  border: 0;
+  display: flex;
+  height: 2.5rem;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  text-indent: calc(100% + 56px);
+  top: 0;
+  width: 2.5rem;
+  -webkit-appearance: button;
+}
+
+.ke-in-bag-order-button-qty-minus {
+  left: 0;
+  -webkit-box-align: center;
+  align-items: center;
+  background: 0 0;
+  border: 0;
+  display: flex;
+  height: 2.5rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  text-indent: calc(100% + 56px);
+  top: 0;
+  width: 2.5rem;
+  -webkit-appearance: button;
+}
+.ke-in-bag-order-remove {
+  font-size: .75rem !important;
+  font-weight: 500 !important;
+  letter-spacing: .0625rem !important;
+  line-height: 2 !important;
+  text-transform: initial !important;
+  background-color: transparent !important;
+  border: 0 !important;
+  color: #343434 !important;
+  padding: 0 !important;
+  text-align: center !important;
+  text-decoration: underline !important;
+}
+
+.ke-in-bag-order-footer {
+  -webkit-box-align: end;
+  align-items: flex-end;
+  height: 100%;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.ke-in-bag-order-footer-discount {
+  -webkit-box-align: center;
+  align-items: center;
+  background: #fbdcc5;
+  border-radius: .1875rem;
+  color: #343434;
+  display: flex;
+  font-size: .625rem;
+  font-weight: 700;
+  height: 1.125rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  letter-spacing: .125rem;
+  line-height: 1;
+  margin-right: .625rem;
+  padding: 0 .3125rem;
+  text-transform: uppercase;
+}
+
+.ke-in-bag-order-footer-price {
+  line-height: 1.33;
+  font-size: .875rem;
+  font-weight: 700;
+  color: #343434;
+  letter-spacing: .03125rem;
 }
