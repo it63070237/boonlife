@@ -31,152 +31,15 @@
 
 <body class="template-index has-banner is-sticky" data-new-gr-c-s-check-loaded="8.887.0" data-gr-ext-installed="">
 
-    <script>
-        function createItemBag(id) {
-            $.getJSON("data.json", function (data) {
-                for (var i = 0; i < data.length; i++) {
-                    if (id == data[i].id) {
-                        console.log("Success5");
-                        var space = document.getElementById("pe-prodcontent");
 
-                        var bag_article = document.createElement("article");
-                        bag_article.className = "ke-in-bag";
-                        /* End article */
 
-                        var bag_article_grid = document.createElement("div");
-                        bag_article_grid.className = "ke-in-bag-grid";
-
-                        var bag_article_grid_img = document.createElement("div");
-                        bag_article_grid_img.className = "ke-in-bag-img-grid";
-
-                        var bag_article_grid_img_crop = document.createElement("div");
-                        bag_article_grid_img_crop.className = "ke-img-crop";
-
-                        var bag_article_grid_img_crop_img = document.createElement("img");
-                        bag_article_grid_img_crop_img.className = "ke-in-bag-img-img";
-                        bag_article_grid_img_crop_img.src = data[i].pics[0];
-
-                        bag_article_grid_img_crop.appendChild(bag_article_grid_img_crop_img);
-                        bag_article_grid_img.appendChild(bag_article_grid_img_crop);
-
-                        /* End img */
-                        bag_article_grid.appendChild(bag_article_grid_img);
-                        /* End img */
-
-                        var bag_article_grid_content = document.createElement("div");
-                        bag_article_grid_content.className = "ke-in-bag-content";
-
-                        var bag_article_grid_content_header = document.createElement("div");
-                        bag_article_grid_content_header.className = "ke-in-bag-content-header-grid";
-                        
-                        var bag_article_grid_content_header_topic = document.createElement("p");
-                        bag_article_grid_content_header_topic.className = "ke-in-bag-content-header-topic";
-                        bag_article_grid_content_header_topic.innerHTML = data[i].topic;
-
-                        bag_article_grid_content_header.appendChild(bag_article_grid_content_header_topic);
-                        
-                        var bag_article_grid_content_header_name = document.createElement("h4");
-                        bag_article_grid_content_header_name.className = "ke-in-bag-content-header-topic-name";
-                        bag_article_grid_content_header_name.innerHTML = data[i].name;
-
-                        bag_article_grid_content_header.appendChild(bag_article_grid_content_header_name);
-
-                        bag_article_grid_content.appendChild(bag_article_grid_content_header);
-                        /* end content_header*/
-
-                        var bag_article_grid_content_order = document.createElement("div");
-                        bag_article_grid_content_order.className = "ke-in-bag-order";
-
-                        var bag_article_grid_content_order_qty = document.createElement("div");
-                        bag_article_grid_content_order_qty.className = "ke-in-bag-order-qty";
-
-                        var bag_article_grid_content_order_qty_btn = document.createElement("div");
-                        bag_article_grid_content_order_qty_btn.className = "ke-in-bag-order-button-set";
-
-                        var bag_article_grid_content_order_qty_btn_num = document.createElement("span");
-                        bag_article_grid_content_order_qty_btn_num.className = "ke-in-bag-order-button-qty";
-                        bag_article_grid_content_order_qty_btn_num.innerHTML = 1;
-                        bag_article_grid_content_order_qty_btn_num.type = "text";
-                        bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_num);
-
-                        var bag_article_grid_content_order_qty_btn_add = document.createElement("button");
-                        bag_article_grid_content_order_qty_btn_add.className = "ke-in-bag-order-button-qty-add";
-                        
-                        var bag_article_grid_content_order_qty_btn_add_pic = document.createElement("img");
-                        bag_article_grid_content_order_qty_btn_add_pic.src = "icon/plus.svg";
-                        bag_article_grid_content_order_qty_btn_add_pic.style = "width: 20px;";
-                        bag_article_grid_content_order_qty_btn_add.appendChild(bag_article_grid_content_order_qty_btn_add_pic);
-                        bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_add);
-
-                        var bag_article_grid_content_order_qty_btn_minus = document.createElement("button");
-                        bag_article_grid_content_order_qty_btn_minus.className = "ke-in-bag-order-button-qty-minus";
-                        
-                        var bag_article_grid_content_order_qty_btn_minus_pic = document.createElement("img");
-                        bag_article_grid_content_order_qty_btn_minus_pic.src = "icon/dash.svg";
-                        bag_article_grid_content_order_qty_btn_minus_pic.style = "width: 20px;";
-                        bag_article_grid_content_order_qty_btn_minus.appendChild(bag_article_grid_content_order_qty_btn_minus_pic);
-                        bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_minus);
-                        bag_article_grid_content_order_qty.appendChild(bag_article_grid_content_order_qty_btn);
-                        /* end button*/
-
-                        var bag_article_grid_content_order_qty_rem = document.createElement("a");
-                        bag_article_grid_content_order_qty_rem.className = "ke-in-bag-order-remove";
-                        bag_article_grid_content_order_qty_rem.innerHTML = "Remove";
-                        bag_article_grid_content_order_qty.appendChild(bag_article_grid_content_order_qty_rem);
-
-                        bag_article_grid_content_order.appendChild(bag_article_grid_content_order_qty);
-                        /* end button section */
-                        
-                        var bag_article_grid_content_order_footer = document.createElement("div");
-                        bag_article_grid_content_order_footer.className = "ke-in-bag-order-footer";
-
-                        var bag_article_grid_content_order_footer_discount = document.createElement("span");
-                        bag_article_grid_content_order_footer_discount.className = "ke-in-bag-order-footer-discount";
-                        bag_article_grid_content_order_footer_discount.innerHTML = data[i].discount + "% giveback";
-                        bag_article_grid_content_order_footer.appendChild(bag_article_grid_content_order_footer_discount);
-
-                        var bag_article_grid_content_order_footer_price = document.createElement("span");
-                        bag_article_grid_content_order_footer_price.className = "ke-in-bag-order-footer-price";
-                        bag_article_grid_content_order_footer_price.innerHTML =  "$" + data[i].price + ".00";
-                        bag_article_grid_content_order_footer.appendChild(bag_article_grid_content_order_footer_price);
-
-                        bag_article_grid_content_order.appendChild(bag_article_grid_content_order_footer);
-
-                        bag_article_grid_content.appendChild(bag_article_grid_content_order);
-                        bag_article_grid.appendChild(bag_article_grid_content);
-                        bag_article.appendChild(bag_article_grid);
-                        space.appendChild(bag_article);
-                    }
-                }
-            }).fail(function () {
-                console.log("An error has occurred.");
-            });
-        };
-
-        $(document).ready(function () {
-            $(".ke-product-footer-btn").click(function () {
-                openNav();
-                $("#nullContent").hide();
-                console.log($(this).attr("value"))
-                createItemBag($(this).attr("value"));
-            });
-        });
-
-        $(".ke-product-footer-btn").click(function () {
-                openNav();
-                $("#nullContent").hide();
-                console.log($(this).attr("value"))
-                createItemBag($(this).attr("value"));
-            });
-
-    </script>
 
     <!-- peem start -->
     <div id="mySidebar" class="sidebar container-products">
         <header style="border-bottom: 0.5px solid black;">
             <div class="pe-header">
                 <a href="javascript:void(0)" class="btn-icon closebtn" onclick="closeNav()">x</a>
-                <h4 class="title">Your Bag (count)</h4>
+                <h4 class="title">Your Bag</h4>
             </div>
         </header>
         <div class="pe-content">
@@ -192,8 +55,6 @@
                 </div>
             </div>
             <div class="row" id="pe-prodcontent">
-
-
 
 
             </div>
@@ -251,19 +112,14 @@
                 <div class="kheader__flex">
                     <div id="kheaderSearch" class="kheader-search">
                         <button id="ksearchButton" type="button" class="btn-icon header-search__button">
-                            <span class="screenreader">Search</span>
                             <img src="icon/search.svg"
                                 class="icon-global icon-global--search header-search__icon header-search__icon--inactive">
 
                             </img>
-                            <i
-                                class="icon-global icon-global--search-dark-orange header-search__icon header-search__icon--active">
-
-                            </i>
                         </button>
                     </div>
                     <div class="kheader-account hide-mobile">
-                        <a href="/account/login" class="btn-icon header-account__button">
+                        <a class="btn-icon header-account__button">
                             <span class="screenreader">Account Login</span>
                             <img src="icon/person.svg" style="height: 20px;" class="icon-global icon-global--user">
 
@@ -276,7 +132,6 @@
                                 style="height: -moz-available; padding-top: 3;">
 
                             </img>
-                            <span class="screenreader">Toggle Cart</span>
                         </button>
                     </div>
                 </div>
@@ -550,6 +405,7 @@
                         for (var i = 0; i < data.length; i++) {
                             for (var tag = 0; tag < data[i].tags.length; tag++) {
                                 if (catagory === data[i].tags[tag]) {
+                                    var id = data[i].id;
                                     var carousel_items = document.getElementById("carousel");
 
                                     var carou_article = document.createElement("article");
@@ -562,13 +418,16 @@
                                     prod_img_link.id = data[i].id;
                                     prod_img_link.href = "#";
                                     prod_img_link.className = "ke-to-shop";
+
                                     prod_img_link.onclick = function () {
-                                        var id = $(".ke-to-shop").attr("id");
+                                        var id = $(this).attr("id");
                                         var params = new URLSearchParams();
                                         params.append("id", id);
                                         var url = "ke-sideweb.html?" + params.toString();
                                         location.href = url;
                                     }
+
+
 
                                     var prod_img_img = document.createElement("img");
                                     prod_img_img.src = data[i].pics[0];
@@ -594,7 +453,7 @@
                                     prod_header_h3_a.innerHTML = data[i].name;
                                     prod_header_h3_a.href = "#";
                                     prod_header_h3_a.onclick = function () {
-                                        var id = $(".ke-to-shop").attr("id");
+                                        var id = $(this).attr("id");
                                         var params = new URLSearchParams();
                                         params.append("id", id);
                                         var url = "ke-sideweb.html?" + params.toString();
@@ -611,6 +470,131 @@
                                     prod_footer_button.className = "ke-product-footer-btn";
                                     prod_footer_button.value = data[i].id;
                                     prod_footer_button.innerHTML = "Add to Bag - ";
+                                    prod_footer_button.onclick = function () {
+                                        var id = $(this).attr("value");
+                                        console.log(id);
+                                        $("#nullContent").hide();
+                                        openNav();
+                                        $.getJSON("data.json", function (data) {
+                                            for (var i = 0; i < data.length; i++) {
+                                                if (id == data[i].id) {
+                                                    console.log("Success5");
+                                                    var space = document.getElementById("pe-prodcontent");
+
+                                                    var bag_article = document.createElement("article");
+                                                    bag_article.className = "ke-in-bag";
+                                                    /* End article */
+
+                                                    var bag_article_grid = document.createElement("div");
+                                                    bag_article_grid.className = "ke-in-bag-grid";
+
+                                                    var bag_article_grid_img = document.createElement("div");
+                                                    bag_article_grid_img.className = "ke-in-bag-img-grid";
+
+                                                    var bag_article_grid_img_crop = document.createElement("div");
+                                                    bag_article_grid_img_crop.className = "ke-img-crop";
+
+                                                    var bag_article_grid_img_crop_img = document.createElement("img");
+                                                    bag_article_grid_img_crop_img.className = "ke-in-bag-img-img";
+                                                    bag_article_grid_img_crop_img.src = data[i].pics[0];
+
+                                                    bag_article_grid_img_crop.appendChild(bag_article_grid_img_crop_img);
+                                                    bag_article_grid_img.appendChild(bag_article_grid_img_crop);
+
+                                                    /* End img */
+                                                    bag_article_grid.appendChild(bag_article_grid_img);
+                                                    /* End img */
+
+                                                    var bag_article_grid_content = document.createElement("div");
+                                                    bag_article_grid_content.className = "ke-in-bag-content";
+
+                                                    var bag_article_grid_content_header = document.createElement("div");
+                                                    bag_article_grid_content_header.className = "ke-in-bag-content-header-grid";
+
+                                                    var bag_article_grid_content_header_topic = document.createElement("p");
+                                                    bag_article_grid_content_header_topic.className = "ke-in-bag-content-header-topic";
+                                                    bag_article_grid_content_header_topic.innerHTML = data[i].topic;
+
+                                                    bag_article_grid_content_header.appendChild(bag_article_grid_content_header_topic);
+
+                                                    var bag_article_grid_content_header_name = document.createElement("h4");
+                                                    bag_article_grid_content_header_name.className = "ke-in-bag-content-header-topic-name";
+                                                    bag_article_grid_content_header_name.innerHTML = data[i].name;
+
+                                                    bag_article_grid_content_header.appendChild(bag_article_grid_content_header_name);
+
+                                                    bag_article_grid_content.appendChild(bag_article_grid_content_header);
+                                                    /* end content_header*/
+
+                                                    var bag_article_grid_content_order = document.createElement("div");
+                                                    bag_article_grid_content_order.className = "ke-in-bag-order";
+
+                                                    var bag_article_grid_content_order_qty = document.createElement("div");
+                                                    bag_article_grid_content_order_qty.className = "ke-in-bag-order-qty";
+
+                                                    var bag_article_grid_content_order_qty_btn = document.createElement("div");
+                                                    bag_article_grid_content_order_qty_btn.className = "ke-in-bag-order-button-set";
+
+                                                    var bag_article_grid_content_order_qty_btn_num = document.createElement("span");
+                                                    bag_article_grid_content_order_qty_btn_num.className = "ke-in-bag-order-button-qty";
+                                                    bag_article_grid_content_order_qty_btn_num.innerHTML = 1;
+                                                    bag_article_grid_content_order_qty_btn_num.type = "text";
+                                                    bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_num);
+
+                                                    var bag_article_grid_content_order_qty_btn_add = document.createElement("button");
+                                                    bag_article_grid_content_order_qty_btn_add.className = "ke-in-bag-order-button-qty-add";
+
+                                                    var bag_article_grid_content_order_qty_btn_add_pic = document.createElement("img");
+                                                    bag_article_grid_content_order_qty_btn_add_pic.src = "icon/plus.svg";
+                                                    bag_article_grid_content_order_qty_btn_add_pic.style = "width: 20px;";
+                                                    bag_article_grid_content_order_qty_btn_add.appendChild(bag_article_grid_content_order_qty_btn_add_pic);
+                                                    bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_add);
+
+                                                    var bag_article_grid_content_order_qty_btn_minus = document.createElement("button");
+                                                    bag_article_grid_content_order_qty_btn_minus.className = "ke-in-bag-order-button-qty-minus";
+
+                                                    var bag_article_grid_content_order_qty_btn_minus_pic = document.createElement("img");
+                                                    bag_article_grid_content_order_qty_btn_minus_pic.src = "icon/dash.svg";
+                                                    bag_article_grid_content_order_qty_btn_minus_pic.style = "width: 20px;";
+                                                    bag_article_grid_content_order_qty_btn_minus.appendChild(bag_article_grid_content_order_qty_btn_minus_pic);
+                                                    bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_minus);
+                                                    bag_article_grid_content_order_qty.appendChild(bag_article_grid_content_order_qty_btn);
+                                                    /* end button*/
+
+                                                    var bag_article_grid_content_order_qty_rem = document.createElement("a");
+                                                    bag_article_grid_content_order_qty_rem.className = "ke-in-bag-order-remove";
+                                                    bag_article_grid_content_order_qty_rem.innerHTML = "Remove";
+                                                    bag_article_grid_content_order_qty.appendChild(bag_article_grid_content_order_qty_rem);
+
+                                                    bag_article_grid_content_order.appendChild(bag_article_grid_content_order_qty);
+                                                    /* end button section */
+
+                                                    var bag_article_grid_content_order_footer = document.createElement("div");
+                                                    bag_article_grid_content_order_footer.className = "ke-in-bag-order-footer";
+
+                                                    var bag_article_grid_content_order_footer_discount = document.createElement("span");
+                                                    bag_article_grid_content_order_footer_discount.className = "ke-in-bag-order-footer-discount";
+                                                    bag_article_grid_content_order_footer_discount.innerHTML = data[i].discount + "% giveback";
+                                                    bag_article_grid_content_order_footer.appendChild(bag_article_grid_content_order_footer_discount);
+
+                                                    var bag_article_grid_content_order_footer_price = document.createElement("span");
+                                                    bag_article_grid_content_order_footer_price.className = "ke-in-bag-order-footer-price";
+                                                    bag_article_grid_content_order_footer_price.innerHTML = "$" + data[i].price + ".00";
+                                                    bag_article_grid_content_order_footer.appendChild(bag_article_grid_content_order_footer_price);
+
+                                                    bag_article_grid_content_order.appendChild(bag_article_grid_content_order_footer);
+
+                                                    bag_article_grid_content.appendChild(bag_article_grid_content_order);
+                                                    bag_article_grid.appendChild(bag_article_grid_content);
+                                                    bag_article.appendChild(bag_article_grid);
+                                                    space.appendChild(bag_article);
+                                                }
+                                            }
+                                        }).fail(function () {
+                                            console.log("An error has occurred.");
+                                        });
+                                    };
+
 
                                     var prod_footer_button_span = document.createElement("span");
                                     prod_footer_button_span.innerHTML = "$" + data[i].price;
@@ -657,9 +641,6 @@
 
 
         </div>
-        <script>
-
-        </script>
         <!-- Keng End -->
 
 
@@ -1714,7 +1695,7 @@
                                         <div class="pr_private">
                                             <button type="button" tabindex="0" class="pr_go pr_private">
                                                 GO
-
+                                                <img src="icon/arrow-right-short-black.svg" alt="" style="width: 500px;">
                                             </button>
                                         </div>
                                     </div>
