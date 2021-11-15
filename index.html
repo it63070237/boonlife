@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 <head>
@@ -12,6 +11,7 @@
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="pr-footer.css">
     <link rel="stylesheet" href="gcss.css">
@@ -115,15 +115,23 @@
                     </button>
                     <ul class="klist-reset navigation__list hide-mobile">
                         <li class="knav__item js-nav-item">
+                            <div class="dropdown">
+                                <button type="button" class="knav__button acc__btn dropdown-toggle">
+                                    Shop
+                                    <img src="icon/arrow-down-icon-11549436707mosicxsqad-removebg-preview.png"
+                                        style="width: 15px; height:10px;"
+                                        class="knav__button-icon icon-global icon-global--chevron">
 
-                            <button type="button" class="knav__button js-acc-btn acc__btn">
-                                Shop
-                                <img src="icon/arrow-down-icon-11549436707mosicxsqad-removebg-preview.png"
-                                    style="width: 15px; height:10px;"
-                                    class="knav__button-icon icon-global icon-global--chevron">
+                                    </img>
 
-                                </img>
-                            </button>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><h6 class="dropdown-header">Dropdown header</h6></li>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  </ul>
+                            </div>
+
 
                             <div class="navigation__list navigation__list--child js-acc-menu js-navigation-dropdown acc__menu"
                                 style="top: 90px;">
@@ -191,8 +199,8 @@
                         <h2 class="home-hero__subheading">*Every purchase gives back to the cause <br> that matters most
                             to you.</h2>
 
-                        <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
-                            style="background-color: #FFFFFF;">SHOP NOW</a>
+                        <a href="" class="btn btn--primary home-hero__cta" style="background-color: #FFFFFF;">SHOP
+                            NOW</a>
                     </div>
                 </div>
                 <div class="ir ir--home-hero home-hero__slide" style="position: relative; opacity: 1;">
@@ -209,8 +217,7 @@
                         <h2 class="home-hero__subheading">*Every purchase gives back to the cause <br> that matters most
                             to you.</h2>
 
-                        <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
-                            style="color: #FFFFFF;">SHOP
+                        <a href="" class="btn btn--primary home-hero__cta" style="color: #FFFFFF;">SHOP
                             NOW</a>
                     </div>
                 </div>
@@ -228,8 +235,7 @@
                         <h2 class="home-hero__subheading">*Interactive online workshops, conversations, and classes that
                             give back 40% to your cause.</h2>
 
-                        <a href="/collections/all-items" class="btn btn--primary home-hero__cta"
-                            style="color: #FFFFFF">SHOP
+                        <a href="" class="btn btn--primary home-hero__cta" style="color: #FFFFFF">SHOP
                             NOW</a>
                     </div>
                 </div>
@@ -461,8 +467,6 @@
                                         location.href = url;
                                     }
 
-
-
                                     var prod_img_img = document.createElement("img");
                                     prod_img_img.src = data[i].pics[0];
                                     prod_img_img.alt = data[i].name;
@@ -512,8 +516,16 @@
                                         $(".pmfooter").removeAttr("hidden");
                                         $.getJSON("data.json", function (data) {
                                             for (var i = 0; i < data.length; i++) {
-                                                if (id == data[i].id) {
-                                                    console.log("Success5");
+                                                if(id == data[i].id) {
+                                                    
+                                                    if ($("#count_"+id).attr("id")) {
+                                                        var count_num = document.getElementById("count_" + data[i].id);
+                                                        var count_prod = count_num.innerHTML;
+                                                        console.log(count_prod);
+                                                        count_num.innerHTML = Number(count_prod) + 1;
+                                                    }
+                                                    else {
+                                                        console.log("Success5");
                                                     var space = document.getElementById("pe-prodcontent");
 
                                                     var bag_article = document.createElement("article");
@@ -570,11 +582,14 @@
                                                     var bag_article_grid_content_order_qty_btn = document.createElement("div");
                                                     bag_article_grid_content_order_qty_btn.className = "ke-in-bag-order-button-set";
 
+                                                    /* btn num */
                                                     var bag_article_grid_content_order_qty_btn_num = document.createElement("span");
-                                                    bag_article_grid_content_order_qty_btn_num.className = "ke-in-bag-order-button-qty";
+                                                    bag_article_grid_content_order_qty_btn_num.className = "ke-in-bag-order-button-qty"
+                                                    bag_article_grid_content_order_qty_btn_num.id = "count_" + data[i].id 
                                                     bag_article_grid_content_order_qty_btn_num.innerHTML = 1;
                                                     bag_article_grid_content_order_qty_btn_num.type = "text";
                                                     bag_article_grid_content_order_qty_btn.appendChild(bag_article_grid_content_order_qty_btn_num);
+                                                    /* btn num */
 
                                                     var bag_article_grid_content_order_qty_btn_add = document.createElement("button");
                                                     bag_article_grid_content_order_qty_btn_add.className = "ke-in-bag-order-button-qty-add";
@@ -623,6 +638,7 @@
                                                     bag_article_grid.appendChild(bag_article_grid_content);
                                                     bag_article.appendChild(bag_article_grid);
                                                     space.appendChild(bag_article);
+                                                    }
                                                 }
                                             }
                                         }).fail(function () {
@@ -688,7 +704,7 @@
             <div class="pr-split-tout">
                 <!--pear block1-->
                 <div class="pr-split-tout__inner container">
-                    <a href="/collections/serving-storage" class="pr-split-tout__image-wrapper">
+                    <a href="" class="pr-split-tout__image-wrapper">
                         <div class="ir ir--swatch">
                             <img src="icon/waste-free-homepage-tout-2.jpg">
                         </div>
@@ -708,7 +724,7 @@
             <!--pear block2-->
             <div class="pr-split-tout pr-split-tout--alt">
                 <div class="pr-split-tout__inner container">
-                    <a href="/collections/personal-care" class="pr-split-tout__image-wrapper">
+                    <a href="" class="pr-split-tout__image-wrapper">
                         <div class="ir ir--swatch">
                             <img src="icon/personal-care-featured-collection.jpg">
                         </div>
@@ -717,7 +733,7 @@
                         <span class="pr-split-tout__badge">Collection</span>
                         <h4 class="pr-split-tout__heading">Toxin-Free Personal Care</h4>
                         <p class="pr-split-tout__copy">All-natural toxin-free care for every body.</p>
-                        <a href="#" class="pr-split-tout__cta" onclick="openShop('Sustainable Home');">Shop Now
+                        <a href="#" class="pr-split-tout__cta" onclick="openShop('Zero Waste Essentials');">Shop Now
 
                         </a>
                         <img src="icon/arrow-right-short.svg" width="50px" height="30px">
@@ -737,7 +753,7 @@
                         <span class="pr-split-tout__badge">Collection</span>
                         <h4 class="pr-split-tout__heading">Coffee & Tea</h4>
                         <p class="pr-split-tout__copy">Give back every morning with your first sip.</p>
-                        <a href="#" class="pr-split-tout__cta" onclick="openShop('Zero Waste Essentials');">
+                        <a href="" class="pr-split-tout__cta">
                             Shop Now
                         </a>
                         <img src="icon/arrow-right-short.svg" width="50px" height="30px">
@@ -807,8 +823,7 @@
                                 shares how she’s inspired by people, what it took to survive the pandemic as a
                                 small business, and the power o...</p>
                             <div class="ke-link-boon">
-                                <a class="ke-grid-link-anchor-boon"
-                                    href="/blogs/the-boon-life/what-s-next-for-equator-coffees">
+                                <a class="ke-grid-link-anchor-boon" href="">
                                     <div class="row">
                                         <div class="col-md-8" style="padding: 17.6px 0;">
                                             Read More
@@ -834,8 +849,7 @@
                                 plastic in the ocean are just three big problems that inspired Soapply Founder
                                 Mera McGrew to start her own b...</p>
                             <div class="ke-link-boon">
-                                <a class="ke-grid-link-anchor-boon"
-                                    href="/blogs/the-boon-life/wash-your-hands-and-change-the-world">
+                                <a class="ke-grid-link-anchor-boon" href="">
                                     <div class="row">
                                         <div class="col-md-8" style="padding: 17.6px 0;">
                                             Read More
@@ -1639,13 +1653,6 @@
 
     <!--pear footer-->
 
-
-
-
-
-
-
-
     <footer id="footer" class="footer" role="contentinfo">
         <div class="pr_footer__newsletter">
             <div id="klaviyo" class="klaviyo">
@@ -1791,6 +1798,7 @@
             </div>
         </div>
     </footer>
+
     <!--pear end footer-->
 
 </body>
